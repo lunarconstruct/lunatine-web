@@ -1,5 +1,0 @@
----
-{"publish":true,"permalink":"/CHARACTERS/Hafei/Hafei.md","created":"2025-10-24T23:15:04.016-04:00","modified":"2025-10-26T09:44:55.332-04:00","published":"2025-10-26T09:44:55.332-04:00","cssclasses":"","Full Name":"Hafei","Name Pronunciation":"HAH-fay","Character Type":"Major Character","Species":["[[SPECIES/Inna]]"],"Status":"Alive","Gender":"genderless","Pronouns":"any (it/its)","Birthday":"?/?/-100000","color":"linear-gradient(45deg, #23d4fd 0%, #3a98f0 50%, #b721ff 100%)","Current Location":"[[LOCATIONS/World Garden]]","Birthplace":"[[LOCATIONS/The Expanse]]","Actual Age":"101301 years","Birth Year":"","Death Year":"","Languages Spoken":["[[LANGUAGES/Innalang]]"],"Organizations":["[[ORGANIZATIONS/Seedkeeper Council]]"],"Birth date":"??/??/-100000","Titles":"The First Inna, High Seedkeeper"}
----
-
-The First Inna, and the first life to exist in the expanse. Unfathomably old, but extremely powerful. Founded the Seedkeeper Council and the World Garden, and claims jurisdiction over all Inna. Is determined to live until the universe comes to its own end, by whatever means necessary.
