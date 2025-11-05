@@ -1,5 +1,0 @@
----
-aliases:
-  - " "
-  - Kohoii/Solei War
----

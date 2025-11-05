@@ -1,8 +1,0 @@
----
-partOfSpeech: number
-definition: four/4
----
-# `= this.file.name`
-#### ( `= this.partOfSpeech` )
-1. `= this.definition`
-

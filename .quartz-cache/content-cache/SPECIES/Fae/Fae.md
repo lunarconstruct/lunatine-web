@@ -1,3 +1,0 @@
----
-sticker: emoji//1f9da-200d-2640-fe0f
----
