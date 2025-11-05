@@ -1,3 +1,0 @@
-# Untitled
-
-Created by: Lunar

@@ -1,5 +1,0 @@
----
-{"publish":true,"permalink":"/CHARACTERS/Wefa/Wefa.md","created":"2025-11-05T14:25:49.964-05:00","modified":"2025-10-29T11:51:10.811-04:00","published":"2025-10-29T11:51:10.811-04:00","cssclasses":"","Full Name":"Wefa","Name Pronunciation":"WAY-fuh","Character Type":"Major Character","Species":["[[SPECIES/Inna]]"],"Status":"Alive","Gender":"genderless","Pronouns":"any (she/her)","Birthday":"?/?/-200","color":"var(--mk-color-purple)","Current Location":"[[LOCATIONS/Asilles]]","Birthplace":"[[LOCATIONS/World Garden]]","Actual Age":"1301 years","Birth Year":"","Death Year":"","Children":["[[CHARACTERS/Aenna]]"],"Partners":["[[CHARACTERS/Anwi]]"],"Languages Spoken":["[[LANGUAGES/Innalang]]"],"Organizations":["[[ORGANIZATIONS/Seedkeeper Council]]"],"Ruler/Owner of:":["[[LOCATIONS/The Expanse]]"],"Titles":"World Garden Curator, Mother of Fae"}
----
-
-Celestial creator of Asilles. Created the Fae.

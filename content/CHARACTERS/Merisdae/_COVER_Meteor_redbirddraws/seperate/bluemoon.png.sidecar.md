@@ -1,4 +1,0 @@
----
-{"publish":true,"permalink":"/CHARACTERS/Merisdae/_COVER_Meteor_redbirddraws/seperate/bluemoon.png.sidecar.md","created":"2025-11-05T13:41:40.343-05:00","modified":"2025-11-05T13:41:40.343-05:00","published":"2025-11-05T13:41:40.343-05:00","cssclasses":"","MC-colors":[{"h":0.6050420168067226,"s":0.7484276729559745,"l":0.6882352941176471,"area":0.0017570281124497991},{"h":0.672463768115942,"s":0.5837563451776651,"l":0.3862745098039216,"area":0.0003137550200803213}],"MC-size":[3782,1636],"MC-last-updated":"2025-11-05T18:41:34.858Z"}
----
-

@@ -1,5 +1,0 @@
-# Untitled
-
-DEFINITION / ENGLISH: to fly
-PART OF SPEECH: verb
-Created by: Lunar
