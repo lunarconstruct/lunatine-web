@@ -1,0 +1,4 @@
+---
+{"publish":true,"permalink":"/CHARACTERS/Mare/Mare.md","created":"2025-11-05T14:21:08.424-05:00","modified":"2025-10-26T09:40:18.760-04:00","published":"2025-10-26T09:40:18.760-04:00","cssclasses":"","Full Name":"Mare Gahinukagaelii","Name Pronunciation":"MAH-reh","Character Type":"Background Character","Species":["[[SPECIES/Selhae]]"],"Status":"Unknown","Gender":"bigender","Pronouns":"he/she","Apparent Age":"mid 50s","Birthday":"2/19/724","color":"var(--mk-color-turquoise)","Current Location":"[[LOCATIONS/Kohoii]]","Birthplace":"[[LOCATIONS/Kohoii]]","Actual Age":"1277 years","Birth Year":"24","Death Year":"","Languages Spoken":["[[LANGUAGES/Varae]]"],"Organizations":["[[ORGANIZATIONS/Kohoii Council of Elders]]"],"Skin Tone":"deep","Titles":"Kohoii Elder, Head of Gahinukagaelii"}
+---
+

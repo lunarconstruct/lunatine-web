@@ -1,7 +1,7 @@
 ---
-partOfSpeech: verb
-definition: to rise
+{"publish":true,"permalink":"/LANGUAGES/Varae/Documentation/Dictionary/biiyasii.md","created":"2025-11-05T13:13:09.730-05:00","modified":"2025-11-05T13:13:09.730-05:00","published":"2025-11-05T13:13:09.730-05:00","cssclasses":"","partOfSpeech":"verb","definition":"to rise"}
 ---
-# `= this.file.name`
-#### ( `= this.partOfSpeech` )
-1. `= this.definition`
+
+# biiyasii
+#### ( verb )
+1. to rise

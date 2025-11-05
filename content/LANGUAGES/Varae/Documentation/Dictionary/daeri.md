@@ -1,7 +1,7 @@
 ---
-partOfSpeech: noun
-definition: claw
+{"publish":true,"permalink":"/LANGUAGES/Varae/Documentation/Dictionary/daeri.md","created":"2025-11-05T13:13:09.729-05:00","modified":"2025-11-05T13:13:09.729-05:00","published":"2025-11-05T13:13:09.729-05:00","cssclasses":"","partOfSpeech":"noun","definition":"claw"}
 ---
-# `= this.file.name`
-#### ( `= this.partOfSpeech` )
-1. `= this.definition`
+
+# daeri
+#### ( noun )
+1. claw

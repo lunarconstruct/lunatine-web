@@ -1,0 +1,5 @@
+---
+{"publish":true,"permalink":"/CHARACTERS/Urali/Urali.md","created":"2025-11-05T14:25:48.829-05:00","modified":"2025-10-26T09:43:39.151-04:00","published":"2025-10-26T09:43:39.151-04:00","cssclasses":"","Full Name":"Urali Nerine","Name Pronunciation":"oo-RAH-lee","Character Type":"Minor Character","Species":["[[SPECIES/Fae]]"],"Status":"Alive","Gender":"male","Pronouns":"he/him","Apparent Age":"late twenties","Birthday":"10/12/1272","color":"var(--mk-color-brown)","Current Location":"[[LOCATIONS/Kingdom of Acorithe]]","Birthplace":"[[LOCATIONS/Kingdom of Acorithe]]","Actual Age":"29 years","Birth Year":"1272","Death Year":"","Partners":["[[CHARACTERS/Colarius]]"],"Languages Spoken":["[[LANGUAGES/Acorithe]]"],"Organizations":["[[ORGANIZATIONS/Acorithe Royal Court]]"],"Ruler/Owner of:":["[[LOCATIONS/Kingdom of Acorithe]]"],"Skin Tone":"deep","Titles":"Protector of the Prince"}
+---
+
+Sworn protector to Colarius, prince of Acorithe.
