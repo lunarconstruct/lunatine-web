@@ -1,0 +1,317 @@
+{
+  "main": {
+    "id": "32cb84df7d25cb18",
+    "type": "split",
+    "children": [
+      {
+        "id": "f928ae7fe5f90607",
+        "type": "tabs",
+        "dimension": 64.11214953271028,
+        "children": [
+          {
+            "id": "993729ea8b0ea4ba",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "empty",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      },
+      {
+        "id": "6afeb57291299389",
+        "type": "tabs",
+        "dimension": 35.88785046728972,
+        "children": [
+          {
+            "id": "bcba5514358c9c80",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d1ecb5f9bc98a708",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6b5a981be3f51a5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "52a7fa4a3980b932",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a4a9109648b07c4f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ab2f31136c555ea0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "d7a5aee250372dec",
+            "type": "leaf",
+            "state": {
+              "type": "VIEW_TYPE_LONGFORM_EXPLORER",
+              "state": {},
+              "icon": "longform",
+              "title": "Longform"
+            }
+          },
+          {
+            "id": "239e7f2f861c81c0",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 267
+  },
+  "right": {
+    "id": "ea4483eef96bb84e",
+    "type": "split",
+    "children": [
+      {
+        "id": "e42138525fc4c41e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "967611e73b56bd24",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "LANGUAGES/Varae/Documentation/Dictionary/dohiitosa.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of dohiitosa"
+            }
+          },
+          {
+            "id": "1d4b072197f93ee3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "591b18d1aa3a12ef",
+            "type": "leaf",
+            "state": {
+              "type": "CALENDARIUM",
+              "state": {},
+              "icon": "CALENDARIUM",
+              "title": "Calendarium"
+            }
+          },
+          {
+            "id": "a11da1ed54982d61",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {},
+              "icon": "lucide-info",
+              "title": "File properties"
+            }
+          },
+          {
+            "id": "341807e5da5cb74b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "LANGUAGES/Varae/Documentation/Dictionary/dohiitosa.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for dohiitosa"
+            }
+          },
+          {
+            "id": "a49d1d338a061c38",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "LANGUAGES/Varae/documentation/Word Generator.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Word Generator"
+            }
+          },
+          {
+            "id": "5c4a4f0fab3abc3a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "1873e4ba55fe05c4",
+            "type": "leaf",
+            "state": {
+              "type": "tag-gallery-info",
+              "state": {
+                "filePath": "GALLERY/merisela.md"
+              },
+              "icon": "image",
+              "title": "Image Info"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 292,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-leaflet-plugin:Open Leaflet Map": false,
+      "obsidian-importer:Open Importer": false,
+      "obsidian-rich-links:Rich Links": false,
+      "obsidian-stille:Toggle Stille": false,
+      "tagged-gallery:Gallery": false,
+      "media-extended:Open external media": false,
+      "quartz-syncer:Quartz Syncer publication center": false,
+      "calendarium:Open Calendarium": false
+    }
+  },
+  "active": "bcba5514358c9c80",
+  "lastOpenFiles": [
+    "SPECIES/index.md",
+    "SPECIES/Construct/index.md",
+    "Species/Selhae",
+    "Species/Inna",
+    "Species/Fae",
+    "Species/Construct",
+    "Species",
+    "LANGUAGES/Varae/Documentation/Dictionary/dora.md",
+    "LANGUAGES/Varae/Documentation/Dictionary/dolotsii.md",
+    "LANGUAGES/Varae/Documentation/Dictionary/dokiirusa.md",
+    "LANGUAGES/Varae/Documentation/Dictionary/dohiitosa.md",
+    "LANGUAGES/Varae/Documentation/Dictionary/index.md",
+    "LANGUAGES/Varae/Documentation/Dictionary/do.md",
+    "LANGUAGES/Varae/Documentation/Dictionary/dela.md",
+    "LANGUAGES/Varae/Documentation/Dictionary/deiideii.md",
+    "LANGUAGES/Varae/Documentation/Dictionary/deii.md",
+    "LANGUAGES/Varae/Documentation/Dictionary/dala (2).md",
+    "LANGUAGES/Varae/Documentation/Dictionary/dala.md",
+    "LANGUAGES/Varae/Documentation/Dictionary/dakei.md",
+    "LANGUAGES/Varae/Documentation/Dictionary/daeuhii.md",
+    "LANGUAGES/Varae/Documentation/Dictionary/daeu.md",
+    "LANGUAGES/Varae/Documentation/Dictionary/daeri.md",
+    "LANGUAGES/Varae/Documentation/Dictionary/daemana.md",
+    "LANGUAGES/Varae/Documentation/Dictionary/daemakel.md",
+    "LANGUAGES/Varae/Documentation/Dictionary/daedosa.md",
+    "LANGUAGES/Varae/Documentation/Dictionary/dae.md",
+    "LANGUAGES/Varae/Documentation/Dictionary/busimasii.md",
+    "LANGUAGES/Varae/Documentation/Dictionary/buro.md",
+    "LANGUAGES/Varae/Documentation/Dictionary/boba.md",
+    "LANGUAGES/Varae/Documentation/Dictionary/biiyasii.md",
+    "LANGUAGES/Varae/Documentation/Dictionary/biipa.md",
+    "LANGUAGES/Varae/Dictionary",
+    "LANGUAGES/Varae/Songs-Lyrics",
+    "LANGUAGES/Varae/Writing",
+    "LANGUAGES/Varae/Documentation",
+    "CHARACTERS/Esela/art/esela new 2_0",
+    "CHARACTERS/Esela/art/esela new.png",
+    "CHARACTERS/relationship chart.canvas",
+    "locations/Asilles/view from asilles.png",
+    "locations/Asilles/size comparison.png",
+    "locations/Asilles/image_0.00Ma.png",
+    "locations/Asilles/image2_0.00Ma.png",
+    "locations/Asilles/asilles plates map.png",
+    "locations/Asilles/asilles plates map new.png",
+    "locations/Asilles/asilles map current.png",
+    "locations/Asilles/asilles map current square.png",
+    "locations/Asilles/albedo and temp.png",
+    "characters/relationship chart.canvas"
+  ]
+}

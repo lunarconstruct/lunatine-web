@@ -1,0 +1,18 @@
+services:
+    nginx:
+        stdin_open: true
+        tty: true
+        ports:
+            - 82:80
+        networks:
+            - proxy
+        container_name: lunatine-web
+        volumes:
+            - ~/quartz/public:/usr/share/nginx/html
+            - ~/quartz/nginx.conf:/etc/nginx/nginx.conf
+        image: nginx
+        restart: unless-stopped
+networks:
+    proxy:
+        external: true
+        name: proxy

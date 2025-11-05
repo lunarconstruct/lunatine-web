@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>Varae Grammar</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Lunatine Wiki"/><meta property="og:title" content="Varae Grammar"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Varae Grammar"/><meta name="twitter:description" content="phonology phonetic inventory consonantslabiallabiodentaldentalalveolaralv-palvelarglottalplosive/p/ /b//t/ /d//k/ /g/nasal/m//n/trilltap/flap/r/fricative/f/ /v//θ//s/ (/z/)/h/affricate/j/approximants/w/(/ɹ/) /l/ vowelsfrontacentralabackclose/i//u/a/ɪ/close-mid(/e/)(/ɘ/)/o/aopen-mid/ɛ/aopen/a/ romani..."/><meta property="og:description" content="phonology phonetic inventory consonantslabiallabiodentaldentalalveolaralv-palvelarglottalplosive/p/ /b//t/ /d//k/ /g/nasal/m//n/trilltap/flap/r/fricative/f/ /v//θ//s/ (/z/)/h/affricate/j/approximants/w/(/ɹ/) /l/ vowelsfrontacentralabackclose/i//u/a/ɪ/close-mid(/e/)(/ɘ/)/o/aopen-mid/ɛ/aopen/a/ romani..."/><meta property="og:image:alt" content="phonology phonetic inventory consonantslabiallabiodentaldentalalveolaralv-palvelarglottalplosive/p/ /b//t/ /d//k/ /g/nasal/m//n/trilltap/flap/r/fricative/f/ /v//θ//s/ (/z/)/h/affricate/j/approximants/w/(/ɹ/) /l/ vowelsfrontacentralabackclose/i//u/a/ɪ/close-mid(/e/)(/ɘ/)/o/aopen-mid/ɛ/aopen/a/ romani..."/><meta property="twitter:domain" content="lunatine.lunarconstruct.net"/><meta property="og:url" content="https://lunatine.lunarconstruct.net/LANGUAGES/Varae/Documentation/Grammar"/><meta property="twitter:url" content="https://lunatine.lunarconstruct.net/LANGUAGES/Varae/Documentation/Grammar"/><link rel="icon" href="../../../static/icon.png"/><meta name="description" content="phonology phonetic inventory consonantslabiallabiodentaldentalalveolaralv-palvelarglottalplosive/p/ /b//t/ /d//k/ /g/nasal/m//n/trilltap/flap/r/fricative/f/ /v//θ//s/ (/z/)/h/affricate/j/approximants/w/(/ɹ/) /l/ vowelsfrontacentralabackclose/i//u/a/ɪ/close-mid(/e/)(/ɘ/)/o/aopen-mid/ɛ/aopen/a/ romani..."/><meta name="generator" content="Quartz"/><link href="../../../index.css" rel="stylesheet" type="text/css" spa-preserve/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  padding: 2rem;
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL2hvbWUvbHVuYXJjb25zdHJ1Y3QvcXVhcnR6L3F1YXJ0ei9jb21wb25lbnRzL3N0eWxlcyIsInNvdXJjZXMiOlsibWVybWFpZC5pbmxpbmUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTs7O0FBS0Y7RUFDRTtFQUNBOzs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBOztBQUdGO0VBQ0U7RUFDQTs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTs7QUFJRjtFQUNFO0VBQ0E7RUFDQSIsInNvdXJjZXNDb250ZW50IjpbIi5leHBhbmQtYnV0dG9uIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbG9hdDogcmlnaHQ7XG4gIHBhZGRpbmc6IDAuNHJlbTtcbiAgbWFyZ2luOiAwLjNyZW07XG4gIHJpZ2h0OiAwOyAvLyBOT1RFOiByaWdodCB3aWxsIGJlIHNldCBpbiBtZXJtYWlkLmlubGluZS50c1xuICBjb2xvcjogdmFyKC0tZ3JheSk7XG4gIGJvcmRlci1jb2xvcjogdmFyKC0tZGFyayk7XG4gIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgYm9yZGVyOiAxcHggc29saWQ7XG4gIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgb3BhY2l0eTogMDtcbiAgdHJhbnNpdGlvbjogMC4ycztcblxuICAmID4gc3ZnIHtcbiAgICBmaWxsOiB2YXIoLS1saWdodCk7XG4gICAgZmlsdGVyOiBjb250cmFzdCgwLjMpO1xuICB9XG5cbiAgJjpob3ZlciB7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIGJvcmRlci1jb2xvcjogdmFyKC0tc2Vjb25kYXJ5KTtcbiAgfVxuXG4gICY6Zm9jdXMge1xuICAgIG91dGxpbmU6IDA7XG4gIH1cbn1cblxucHJlIHtcbiAgJjpob3ZlciA+IC5leHBhbmQtYnV0dG9uIHtcbiAgICBvcGFjaXR5OiAxO1xuICAgIHRyYW5zaXRpb246IDAuMnM7XG4gIH1cbn1cblxuI21lcm1haWQtY29udGFpbmVyIHtcbiAgcG9zaXRpb246IGZpeGVkO1xuICBjb250YWluOiBsYXlvdXQ7XG4gIHotaW5kZXg6IDk5OTtcbiAgbGVmdDogMDtcbiAgdG9wOiAwO1xuICB3aWR0aDogMTAwdnc7XG4gIGhlaWdodDogMTAwdmg7XG4gIG92ZXJmbG93OiBoaWRkZW47XG4gIGRpc3BsYXk6IG5vbmU7XG4gIGJhY2tkcm9wLWZpbHRlcjogYmx1cig0cHgpO1xuICBiYWNrZ3JvdW5kOiByZ2JhKDAsIDAsIDAsIDAuNSk7XG5cbiAgJi5hY3RpdmUge1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgfVxuXG4gICYgPiAjbWVybWFpZC1zcGFjZSB7XG4gICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gICAgYm9yZGVyLXJhZGl1czogNXB4O1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICB0b3A6IDUwJTtcbiAgICBsZWZ0OiA1MCU7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7XG4gICAgaGVpZ2h0OiA4MHZoO1xuICAgIHdpZHRoOiA4MHZ3O1xuICAgIG92ZXJmbG93OiBoaWRkZW47XG5cbiAgICAmID4gLm1lcm1haWQtY29udGVudCB7XG4gICAgICBwYWRkaW5nOiAycmVtO1xuICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgdHJhbnNmb3JtLW9yaWdpbjogMCAwO1xuICAgICAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDAuMXMgZWFzZTtcbiAgICAgIG92ZXJmbG93OiB2aXNpYmxlO1xuICAgICAgbWluLWhlaWdodDogMjAwcHg7XG4gICAgICBtaW4td2lkdGg6IDIwMHB4O1xuXG4gICAgICBwcmUge1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgIGJvcmRlcjogbm9uZTtcbiAgICAgIH1cblxuICAgICAgc3ZnIHtcbiAgICAgICAgbWF4LXdpZHRoOiBub25lO1xuICAgICAgICBoZWlnaHQ6IGF1dG87XG4gICAgICB9XG4gICAgfVxuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRyb2xzIHtcbiAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgIGJvdHRvbTogMjBweDtcbiAgICAgIHJpZ2h0OiAyMHB4O1xuICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgIGdhcDogOHB4O1xuICAgICAgcGFkZGluZzogOHB4O1xuICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgIGJvcmRlci1yYWRpdXM6IDZweDtcbiAgICAgIGJveC1zaGFkb3c6IDAgMnB4IDRweCByZ2JhKDAsIDAsIDAsIDAuMSk7XG4gICAgICB6LWluZGV4OiAyO1xuXG4gICAgICAubWVybWFpZC1jb250cm9sLWJ1dHRvbiB7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICB3aWR0aDogMzJweDtcbiAgICAgICAgaGVpZ2h0OiAzMnB4O1xuICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICAgIGNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICAgICAgZm9udC1mYW1pbHk6IHZhcigtLWJvZHlGb250KTtcbiAgICAgICAgdHJhbnNpdGlvbjogYWxsIDAuMnMgZWFzZTtcblxuICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICB9XG5cbiAgICAgICAgJjphY3RpdmUge1xuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgxcHgpO1xuICAgICAgICB9XG5cbiAgICAgICAgLy8gU3R5bGUgdGhlIHJlc2V0IGJ1dHRvbiBkaWZmZXJlbnRseVxuICAgICAgICAmOm50aC1jaGlsZCgyKSB7XG4gICAgICAgICAgd2lkdGg6IGF1dG87XG4gICAgICAgICAgcGFkZGluZzogMCAxMnB4O1xuICAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cbiAgfVxufVxuIl19 */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><script src="../../../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch("../../../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://lunatine.lunarconstruct.net/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://lunatine.lunarconstruct.net/LANGUAGES/Varae/Documentation/Grammar-og-image.webp"/><meta property="og:image:url" content="https://lunatine.lunarconstruct.net/LANGUAGES/Varae/Documentation/Grammar-og-image.webp"/><meta name="twitter:image" content="https://lunatine.lunarconstruct.net/LANGUAGES/Varae/Documentation/Grammar-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="LANGUAGES/Varae/Documentation/Grammar"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="../../..">Lunatine Wiki</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-664"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-664" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../../../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../../LANGUAGES/">Languages</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../../LANGUAGES/Varae/">Varae</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../../LANGUAGES/Varae/Documentation/">Documentation</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Varae Grammar</a></div></nav><h1 class="article-title">Varae Grammar</h1><p show-comma="true" class="content-meta"><time datetime="2025-11-04T21:29:30.025Z">Nov 04, 2025</time><span>9 min read</span></p></div></div><article class="popover-hint"><h1 id="phonology"><strong>phonology</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#phonology" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<h2 id="phonetic-inventory">phonetic inventory<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#phonetic-inventory" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th><strong>consonants</strong></th><th><em>labial</em></th><th><em>labiodental</em></th><th><em>dental</em></th><th><em>alveolar</em></th><th><em>alv-pal</em></th><th><em>velar</em></th><th><em>glottal</em></th></tr></thead><tbody><tr><td><em>plosive</em></td><td>/p/  /b/</td><td></td><td></td><td>/t/  /d/</td><td></td><td>/k/  /g/</td><td></td></tr><tr><td><em>nasal</em></td><td>/m/</td><td></td><td></td><td>/n/</td><td></td><td></td><td></td></tr><tr><td><em>trill</em></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td><em>tap/flap</em></td><td></td><td></td><td></td><td>/r/</td><td></td><td></td><td></td></tr><tr><td><em>fricative</em></td><td></td><td>/f/  /v/</td><td>/θ/</td><td>/s/  (/z/)</td><td></td><td></td><td>/h/</td></tr><tr><td><em>affricate</em></td><td></td><td></td><td></td><td></td><td>/j/</td><td></td><td></td></tr><tr><td><em>approximants</em></td><td>/w/</td><td></td><td></td><td>(/ɹ/)  /l/</td><td></td><td></td><td></td></tr></tbody></table></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th><strong>vowels</strong></th><th><em>front</em></th><th>a</th><th><em>central</em></th><th>a</th><th><em>back</em></th></tr></thead><tbody><tr><td><em>close</em></td><td>/i/</td><td></td><td></td><td></td><td>/u/</td></tr><tr><td>a</td><td></td><td>/ɪ/</td><td></td><td></td><td></td></tr><tr><td><em>close-mid</em></td><td>(/e/)</td><td></td><td>(/ɘ/)</td><td></td><td>/o/</td></tr><tr><td>a</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td><em>open-mid</em></td><td>/ɛ/</td><td></td><td></td><td></td><td></td></tr><tr><td>a</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td><em>open</em></td><td>/a/</td><td></td><td></td><td></td><td></td></tr></tbody></table></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th><em>romanization</em></th><th>&lt;<strong>th</strong>>=/<strong>θ</strong>/, &lt;<strong>y</strong>>=/<strong>j</strong>/, &lt;<strong>i</strong>>=/<strong>ɪ</strong>/, &lt;<strong>ii</strong>>=/<strong>i</strong>/, otherwise spelled as seen.</th></tr></thead><tbody><tr><td><em>allophones</em></td><td>[<strong>s</strong>] &amp; [<strong>z</strong>] = &lt;<strong>s</strong>>, [<strong>ɛ</strong>] &amp; [<strong>ɘ</strong>] = &lt;<strong>e</strong>>, [<strong>r</strong>] &amp; [<strong>ɹ</strong>] =&lt;<strong>r</strong>></td></tr><tr><td><em>diphthongs</em></td><td>/<strong>ɛi</strong>/ = &lt;<strong>ae</strong>>, /<strong>ai</strong>/ = &lt;<strong>ei</strong>></td></tr></tbody></table></div>
+<h2 id="phonotactics"><strong>phonotactics</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#phonotactics" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li>syllable structure is (c)v(c).</li>
+<li>onset can be any sound.</li>
+<li>coda can be any sound but &lt;<strong>y</strong>> or &lt;<strong>w</strong>>.</li>
+<li>&lt;<strong>s</strong>> next to a voiced consonant often becomes /<strong>z</strong>/.</li>
+<li>no &lt;<strong>i</strong>> next to another vowel. if an &lt;<strong>i</strong>> falls next to a vowel, a &lt;<strong>y</strong>> will emerge between them.</li>
+<li>repeated consonants/vowels, like &lt;<strong>oo</strong>> ****or &lt;<strong>dd</strong>> ****or &lt;<strong>aeii</strong>> always drop the extra sound when part of the same word.</li>
+<li>when a word with a coda consonant combines with a word lacking an onset consonant, the coda of the first always moves into the onset of the second.</li>
+</ol>
+<hr/>
+<h1 id="sentence-structure"><strong>sentence structure</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#sentence-structure" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<h2 id="word-order">word order<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#word-order" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>word order in varae is SOV (subject-object-verb).
+adjectives are placed before their respective noun, and that extends to adjectival clauses and phrases. adpositions, however, are placed after the noun.
+adverbs are placed after the verb, and that extends to adverbial clauses and phrases as well.</p>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="jsx" data-theme="github-light github-dark"><code data-language="jsx" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">**</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;deii kuraesa meris fa vaesii&quot;</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">deii kuraesa   meris fa vae</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">sii</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">**</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">3</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">SG</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">  ****</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">beautiful moon  at look</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">PRS</span></span>
+<span data-line><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">SUBJECT</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> OBJECT</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">    VERB</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">**</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;**She looks at the beautiful moon&quot;</span></span></code></pre></figure>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="jsx" data-theme="github-light github-dark"><code data-language="jsx" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">**</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;vaii siibte asu sokaso mosa&quot;</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">vaii siibte asu soka</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">so  mosa</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">**</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">1</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">SG</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  ground to  fall</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">PAS</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> down</span></span>
+<span data-line><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">SUBJECT</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> OBJECT</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">     VERB</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;I fell down to the ground&quot;</span></span></code></pre></figure>
+<h2 id="questions">questions<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#questions" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>question sentences are marked with the <code>sem</code> particle placed at the end of the sentence.</p>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="jsx" data-theme="github-light github-dark"><code data-language="jsx" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">**</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;koii vaiivaii haeyase suran sem&quot;</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">koii vaiivaii haeyase  suran sem</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">**</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">2</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">SG</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  1</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">PL</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">      join</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">FUT</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> later </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">Q</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;Will you join us later?&quot;</span></span></code></pre></figure>
+<h2 id="clauses">clauses<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#clauses" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="dependent-clause">dependent clause<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#dependent-clause" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><code>o</code> is added as a prefix before certain pronouns and adverbs to turn them into relative pronouns and adverbs to be used in dependent clauses.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th></th><th>plain form</th><th>relative form</th></tr></thead><tbody><tr><td>“who”</td><td><code>tem</code></td><td><code>otem</code></td></tr><tr><td>“what”</td><td><code>tae</code></td><td><code>otae</code></td></tr><tr><td>“where”</td><td><code>tiil</code></td><td><code>otiil</code></td></tr><tr><td>“when”</td><td><code>ta</code></td><td><code>ota</code></td></tr><tr><td>“why”</td><td><code>tol</code></td><td><code>otol</code></td></tr><tr><td>“how”</td><td><code>tam</code></td><td><code>otam</code></td></tr><tr><td>“that”</td><td><code>taem</code></td><td><code>otaem</code></td></tr><tr><td>“which”</td><td><code>tes</code></td><td><code>otes</code></td></tr></tbody></table></div>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="jsx" data-theme="github-light github-dark"><code data-language="jsx" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">**</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;ota deii meris fa vaeso, deii eheso&quot;</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">o</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">ta      deii meris fa vae</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">so,    deii ehe</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">so.</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">**</span></span>
+<span data-line><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">REL</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">when  3</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">SG</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  moon  at look</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">PST</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">,  3</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">SG</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  smile</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">PST</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">.</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;When she looked at the moon, she smiled.&quot;</span></span></code></pre></figure>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="jsx" data-theme="github-light github-dark"><code data-language="jsx" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">**</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;iise otem nihoso vaii asu aeso vaeya&quot;</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">iise   o</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">tem    niho</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">so    vaii asu ae</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">so  vaeya.</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">**</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">person </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">REL</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">who  speak</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">PST</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  1</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">SG</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  to  be</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">PST</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> kind.</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;The person who spoke to me was kind.&quot;</span></span></code></pre></figure>
+<hr/>
+<h1 id="words-vocab-idk-what-to-call-this-section">words. vocab? idk what to call this section<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#words-vocab-idk-what-to-call-this-section" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<h2 id="nouns"><strong>nouns</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#nouns" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="pronouns">pronouns<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#pronouns" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>all pronouns are gender neutral. plural pronouns are made by reduplication.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th></th><th>singular</th><th>plural</th></tr></thead><tbody><tr><td>first person</td><td><code>vaii</code> ”I”</td><td><code>vaiivaii</code> ”we/us”</td></tr><tr><td>second person</td><td><code>koii</code> ”you“</td><td><code>koiikoii</code> ”you all”</td></tr><tr><td>third person</td><td><code>deii</code> ”he/she/they/it”</td><td><code>deiideii</code> ”them all”</td></tr></tbody></table></div>
+<h3 id="case-system"><strong>case system</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#case-system" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>this language only has one true case, that being the genitive case. the suffix <strong><code>fel</code></strong> is added to the end of the noun possessing the object.</p>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="jsx" data-theme="github-light github-dark"><code data-language="jsx" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">**</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;selafel nuye&quot;</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">sela</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">fel    nuye</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">**</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">flower</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">GEN</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  petal</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">**</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;**The flower's petals&quot;</span></span></code></pre></figure>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="jsx" data-theme="github-light github-dark"><code data-language="jsx" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">**</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;niisafel saeka&quot;</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">niisa</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">fel saeka</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">**</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">fire</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">GEN</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  color</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">**</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;**The color of the fire&quot;</span></span></code></pre></figure>
+<p>a pseudo-case that varae also utilizes is in regards to the <a href="../../../Inna" class="internal" data-slug="Inna">Inna</a> - the god-like species that created the universe. when using pronouns in regards to them, the prefix <code>iina</code> is added. it acts as a sort of honorific, but is only utilized for the inna. generally, a person using this on themselves or another person would be thought of extremely negatively.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th></th><th>singular</th><th>plural</th></tr></thead><tbody><tr><td>first person</td><td><code>iinavaii</code> ”I”</td><td><code>iinavaiivaii</code> ”we”</td></tr><tr><td>second person</td><td><code>iinakoii</code> ”you“</td><td><code>iinakoiikoii</code> ”you all”</td></tr><tr><td>third person</td><td><code>iinadeii</code> ”he/she/they/it”</td><td><code>iinadeiideii</code> ”them all”</td></tr></tbody></table></div>
+<h3 id="plurality">plurality<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#plurality" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>varae generally does not express plurality. if the noun is countable, and the speaker wishes to specify how many of something there are, the speaker will generally just use numbers. in some cases, the noun can also be doubled to show there are many of something, but this is not always done.</p>
+<h2 id="adjectives"><strong>adjectives</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#adjectives" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>adjectives are always placed before the noun they are describing. for example, <code>kumeiya leiv</code>, “<em>good dream</em>”. a noun can also be used as an adjective by adding the affix <code>ka</code> to the end of the noun, for example, <code>leiv</code>, “<em>dream”,</em> becomes <code>leivka</code>, “<em>dreamy”</em>.</p>
+<h3 id="a-note-on-adjectives-in-compound-words-names-only">a note on adjectives in compound words (names only)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#a-note-on-adjectives-in-compound-words-names-only" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>adjectives will always end in /<strong>a</strong>/, and when compound words are created (i.e. for names such as <code>yudora</code> meaning “little star”), the /<strong>a</strong>/ at the end is dropped. in the event of a /<strong>ya</strong>/ ending, such as in <code>uya</code> - “<em>young”</em>, the /<strong>y</strong>/ is dropped as well, resulting in, for example, <code>kumeileiv</code>, a compound noun/name with the same meaning as <code>kumeiya leiv</code>, meaning “<em>good dream”</em>. <code>dosa</code> (<em>red</em>) + <code>sela</code> (<em>flower</em>) becomes <code>dosela</code>, as stated in the phonotactics, double consonants are not allowed in the same word. the double /<strong>s</strong>/ is reduced to a single /<strong>s</strong>/. however, please note that these compound words are mainly only used for names, and in normal speech and prose “<em>red flower</em>” would still be <code>dosa sela</code>.</p>
+<h2 id="verbs"><strong>verbs</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#verbs" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>verbs in dictionary/plain form end in <code>sii</code>. these verbs are in present tense, for example <code>vaesii</code> - ”to see/look”. verbs are not conjugated depending on gender or plurality, only tense and aspect.
+there are three tenses - present, past, and future. to conjugate tense, the <code>sii</code> ending is replaced with a new ending depending on the tense - <code>so</code> for past, and <code>se</code> for future.
+there are three aspects as well - plain, perfect, and continuous. for aspect, a suffix is added to the end of the verb- <code>me</code> for perfect, <code>ra</code> for continuous.
+to make a verb negative, the prefix <code>mo</code> is added to the beginning.
+nouns can also be turned into verbs by adding this <code>sii</code> suffix, for example <code>leiv</code>, meaning “<em>dream</em>” turns into <code>leivsii</code> “<em>to dream</em>”. this also works inversely, removing the <code>sii</code> suffix will turn a verb into a noun.</p>
+<h3 id="regular-verbs">regular verbs<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#regular-verbs" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th><em><strong>tense &amp; aspect</strong></em></th><th>plain affirmative</th><th>plain negative</th><th>perfect affirmative</th><th>perfect negative</th><th>continuous affirmative</th><th>continuous negative</th></tr></thead><tbody><tr><td>present</td><td><code>leivsii</code> “dreams”</td><td><code>moleivsii</code> “doesn’t dream”</td><td><code>leivsiime</code> ”has dreamt”</td><td><code>moleivsiime</code> “hasn’t dreamt”</td><td><code>leivsiira</code> “is dreaming”</td><td><code>moleivsiira</code> “isn’t dreaming”</td></tr><tr><td>past</td><td><code>leivso</code> “dreamt”</td><td><code>moleiso</code> “didn’t dream”</td><td><code>leivsome</code> “had dreamt”</td><td><code>moleivsome</code> “hadn’t dreamt”</td><td><code>leivsora</code> “was dreaming”</td><td><code>moleivsora</code> “wasn’t dreaming”</td></tr><tr><td>future</td><td><code>leivse</code> “will dream”</td><td><code>moleivse</code> “won’t dream”</td><td><code>leivseme</code> “will have dreamt”</td><td><code>moleivseme</code> “won’t have dreamt”</td><td><code>leivsera</code> “will be dreaming”</td><td><code>moleivsera</code> “won’t be dreaming”</td></tr></tbody></table></div>
+<h3 id="copula">copula<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#copula" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>the copula <code>ae</code> is the only irregular verb in varae, in the sense that it does not end in <code>sii</code>. present plain form is simply <code>ae</code> , and all affixes remain the same.</p>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="jsx" data-theme="github-light github-dark"><code data-language="jsx" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">**</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;maerut ~ vaii somela aeme&quot;</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">maerut </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">~</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  vaii somela ae</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">me.</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">**</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">recently, 1</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">SG</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  happy  be</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">PRS</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">PRF</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">.</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;Recently, I have been happy.&quot;</span></span></code></pre></figure>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="jsx" data-theme="github-light github-dark"><code data-language="jsx" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">**</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;honthe vaii ralaniin asu moaese garusera&quot;</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">honthe  vaii ralaniin asu mo</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">ae</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">se   garu</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">se</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">ra.</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">**</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">tonight 1</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">SG</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  festival to  </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">NEG</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">be</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">FUT</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> go</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">FUT</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">CONT</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">.</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">****</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;I will not be going to the festival tonight.&quot;</span></span></code></pre></figure>
+<h3 id="moods">moods<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#moods" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>varae has three moods: the indicative, imperative, and the abilitative. they can be used by adding a mood-specific prefix before a verb. this prefix precedes any other prefix on the verb, such as the negation prefix <code>mo</code>.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th></th><th>affirmative</th><th>negative</th></tr></thead><tbody><tr><td>indicative</td><td><code>leivsii</code> “dream”</td><td><code>moleivsii</code> “doesn’t dream”</td></tr><tr><td>imperative</td><td><code>koleivsii</code> “dream!”</td><td><code>komoleivsii</code> “don’t dream!”</td></tr><tr><td>abilitative</td><td><code>soleivsii</code> “can dream”</td><td><code>somoleivsii</code> “can’t dream”</td></tr></tbody></table></div>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="jsx" data-theme="github-light github-dark"><code data-language="jsx" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">**</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;vaii somoleivsii gobu sem&quot;</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">vaii so</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">mo</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">leivsii   gobu sem</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">**</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">1</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">SG</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">  ABL</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">NEG</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">dream   even </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">Q</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;Can't I even dream?&quot;</span></span></code></pre></figure>
+<h2 id="adverbs">adverbs<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#adverbs" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>adverbs do not always follow a strict pattern. they are always placed after the verb they modify. adjectives can be turned into adverbs by changing the last syllable, containing the /a/ ending, to <code>kel</code>. for example, <code>hata</code> , an adjective meaning “eager”, turns into <code>hakel</code>, an adverb meaning “eagerly”.</p>
+<h2 id="numbers-and-counting"><strong>numbers and counting</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#numbers-and-counting" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th><code>kii</code> <em>( 0 )</em></th><th><code>thae</code> <em>( 1 )</em></th><th><code>tei</code> ****<em>( 2 )</em></th><th><code>iia</code> ****<em>( 3 )</em></th><th><code>adi</code> ****<em>( 4 )</em></th><th><code>uru</code> ****<em>( 5 )</em></th><th><code>uiio</code> ****<em>( 6 )</em></th></tr></thead><tbody><tr><td><code>sus</code> <em>( 7 )</em></td><td><code>bii</code> <em>( 8 )</em></td><td><code>kuo</code> ****<em>( 9 )</em></td><td><code>ran</code> ****<em>( 10 )</em></td><td><code>siin</code> ****<em>( 100 )</em></td><td><code>miin</code> ****<em>( 1k )</em></td><td><code>wiin</code> ****<em>( 1mil )</em></td></tr></tbody></table></div>
+<p>numbers after ten below 20 are <code>ran</code>+(digit), for example <code>ranuru</code>. tens from 20 to 90 are (digit)+<code>ran</code>, as in <code>teiran</code> to <code>kuoran</code>. hundreds from 200 to 900 are (digit)+<code>siin</code>. thousands from 2000 to 9000 are (digit)+<code>miin</code>.
+<code>siin</code>, <code>miin</code>, and <code>wiin</code> can be <code>thaesiin</code>, <code>thaemiin</code>, and <code>thaewiin</code>, but it is not common.
+when written out, each digit place is considered a separate word.</p>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="jsx" data-theme="github-light github-dark"><code data-language="jsx" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">**</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;uiiroran iia&quot;</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">uiio</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">ran iia</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">**</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">six</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">ten  three</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;63&quot;</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;"> /</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> &quot;sixty three&quot;</span></span></code></pre></figure>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="jsx" data-theme="github-light github-dark"><code data-language="jsx" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">**</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;iiasiin iiaran kuo&quot;</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">iia</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">siin       iia</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">ran    kuo</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">**</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">three</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">hundred  three</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">ten  nine</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;339&quot;</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;"> /</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> &quot;three hundred thirty nine&quot;</span></span></code></pre></figure>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="jsx" data-theme="github-light github-dark"><code data-language="jsx" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">**</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;biimiin siin adiran uru&quot;</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">bii</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">miin        siin    adi</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">ran   uru</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">**</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">eight</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">thousand  hundred four</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">ten  five</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;8145&quot;</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;"> /</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> &quot;eight thousand one hundred forty five&quot;</span></span></code></pre></figure>
+<hr/>
+<h1 id="writing">writing<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#writing" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<h3 id="a-note-on-written-varae">a note on written varae<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#a-note-on-written-varae" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>varae, in the world of <a href="https://www.notion.so/lunatine-d3a18d7ba2e24989bc945ee7018c653c?pvs=21" class="external">lunatine<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>, is written in a native script. however, for most <em>meta</em> purposes, it is romanized. the following rules are meant to adapt the written script into a more easily accessible format for learners and people interested in the world and its language.</p>
+<p>the main speakers of varae are the <a href="https://www.notion.so/Selhae-822e316012e74ddba8bb5c6faf31fe66?pvs=21" class="external">Selhae<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>, who have always had a very heavy focus on oral storytelling and music, as a culture. this means that the most common way something is passed along is verbally, and writing is not as common. some of these rules may seem unintuitive for long, detailed writing, but writing was generally reserved for preserving songs and stories, and communication between people (i.e. letters) - which all tended to be more poetic in nature.</p>
+<h2 id="prose-forms">prose forms<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#prose-forms" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>when written, periods are not used to mark the end of a sentence. instead, each new sentence is written on a new line.
+instead of commas, written varae uses a tilde <code>~</code> to divide sentences into phrases/clauses. these are not always used depending on context, but are often added for clarity and when sentences become too long.
+lines can be broken off after a <code>~</code> or a <code>{</code> to prevent it from running off the page or simply becoming unreadably long. this is not necessary on all sentences, even if it has multiple clauses. when this is done, the continuation on the next line is indented so as not to be confused with a new sentence.
+in informal writing, or where it is not possible to break lines or indent, lines may be broken at any point and may not be indented. however, if this is done, any following lines must be separated with enough visual space to be able to tell where one line ends and another begins.</p>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="jsx" data-theme="github-light github-dark"><code data-language="jsx" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">deii </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">~</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> otu vala dorafel anwaefa osu renaksii </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">~</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">	dorafel korliia dae weise nerasii veha</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">telasiira </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">~</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> deii yovela pahorii dala beirusii </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">~</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> </span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">	na iinyaniilfel hiimana fa vahes meikasii</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">ota deii lukasii nako karawesii </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">~</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> </span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">	na vala dae tayaso ne geralo sakakesii muhaelii</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">yiim deiifel kin ne teraniil asu keso</span></span></code></pre></figure>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="jsx" data-theme="github-light github-dark"><code data-language="jsx" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">deii otu vala dorafel</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">anwaefa osu renaksii</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">dorafel korliia dae</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">weise nerasii veha</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">telasiira </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">~</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> deii yovela</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">pahorii dala beirusii</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">na iinyaniilfel hiimana</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">fa vahes meikasii</span></span></code></pre></figure>
+<h2 id="capitalization">capitalization<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#capitalization" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>romanized varae is written entirely in lower case, with no upper case letters.</p>
+<h2 id="quotes">quotes<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#quotes" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>quotes/quotations, in written varae, use curly brackets <code>{ }</code> as quotation markers.</p>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="jsx" data-theme="github-light github-dark"><code data-language="jsx" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">**</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;ota vaii beiso ~ deii vaii haraeso {koii aese mae vaiimosa}&quot;</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">o</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">ta     vaii beiso </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">~</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    deii vaii harae</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">so koii koaese     mae  vaiimosa.</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">**</span></span>
+<span data-line><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">REL</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">when 1</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">SG</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  leave</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">PAS</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">, 3</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">SG</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  1</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">SG</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  tell</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">PAS</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> you  </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">IMP</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">be</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">-</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">FUT</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> safe please</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;When I left, she told me, 'Please be safe.'&quot;</span></span></code></pre></figure></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-0" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#phonology" data-for="phonology">phonology</a></li><li class="depth-1"><a href="#phonetic-inventory" data-for="phonetic-inventory">phonetic inventory</a></li><li class="depth-1"><a href="#phonotactics" data-for="phonotactics">phonotactics</a></li><li class="depth-0"><a href="#sentence-structure" data-for="sentence-structure">sentence structure</a></li><li class="depth-1"><a href="#word-order" data-for="word-order">word order</a></li><li class="depth-1"><a href="#questions" data-for="questions">questions</a></li><li class="depth-1"><a href="#clauses" data-for="clauses">clauses</a></li><li class="depth-2"><a href="#dependent-clause" data-for="dependent-clause">dependent clause</a></li><li class="depth-0"><a href="#words-vocab-idk-what-to-call-this-section" data-for="words-vocab-idk-what-to-call-this-section">words. vocab? idk what to call this section</a></li><li class="depth-1"><a href="#nouns" data-for="nouns">nouns</a></li><li class="depth-2"><a href="#pronouns" data-for="pronouns">pronouns</a></li><li class="depth-2"><a href="#case-system" data-for="case-system">case system</a></li><li class="depth-2"><a href="#plurality" data-for="plurality">plurality</a></li><li class="depth-1"><a href="#adjectives" data-for="adjectives">adjectives</a></li><li class="depth-2"><a href="#a-note-on-adjectives-in-compound-words-names-only" data-for="a-note-on-adjectives-in-compound-words-names-only">a note on adjectives in compound words (names only)</a></li><li class="depth-1"><a href="#verbs" data-for="verbs">verbs</a></li><li class="depth-2"><a href="#regular-verbs" data-for="regular-verbs">regular verbs</a></li><li class="depth-2"><a href="#copula" data-for="copula">copula</a></li><li class="depth-2"><a href="#moods" data-for="moods">moods</a></li><li class="depth-1"><a href="#adverbs" data-for="adverbs">adverbs</a></li><li class="depth-1"><a href="#numbers-and-counting" data-for="numbers-and-counting">numbers and counting</a></li><li class="depth-0"><a href="#writing" data-for="writing">writing</a></li><li class="depth-2"><a href="#a-note-on-written-varae" data-for="a-note-on-written-varae">a note on written varae</a></li><li class="depth-1"><a href="#prose-forms" data-for="prose-forms">prose forms</a></li><li class="depth-1"><a href="#capitalization" data-for="capitalization">capitalization</a></li><li class="depth-1"><a href="#quotes" data-for="quotes">quotes</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2025</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></div></body><script type="application/javascript">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module">function f(i,e){if(!i)return;function r(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function t(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}i?.addEventListener("click",r),window.addCleanup(()=>i?.removeEventListener("click",r)),document.addEventListener("keydown",t),window.addCleanup(()=>document.removeEventListener("keydown",t))}function y(i){for(;i.firstChild;)i.removeChild(i.firstChild)}var h=class{constructor(e,r){this.container=e;this.content=r;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),r=this.onMouseMove.bind(this),t=this.onMouseUp.bind(this),o=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",r),document.addEventListener("mouseup",t),window.addEventListener("resize",o),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",r),()=>document.removeEventListener("mouseup",t),()=>window.removeEventListener("resize",o))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let r=this.createButton("+",()=>this.zoom(.1)),t=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(t),e.appendChild(o),e.appendChild(r),this.container.appendChild(e)}createButton(e,r){let t=document.createElement("button");return t.textContent=e,t.className="mermaid-control-button",t.addEventListener("click",r),window.addCleanup(()=>t.removeEventListener("click",r)),t}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}zoom(e){let r=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),t=this.content.getBoundingClientRect(),o=t.width/2,n=t.height/2,c=r-this.scale;this.currentPan.x-=o*c,this.currentPan.y-=n*c,this.scale=r,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){this.scale=1;let e=this.content.querySelector("svg");this.currentPan={x:e.getBoundingClientRect().width/2,y:e.getBoundingClientRect().height/2},this.updateTransform()}},C=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],E;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;E||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let r=E.default,t=new WeakMap;for(let n of e)t.set(n,n.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let a=t.get(s);a&&(s.innerHTML=a)}let n=C.reduce((s,a)=>(s[a]=window.getComputedStyle(document.documentElement).getPropertyValue(a),s),{}),c=document.documentElement.getAttribute("saved-theme")==="dark";r.initialize({startOnLoad:!1,securityLevel:"loose",theme:c?"dark":"base",themeVariables:{fontFamily:n["--codeFont"],primaryColor:n["--light"],primaryTextColor:n["--darkgray"],primaryBorderColor:n["--tertiary"],lineColor:n["--darkgray"],secondaryColor:n["--secondary"],tertiaryColor:n["--tertiary"],clusterBkg:n["--light"],edgeLabelBackground:n["--highlight"]}}),await r.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let n=0;n<e.length;n++){let v=function(){let g=l.querySelector("#mermaid-space"),m=l.querySelector(".mermaid-content");if(!m)return;y(m);let w=c.querySelector("svg").cloneNode(!0);m.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new h(g,m)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},c=e[n],s=c.parentElement,a=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(a),L=a.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),f(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../../../postscript.js" type="module"></script></html>
