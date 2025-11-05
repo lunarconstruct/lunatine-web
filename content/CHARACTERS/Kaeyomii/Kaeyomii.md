@@ -1,0 +1,5 @@
+---
+{"publish":true,"permalink":"/CHARACTERS/Kaeyomii/Kaeyomii.md","created":"2025-11-05T14:20:55.077-05:00","modified":"2025-10-26T09:32:29.927-04:00","published":"2025-10-26T09:32:29.927-04:00","cssclasses":"","Full Name":"Kaeyomii Levenkagaelii","Name Pronunciation":"kay-YOH-mee","Character Type":"Major Character","Species":["[[SPECIES/Selhae]]"],"Status":"Deceased","Gender":"female","Pronouns":"she/her","Apparent Age":"9 years","Death Date":"13/16/1240","color":"#DDA0DD","Current Location":"[[LOCATIONS/Asilles]]","Birthplace":"[[LOCATIONS/Yuvomne]]","Parents":["[[CHARACTERS/Esela]]","[[CHARACTERS/Kulith]]"],"Birth date":"09/08/1231","Actual Age":"9 years","Eyes":"light blue","Hair":"light blue","Height":"4’3”","Languages Spoken":["[[LANGUAGES/Varae]]"],"Skin Tone":"fair"}
+---
+
+Daughter of Esela Levenkagaelii and Kulith Deiranii. Perished during the Kuraesmeris impact.

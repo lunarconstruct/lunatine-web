@@ -1,0 +1,5 @@
+---
+{"publish":true,"permalink":"/CHARACTERS/Naediia/Naediia.md","created":"2025-11-05T14:25:44.526-05:00","modified":"2025-10-26T09:32:45.514-04:00","published":"2025-10-26T09:32:45.514-04:00","cssclasses":"","Full Name":"Naediia Levenkagaelii","Name Pronunciation":"NAY-dee-uh","Character Type":"Minor Character","Species":["[[SPECIES/Selhae]]"],"Status":"Deceased","Gender":"female","Pronouns":"she/her","Apparent Age":"mid 40s","Birthday":"12/4/928","Death Date":"03/13/1203","color":"var(--mk-color-red)","Current Location":"[[LOCATIONS/Kohoii]]","Birthplace":"[[LOCATIONS/Kohoii]]","Parents":["[[CHARACTERS/Reika]]"],"Actual Age":"275 years","Birth date":"12/04/928","Birth Year":"928","Death Year":"1203","Languages Spoken":["[[LANGUAGES/Varae]]"],"Skin Tone":"fair"}
+---
+
+Mother to Esela Levenkagaelii. Perished in a conflict between Kohoii and Solei.
