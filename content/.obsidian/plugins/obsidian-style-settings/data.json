@@ -1,0 +1,18 @@
+{
+  "encore-settings@@theme-dark": "encore-theme-dark-rgb",
+  "encore-settings@@theme-light": "encore-theme-light",
+  "encore-settings@@encore-translucency": true,
+  "encore-settings@@colors": "encore-colors-custom",
+  "encore-settings@@encore-translucency-background": "encore-bg-chromatic",
+  "encore-settings@@encore-translucency-blur-amount": 10,
+  "encore-settings@@blur-amount": "encore-blur-off",
+  "encore-settings@@encore-translucency-strength": 0.25,
+  "encore-settings@@encore-custom-h1@@dark": "#FFACCE",
+  "encore-settings@@encore-custom-h2@@dark": "#FFAB67",
+  "encore-settings@@encore-custom-h3@@dark": "#FFEBA5",
+  "encore-settings@@encore-custom-h4@@dark": "#80FFAB",
+  "encore-settings@@encore-custom-h5@@dark": "#409AFF",
+  "encore-settings@@encore-custom-h6@@dark": "#BA7BFF",
+  "encore-settings@@encore-custom-bold@@dark": "#BB95FF",
+  "encore-settings@@encore-custom-italic@@dark": "#CAEEFF"
+}

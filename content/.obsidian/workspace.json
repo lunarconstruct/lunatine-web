@@ -4,37 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "f928ae7fe5f90607",
-        "type": "tabs",
-        "dimension": 64.11214953271028,
-        "children": [
-          {
-            "id": "993729ea8b0ea4ba",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "empty",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          }
-        ]
-      },
-      {
         "id": "6afeb57291299389",
         "type": "tabs",
-        "dimension": 35.88785046728972,
         "children": [
           {
             "id": "bcba5514358c9c80",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "mk-space",
+              "state": {
+                "path": "/"
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Lunatine"
             }
           }
         ]
@@ -101,7 +83,7 @@
             }
           },
           {
-            "id": "239e7f2f861c81c0",
+            "id": "cf12d50516ad9c5b",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -161,8 +143,8 @@
             "state": {
               "type": "CALENDARIUM",
               "state": {},
-              "icon": "CALENDARIUM",
-              "title": "Calendarium"
+              "icon": "lucide-ghost",
+              "title": "CALENDARIUM"
             }
           },
           {
@@ -171,8 +153,8 @@
             "state": {
               "type": "file-properties",
               "state": {},
-              "icon": "lucide-info",
-              "title": "File properties"
+              "icon": "lucide-ghost",
+              "title": "file-properties"
             }
           },
           {
@@ -218,20 +200,8 @@
                 "showSearch": false,
                 "searchQuery": ""
               },
-              "icon": "lucide-archive",
-              "title": "All properties"
-            }
-          },
-          {
-            "id": "1873e4ba55fe05c4",
-            "type": "leaf",
-            "state": {
-              "type": "tag-gallery-info",
-              "state": {
-                "filePath": "GALLERY/merisela.md"
-              },
-              "icon": "image",
-              "title": "Image Info"
+              "icon": "lucide-ghost",
+              "title": "all-properties"
             }
           }
         ],
@@ -252,55 +222,57 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-leaflet-plugin:Open Leaflet Map": false,
+      "calendarium:Open Calendarium": false,
       "obsidian-importer:Open Importer": false,
-      "obsidian-rich-links:Rich Links": false,
-      "obsidian-stille:Toggle Stille": false,
-      "tagged-gallery:Gallery": false,
+      "obsidian-leaflet-plugin:Open Leaflet Map": false,
+      "media-companion:Open gallery": false,
       "media-extended:Open external media": false,
       "quartz-syncer:Quartz Syncer publication center": false,
-      "calendarium:Open Calendarium": false
+      "obsidian-rich-links:Rich Links": false,
+      "remotely-save:Remotely Save": false,
+      "obsidian-stille:Toggle Stille": false,
+      "tagged-gallery:Gallery": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "bcba5514358c9c80",
   "lastOpenFiles": [
-    "SPECIES/index.md",
-    "SPECIES/Construct/index.md",
+    "CHARACTERS/Canelé/canelé art/dancy/dancy.gif.sidecar.md",
+    "CHARACTERS/Canelé/canelé art/dancy/left.png.sidecar.md",
+    "CHARACTERS/Canelé/canelé art/dancy/right.png.sidecar.md",
+    "CHARACTERS/Canelé/canelé art/dancy/squish left.png.sidecar.md",
+    "CHARACTERS/Canelé/canelé art/dancy/squish right.png.sidecar.md",
+    "CHARACTERS/Canelé/canelé art/logos/logo.png.sidecar.md",
+    "CHARACTERS/Canelé/canelé art/logos/new logo maybe.png.sidecar.md",
+    "CHARACTERS/Canelé/canelé art/logos/ourple 2.png.sidecar.md",
+    "CHARACTERS/Canelé/canelé art/logos/ourple logo.png.sidecar.md",
+    "CHARACTERS/Yudora/inori no hana yudora/inori no hana yudora/1.png.sidecar.md",
+    "CHARACTERS/Yudora/inori no hana yudora/inori no hana yudora/2.png.sidecar.md",
+    "CHARACTERS/Yudora/inori no hana yudora/inori no hana yudora/3.png.sidecar.md",
+    "CHARACTERS/Yudora/inori no hana yudora/inori no hana yudora/smaller.png.sidecar.md",
+    "CHARACTERS/Merisdae/_COVER_future eve/model/a.png.sidecar.md",
+    "CHARACTERS/Merisdae/_COVER_future eve/model/base.png.sidecar.md",
+    "CHARACTERS/Merisdae/_COVER_future eve/model/eyes closed.png.sidecar.md",
+    "CHARACTERS/Merisdae/_COVER_future eve/model/eyes open.png.sidecar.md",
+    "CHARACTERS/Merisdae/_COVER_future eve/model/mouth_a.png.sidecar.md",
+    "CHARACTERS/Merisdae/_COVER_Meteor_redbirddraws/seperate/act 2.png.sidecar.md",
+    "CHARACTERS/Merisdae/_COVER_Meteor_redbirddraws/seperate/act 1.png.sidecar.md",
+    "CHARACTERS/Merisdae/_COVER_Meteor_redbirddraws/seperate/act 3.png.sidecar.md",
+    "CHARACTERS/Merisdae/_COVER_Meteor_redbirddraws/seperate/bg.png.sidecar.md",
+    "CHARACTERS/Merisdae/_COVER_Meteor_redbirddraws/seperate/bloodmoon.png.sidecar.md",
+    "CHARACTERS/Merisdae/_COVER_Meteor_redbirddraws/seperate/bluemoon.png.sidecar.md",
+    "CHARACTERS/Merisdae/_COVER_Meteor_redbirddraws/seperate/comets.png.sidecar.md",
+    "CHARACTERS/Merisdae/_COVER_Meteor_redbirddraws/seperate/crescentmoon.png.sidecar.md",
+    "Tags",
     "Species/Selhae",
     "Species/Inna",
     "Species/Fae",
     "Species/Construct",
     "Species",
-    "LANGUAGES/Varae/Documentation/Dictionary/dora.md",
-    "LANGUAGES/Varae/Documentation/Dictionary/dolotsii.md",
-    "LANGUAGES/Varae/Documentation/Dictionary/dokiirusa.md",
-    "LANGUAGES/Varae/Documentation/Dictionary/dohiitosa.md",
-    "LANGUAGES/Varae/Documentation/Dictionary/index.md",
-    "LANGUAGES/Varae/Documentation/Dictionary/do.md",
-    "LANGUAGES/Varae/Documentation/Dictionary/dela.md",
-    "LANGUAGES/Varae/Documentation/Dictionary/deiideii.md",
-    "LANGUAGES/Varae/Documentation/Dictionary/deii.md",
-    "LANGUAGES/Varae/Documentation/Dictionary/dala (2).md",
-    "LANGUAGES/Varae/Documentation/Dictionary/dala.md",
-    "LANGUAGES/Varae/Documentation/Dictionary/dakei.md",
-    "LANGUAGES/Varae/Documentation/Dictionary/daeuhii.md",
-    "LANGUAGES/Varae/Documentation/Dictionary/daeu.md",
-    "LANGUAGES/Varae/Documentation/Dictionary/daeri.md",
-    "LANGUAGES/Varae/Documentation/Dictionary/daemana.md",
-    "LANGUAGES/Varae/Documentation/Dictionary/daemakel.md",
-    "LANGUAGES/Varae/Documentation/Dictionary/daedosa.md",
-    "LANGUAGES/Varae/Documentation/Dictionary/dae.md",
-    "LANGUAGES/Varae/Documentation/Dictionary/busimasii.md",
-    "LANGUAGES/Varae/Documentation/Dictionary/buro.md",
-    "LANGUAGES/Varae/Documentation/Dictionary/boba.md",
-    "LANGUAGES/Varae/Documentation/Dictionary/biiyasii.md",
-    "LANGUAGES/Varae/Documentation/Dictionary/biipa.md",
     "LANGUAGES/Varae/Dictionary",
     "LANGUAGES/Varae/Songs-Lyrics",
     "LANGUAGES/Varae/Writing",
     "LANGUAGES/Varae/Documentation",
-    "CHARACTERS/Esela/art/esela new 2_0",
     "CHARACTERS/Esela/art/esela new.png",
     "CHARACTERS/relationship chart.canvas",
     "locations/Asilles/view from asilles.png",
