@@ -1,0 +1,22 @@
+---
+tags:
+targetImage: CHARACTERS/_misc art/esela + kulith = merisdae kinda.jpg
+Palette:
+  - "#ebcc14"
+  - "#c7045a"
+  - "#5c5bff"
+  - "#05029b"
+  - "#df5bd5"
+  - "#a0822a"
+  - "#862a96"
+  - "#90e0fb"
+  - "#ffdbcf"
+  - "#3f3f3f"
+  - "#a4a4a4"
+charactersAuto: CHARACTERS/_misc art
+---
+![](CHARACTERS/_misc%20art/esela%20+%20kulith%20=%20merisdae%20kinda.jpg)
+```gallery-info
+imgPath=CHARACTERS/_misc art/esela + kulith = merisdae kinda.jpg
+```
+%% Description %%

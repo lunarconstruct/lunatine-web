@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6afeb57291299389",
+        "id": "c3a7184e6dd0b355",
         "type": "tabs",
         "children": [
           {
-            "id": "bcba5514358c9c80",
+            "id": "d10236479ad7e3a5",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "/"
+                "file": "CHARACTERS/Esela/Mental Characteristics.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Lunatine"
+              "title": "Mental Characteristics"
             }
           }
         ]
@@ -83,7 +85,7 @@
             }
           },
           {
-            "id": "cf12d50516ad9c5b",
+            "id": "abb551092f2639b7",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -209,8 +211,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292,
-    "collapsed": true
+    "width": 292
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -222,68 +223,64 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "calendarium:Open Calendarium": false,
       "obsidian-importer:Open Importer": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
-      "media-companion:Open gallery": false,
-      "media-extended:Open external media": false,
       "quartz-syncer:Quartz Syncer publication center": false,
       "obsidian-rich-links:Rich Links": false,
-      "remotely-save:Remotely Save": false,
       "obsidian-stille:Toggle Stille": false,
-      "tagged-gallery:Gallery": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "calendarium:Open Calendarium": false
     }
   },
-  "active": "bcba5514358c9c80",
+  "active": "d10236479ad7e3a5",
   "lastOpenFiles": [
-    "CHARACTERS/Canelé/canelé art/dancy/dancy.gif.sidecar.md",
-    "CHARACTERS/Canelé/canelé art/dancy/left.png.sidecar.md",
-    "CHARACTERS/Canelé/canelé art/dancy/right.png.sidecar.md",
-    "CHARACTERS/Canelé/canelé art/dancy/squish left.png.sidecar.md",
-    "CHARACTERS/Canelé/canelé art/dancy/squish right.png.sidecar.md",
-    "CHARACTERS/Canelé/canelé art/logos/logo.png.sidecar.md",
-    "CHARACTERS/Canelé/canelé art/logos/new logo maybe.png.sidecar.md",
-    "CHARACTERS/Canelé/canelé art/logos/ourple 2.png.sidecar.md",
-    "CHARACTERS/Canelé/canelé art/logos/ourple logo.png.sidecar.md",
-    "CHARACTERS/Yudora/inori no hana yudora/inori no hana yudora/1.png.sidecar.md",
-    "CHARACTERS/Yudora/inori no hana yudora/inori no hana yudora/2.png.sidecar.md",
-    "CHARACTERS/Yudora/inori no hana yudora/inori no hana yudora/3.png.sidecar.md",
-    "CHARACTERS/Yudora/inori no hana yudora/inori no hana yudora/smaller.png.sidecar.md",
-    "CHARACTERS/Merisdae/_COVER_future eve/model/a.png.sidecar.md",
-    "CHARACTERS/Merisdae/_COVER_future eve/model/base.png.sidecar.md",
-    "CHARACTERS/Merisdae/_COVER_future eve/model/eyes closed.png.sidecar.md",
-    "CHARACTERS/Merisdae/_COVER_future eve/model/eyes open.png.sidecar.md",
-    "CHARACTERS/Merisdae/_COVER_future eve/model/mouth_a.png.sidecar.md",
-    "CHARACTERS/Merisdae/_COVER_Meteor_redbirddraws/seperate/act 2.png.sidecar.md",
-    "CHARACTERS/Merisdae/_COVER_Meteor_redbirddraws/seperate/act 1.png.sidecar.md",
-    "CHARACTERS/Merisdae/_COVER_Meteor_redbirddraws/seperate/act 3.png.sidecar.md",
-    "CHARACTERS/Merisdae/_COVER_Meteor_redbirddraws/seperate/bg.png.sidecar.md",
-    "CHARACTERS/Merisdae/_COVER_Meteor_redbirddraws/seperate/bloodmoon.png.sidecar.md",
-    "CHARACTERS/Merisdae/_COVER_Meteor_redbirddraws/seperate/bluemoon.png.sidecar.md",
-    "CHARACTERS/Merisdae/_COVER_Meteor_redbirddraws/seperate/comets.png.sidecar.md",
-    "CHARACTERS/Merisdae/_COVER_Meteor_redbirddraws/seperate/crescentmoon.png.sidecar.md",
-    "Tags",
-    "Species/Selhae",
-    "Species/Inna",
-    "Species/Fae",
-    "Species/Construct",
-    "Species",
-    "LANGUAGES/Varae/Dictionary",
-    "LANGUAGES/Varae/Songs-Lyrics",
-    "LANGUAGES/Varae/Writing",
-    "LANGUAGES/Varae/Documentation",
-    "CHARACTERS/Esela/art/esela new.png",
+    "CHARACTERS/Esela/Personality Characteristics.md",
+    "CHARACTERS/Esela/Mental Characteristics.md",
+    "CHARACTERS/Wefa/Wefa.md",
+    "CHARACTERS/Esela/art gallery.md",
+    "CHARACTERS/Esela/music.md",
+    "CHARACTERS/Esela/moodboard.md",
+    "CHARACTERS/Esela/Social.md",
+    "CHARACTERS/Esela/Physical Description.md",
+    "CHARACTERS/Esela/Esela.md",
+    "CHARACTERS/Esela/palette.md",
+    "CHARACTERS/Esela/index.md",
+    "CHARACTERS/CHARACTERS.md",
+    "GALLERY/GALLERY.md",
+    "CHARACTERS/Merisdae/Merisdae.md",
+    "CHARACTERS/Merisdae/merisdae w moons_9atlas_.png",
+    "CHARACTERS/Merisdae/Merisdae w background.png",
+    "CHARACTERS/Merisdae/Merisdae w background.bmp",
+    "CHARACTERS/Merisdae/Merisdae transparent.png",
+    "CHARACTERS/Merisdae/merisdae pixel.gif",
+    "CHARACTERS/Merisdae/merisdae nolia yudora regulus by avy.jpg",
+    "CHARACTERS/Merisdae/merisdae model.png",
+    "CHARACTERS/Merisdae/merischibi.png",
+    "CHARACTERS/Merisdae/maikory wallpaper.png",
+    "CHARACTERS/Merisdae/maikory wallpaper icon.png",
+    "CHARACTERS/Merisdae/lunar neon comm.sai2",
+    "CHARACTERS/Merisdae/lineups.clip",
+    "CHARACTERS/Merisdae/index.md",
+    "CHARACTERS/Merisdae/float_play.clip",
+    "CHARACTERS/Merisdae/bg pattern test.clip",
+    "CHARACTERS/Merisdae/bg pattern test big.clip",
+    "CHARACTERS/Merisdae/#REF#merisdae_prism.clip",
+    "CHARACTERS/Mare/Mare.md",
+    "CHARACTERS/Mare/index.md",
+    "CHARACTERS/Kulith/art/art.md",
+    "CHARACTERS/Kulith/Social.md",
+    "CHARACTERS/Kulith/Physical Description.md",
+    "CHARACTERS/Kulith/Personality Characteristics.md",
+    "CHARACTERS/Kulith/moodboard.md",
+    "CHARACTERS/Kulith/Mental Characteristics.md",
+    "CHARACTERS/Kulith/Kulith.md",
+    "CHARACTERS/Kulith/Kulith Art.md",
+    "CHARACTERS/Kulith/index.md",
+    "CHARACTERS/Kaeyomii/art/kaeyomii.clip",
+    "CHARACTERS/Esela/art/esela new.clip",
+    "CHARACTERS/Esela/art/coolesela.clip",
+    "CHARACTERS/Esela/among the flowers, beneath the moons.m3u8",
     "CHARACTERS/relationship chart.canvas",
-    "locations/Asilles/view from asilles.png",
-    "locations/Asilles/size comparison.png",
-    "locations/Asilles/image_0.00Ma.png",
-    "locations/Asilles/image2_0.00Ma.png",
-    "locations/Asilles/asilles plates map.png",
-    "locations/Asilles/asilles plates map new.png",
-    "locations/Asilles/asilles map current.png",
-    "locations/Asilles/asilles map current square.png",
-    "locations/Asilles/albedo and temp.png",
     "characters/relationship chart.canvas"
   ]
 }

@@ -32,7 +32,7 @@
   "bannerHeight": 200,
   "spacesDisablePatch": false,
   "folderNoteInsideFolder": true,
-  "folderNoteName": "",
+  "folderNoteName": "index",
   "sidebarTabs": true,
   "showRibbon": true,
   "vaultSelector": true,
@@ -70,14 +70,17 @@
     "//CHARACTERS/CHARACTERS/Character Template",
     "//CHARACTERS/CHARACTERS/misc art",
     "//CHARACTERS/CHARACTERS/Canelé/CHARACTERS/Canelé/art",
-    "//GALLERY",
     "//CHARACTERS/CHARACTERS/Kaeyomii/CHARACTERS/Kaeyomii/art",
     "//CHARACTERS",
-    "//CHARACTERS/CHARACTERS/Esela/CHARACTERS/Esela/art"
+    "//CHARACTERS/CHARACTERS/Esela",
+    "//CHARACTERS/CHARACTERS/Wefa"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
-  "suppressedWarnings": [],
+  "suppressedWarnings": [
+    "obsidian-sync-space-folder",
+    "obsidian-sync-space-config"
+  ],
   "spaceSubFolder": ".space",
   "hiddenFiles": [
     "__ARCHIVE",
