@@ -1,0 +1,5 @@
+---
+{"publish":true,"permalink":"/CHARACTERS/Merisdae/Merisdae.md","created":"2025-10-24T23:15:33.076-04:00","modified":"2025-10-26T09:41:42.540-04:00","published":"2025-10-26T09:41:42.540-04:00","cssclasses":"","Full Name":"Merisdae","Name Pronunciation":"MEHR-ihz-day","Character Type":"Main Character","Species":["[[SPECIES/Construct]]"],"Gender":"genderless","Status":"Alive","Pronouns":"they/she","Apparent Age":"ageless // mid-twenties","color":"linear-gradient(45deg, #4159d0 0%, #c84fc0 50%, #ffcd70 100%)","Current Location":"[[LOCATIONS/Kuraesmeris]]","Birthplace":"[[LOCATIONS/Kuraesmeris]]","Actual Age":"1301 years","Birth Year":"","Death Year":"","Eyes":"Pinkish-Magenta, with the Lunatine symbol in the pupils","Hair":"Long, flowy deep purple hair with blunt bangs and long sidelocks.","Height":"5'4'' or 164cm","Languages Spoken":["[[LANGUAGES/Varae]]"],"Skin Tone":"fair","Titles":"Construct of Moon"}
+---
+
+A construct created of five pieces of the Asilles moons. She was created to watch over and protect the moons.
