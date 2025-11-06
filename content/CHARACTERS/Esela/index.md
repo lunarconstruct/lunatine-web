@@ -1,5 +1,5 @@
 ---
-{"publish":true,"permalink":"/CHARACTERS/Esela/index.md","aliases":["Esela"],"title":"Esela Levenkagaelii","created":"2025-11-05T16:39:59.510-05:00","modified":"2025-11-06T07:45:07.753-05:00","published":"2025-11-06T07:45:07.753-05:00","cssclasses":"","Full Name":"Esela Levenkagaelii","Name Pronunciation":"eh-SEHL-uh","Character Type":"Main Character","Status":"Alive","Gender":"nonbinary","Pronouns":"she/they","Age":"103 years, appears 28","Actual Age":"103 years","Apparent age":"28 years","Perceived age range":"mid-to-late twenties","Birthdate":"5/26/1198","Birthdate (written)":"Yomiithe, Day 26 of Uruwa, Year 1198","Current Location":[["Kaemeris"]],"Birthplace":[["Kohoii"]],"Children":[["Kaeyomii"]],"Parents":[["Naediia"]],"Partners":[["Kulith"]],"Constructs":[["Merisdae"]],"Eyes":"light, pastel blue","Hair":"short, curly pastel pink bob, with blunt bangs","Height":"5'0'' // 152cm","Languages Spoken":[["Varae"]],"Skin Tone":"fair","Species":"[[SPECIES/Selhae/index]]","icon":"![[CHARACTERS/Esela/art/esela new icon 2.png|100]]"}
+{"publish":true,"permalink":"/CHARACTERS/Esela/index.md","aliases":["Esela"],"title":"Esela Levenkagaelii","created":"2025-11-05T16:39:59.510-05:00","modified":"2025-11-06T07:54:23.963-05:00","published":"2025-11-06T07:54:23.963-05:00","cssclasses":"","Full Name":"Esela Levenkagaelii","Name Pronunciation":"eh-SEHL-uh","Character Type":"Main Character","Status":"Alive","Gender":"nonbinary","Pronouns":"she/they","Age":"103 years, appears 28","Actual Age":"103 years","Apparent age":"28 years","Perceived age range":"mid-to-late twenties","Birthdate":"5/26/1198","Birthdate (written)":"Yomiithe, Day 26 of Uruwa, Year 1198","Current Location":[["Kaemeris"]],"Birthplace":[["Kohoii"]],"Children":[["Kaeyomii"]],"Parents":[["Naediia"]],"Partners":[["Kulith"]],"Constructs":[["Merisdae"]],"Eyes":"light, pastel blue","Hair":"short, curly pastel pink bob, with blunt bangs","Height":"5'0'' // 152cm","Languages Spoken":[["Varae"]],"Skin Tone":"fair","Species":"[[SPECIES/Selhae/index]]","icon":"![[CHARACTERS/Esela/art/esela new icon 2.png|100]]"}
 ---
 
 ## About
@@ -67,10 +67,10 @@ she feels guilty about leaving kohoii, wants to help people as much as she can t
 
 ## Social
 ### Contacts & Relations
-[[CHARACTERS/Naediia/index]] - mother
+[[CHARACTERS/Naediia/index\|Naediia]] - mother
 [[CHARACTERS/Reika/Reika]] - grandmother
 [[CHARACTERS/Soren/Soren]] - childhood friend
-[[CHARACTERS/Kulith/Kulith]] - partner
+[[CHARACTERS/Kulith/index]] - partner
 [[GALLERY/kaeyomii]] - daughter
 [[CHARACTERS/Merisdae/Merisdae]] - construct
 ### Family Ties
