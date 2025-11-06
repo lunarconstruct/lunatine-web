@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>Soul</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Lunatine Wiki"/><meta property="og:title" content="Soul"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Soul"/><meta name="twitter:description" content="Soul tags: magic The heart of a living being, made of concentrated Dust."/><meta property="og:description" content="Soul tags: magic The heart of a living being, made of concentrated Dust."/><meta property="og:image:alt" content="Soul tags: magic The heart of a living being, made of concentrated Dust."/><meta property="twitter:domain" content="lunatine.lunarconstruct.net"/><meta property="og:url" content="https://lunatine.lunarconstruct.net/CONCEPTS/Soul"/><meta property="twitter:url" content="https://lunatine.lunarconstruct.net/CONCEPTS/Soul"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="Soul tags: magic The heart of a living being, made of concentrated Dust."/><meta name="generator" content="Quartz"/><link href="../../index.css" rel="stylesheet" type="text/css" spa-preserve/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  padding: 2rem;
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL2hvbWUvbHVuYXJjb25zdHJ1Y3QvcXVhcnR6L3F1YXJ0ei9jb21wb25lbnRzL3N0eWxlcyIsInNvdXJjZXMiOlsibWVybWFpZC5pbmxpbmUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTs7O0FBS0Y7RUFDRTtFQUNBOzs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBOztBQUdGO0VBQ0U7RUFDQTs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTs7QUFJRjtFQUNFO0VBQ0E7RUFDQSIsInNvdXJjZXNDb250ZW50IjpbIi5leHBhbmQtYnV0dG9uIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbG9hdDogcmlnaHQ7XG4gIHBhZGRpbmc6IDAuNHJlbTtcbiAgbWFyZ2luOiAwLjNyZW07XG4gIHJpZ2h0OiAwOyAvLyBOT1RFOiByaWdodCB3aWxsIGJlIHNldCBpbiBtZXJtYWlkLmlubGluZS50c1xuICBjb2xvcjogdmFyKC0tZ3JheSk7XG4gIGJvcmRlci1jb2xvcjogdmFyKC0tZGFyayk7XG4gIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgYm9yZGVyOiAxcHggc29saWQ7XG4gIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgb3BhY2l0eTogMDtcbiAgdHJhbnNpdGlvbjogMC4ycztcblxuICAmID4gc3ZnIHtcbiAgICBmaWxsOiB2YXIoLS1saWdodCk7XG4gICAgZmlsdGVyOiBjb250cmFzdCgwLjMpO1xuICB9XG5cbiAgJjpob3ZlciB7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIGJvcmRlci1jb2xvcjogdmFyKC0tc2Vjb25kYXJ5KTtcbiAgfVxuXG4gICY6Zm9jdXMge1xuICAgIG91dGxpbmU6IDA7XG4gIH1cbn1cblxucHJlIHtcbiAgJjpob3ZlciA+IC5leHBhbmQtYnV0dG9uIHtcbiAgICBvcGFjaXR5OiAxO1xuICAgIHRyYW5zaXRpb246IDAuMnM7XG4gIH1cbn1cblxuI21lcm1haWQtY29udGFpbmVyIHtcbiAgcG9zaXRpb246IGZpeGVkO1xuICBjb250YWluOiBsYXlvdXQ7XG4gIHotaW5kZXg6IDk5OTtcbiAgbGVmdDogMDtcbiAgdG9wOiAwO1xuICB3aWR0aDogMTAwdnc7XG4gIGhlaWdodDogMTAwdmg7XG4gIG92ZXJmbG93OiBoaWRkZW47XG4gIGRpc3BsYXk6IG5vbmU7XG4gIGJhY2tkcm9wLWZpbHRlcjogYmx1cig0cHgpO1xuICBiYWNrZ3JvdW5kOiByZ2JhKDAsIDAsIDAsIDAuNSk7XG5cbiAgJi5hY3RpdmUge1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgfVxuXG4gICYgPiAjbWVybWFpZC1zcGFjZSB7XG4gICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gICAgYm9yZGVyLXJhZGl1czogNXB4O1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICB0b3A6IDUwJTtcbiAgICBsZWZ0OiA1MCU7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7XG4gICAgaGVpZ2h0OiA4MHZoO1xuICAgIHdpZHRoOiA4MHZ3O1xuICAgIG92ZXJmbG93OiBoaWRkZW47XG5cbiAgICAmID4gLm1lcm1haWQtY29udGVudCB7XG4gICAgICBwYWRkaW5nOiAycmVtO1xuICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgdHJhbnNmb3JtLW9yaWdpbjogMCAwO1xuICAgICAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDAuMXMgZWFzZTtcbiAgICAgIG92ZXJmbG93OiB2aXNpYmxlO1xuICAgICAgbWluLWhlaWdodDogMjAwcHg7XG4gICAgICBtaW4td2lkdGg6IDIwMHB4O1xuXG4gICAgICBwcmUge1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgIGJvcmRlcjogbm9uZTtcbiAgICAgIH1cblxuICAgICAgc3ZnIHtcbiAgICAgICAgbWF4LXdpZHRoOiBub25lO1xuICAgICAgICBoZWlnaHQ6IGF1dG87XG4gICAgICB9XG4gICAgfVxuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRyb2xzIHtcbiAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgIGJvdHRvbTogMjBweDtcbiAgICAgIHJpZ2h0OiAyMHB4O1xuICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgIGdhcDogOHB4O1xuICAgICAgcGFkZGluZzogOHB4O1xuICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgIGJvcmRlci1yYWRpdXM6IDZweDtcbiAgICAgIGJveC1zaGFkb3c6IDAgMnB4IDRweCByZ2JhKDAsIDAsIDAsIDAuMSk7XG4gICAgICB6LWluZGV4OiAyO1xuXG4gICAgICAubWVybWFpZC1jb250cm9sLWJ1dHRvbiB7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICB3aWR0aDogMzJweDtcbiAgICAgICAgaGVpZ2h0OiAzMnB4O1xuICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICAgIGNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICAgICAgZm9udC1mYW1pbHk6IHZhcigtLWJvZHlGb250KTtcbiAgICAgICAgdHJhbnNpdGlvbjogYWxsIDAuMnMgZWFzZTtcblxuICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICB9XG5cbiAgICAgICAgJjphY3RpdmUge1xuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgxcHgpO1xuICAgICAgICB9XG5cbiAgICAgICAgLy8gU3R5bGUgdGhlIHJlc2V0IGJ1dHRvbiBkaWZmZXJlbnRseVxuICAgICAgICAmOm50aC1jaGlsZCgyKSB7XG4gICAgICAgICAgd2lkdGg6IGF1dG87XG4gICAgICAgICAgcGFkZGluZzogMCAxMnB4O1xuICAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cbiAgfVxufVxuIl19 */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><script src="../../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch("../../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://lunatine.lunarconstruct.net/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://lunatine.lunarconstruct.net/CONCEPTS/Soul-og-image.webp"/><meta property="og:image:url" content="https://lunatine.lunarconstruct.net/CONCEPTS/Soul-og-image.webp"/><meta name="twitter:image" content="https://lunatine.lunarconstruct.net/CONCEPTS/Soul-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="CONCEPTS/Soul/index"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">Lunatine Wiki</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-95"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-95" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-3"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../CONCEPTS/">CONCEPTS</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Soul</a></div></nav><h1 class="article-title">Soul</h1><p show-comma="true" class="content-meta"><time datetime="2025-11-06T03:46:36.000Z">Nov 05, 2025</time><span>10 min read</span></p></div></div><div class="popover-hint"><article class><h1 id="soul">Soul<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#soul" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p>tags: magic</p>
+<p>The heart of a living being, made of concentrated <a href="../Dust-e5dd6dcde4974c6ca3920c91cad7c2cb" class="internal alias" data-slug="Dust-e5dd6dcde4974c6ca3920c91cad7c2cb">Dust</a>. They can be created with the power of <a href="../Creation-514a94ac18e24c60b6ca42ca5f194015" class="internal alias" data-slug="Creation-514a94ac18e24c60b6ca42ca5f194015">Creation</a>, or through reproduction in a species with Souls.</p>
+<p><a href="../Selhae-822e316012e74ddba8bb5c6faf31fe66" class="internal alias" data-slug="Selhae-822e316012e74ddba8bb5c6faf31fe66">Selhae</a> and <a href="../Fae-0d82fa7326324372a247af4a753935ff" class="internal alias" data-slug="Fae-0d82fa7326324372a247af4a753935ff">Fae</a> are all born with souls, and <a href="../Construct-38fe566bb96341be8aa944ee36e73b6d" class="internal alias" data-slug="Construct-38fe566bb96341be8aa944ee36e73b6d">Construct</a>s have an artificial soul made from a piece of their creators soul and <a href="../Essence-175c5cb610f580449e11d1751073f30c" class="internal alias" data-slug="Essence-175c5cb610f580449e11d1751073f30c">Essence</a> in an inanimate object.</p>
+<p><a href="../Inna-99642857c4464973a4612f6533cb754d" class="internal alias" data-slug="Inna-99642857c4464973a4612f6533cb754d">Inna</a> souls are created in the form of a <a href="../World-Seed-79ce63c075c84da084bc3ad1f11cab5e" class="internal alias" data-slug="World-Seed-79ce63c075c84da084bc3ad1f11cab5e">World Seed</a>.</p>
+<hr/>
+<h1 id="makeup--complete-vs-incomplete-souls">Makeup / Complete vs Incomplete Souls<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#makeup--complete-vs-incomplete-souls" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p>The makeup of a being’s soul can be thought of in layers. Generally, the way this appears is with a smaller, compressed Soul <strong>core</strong> within an outer Essence <strong>shell</strong>.</p>
+<aside>
+<img src="https://www.notion.so/icons/stars_pink.svg" alt="https://www.notion.so/icons/stars_pink.svg" width="40px"/>
+<p><a href="../Inna-99642857c4464973a4612f6533cb754d" class="internal alias" data-slug="Inna-99642857c4464973a4612f6533cb754d">Inna</a> are beings made purely of Soul dust. They contain no Essence, and thus do not have a physical form.</p>
+<hr/>
+<p><a href="../Selhae-822e316012e74ddba8bb5c6faf31fe66" class="internal alias" data-slug="Selhae-822e316012e74ddba8bb5c6faf31fe66">Selhae</a> and <a href="../Fae-0d82fa7326324372a247af4a753935ff" class="internal alias" data-slug="Fae-0d82fa7326324372a247af4a753935ff">Fae</a> follow the most common structure of being. This is a soul, surrounded by essence that provides a physical form and appearance to the being.</p>
+<hr/>
+<p><a href="../Construct-38fe566bb96341be8aa944ee36e73b6d" class="internal alias" data-slug="Construct-38fe566bb96341be8aa944ee36e73b6d">Construct</a>s are similar to the Selhae and Fae, except their soul is incomplete. The soul dust within them, on its own, is not enough to facilitate life. So, it is supplemented with Essence. This is unique to constructs, and cannot be done to normal Selhae or Fae souls.</p>
+</aside>
+<p><img src="../image-3.png" alt="a diagram showing the dust makeup of different beings. purple - soul, blue - essence"/></p>
+<p>a diagram showing the dust makeup of different beings. purple - soul, blue - essence</p>
+<ul>
+<li>Inna only have a soul and no physical appearance.</li>
+<li>Selhae/Fae have a complete soul and a physical appearance</li>
+<li>Constructs have an incomplete soul but still have a physical appearance</li>
+</ul>
+<p>The definition of an “incomplete” soul is not exact. It is more defined by how it affects the being the soul belongs to. The less dust a being has, the harder it becomes for the being to hold its form and retain said dust.</p>
+<ul>
+<li>[idk about this explanation actually] For example - if you were to measure dust in its weight, and the average Selhae/Fae has 100g of soul dust:
+<ul>
+<li>A being with 100g of soul dust - The soul is strong enough to hold the essence/shell layer together, and keeps the being alive.
+<ul>
+<li>This would be a complete Selhae or Fae.</li>
+</ul>
+</li>
+<li>A being with 25g of soul dust wouldn’t be strong enough to survive on its own. The essence/shell layer would not be able to be held together, and the being would begin to fade.
+<ul>
+<li>Its soul could be rounded out with 75g of essence dust to essentially supplement the low amount of soul dust. This is <a href="../Construction-aefd8cb2a0184071a880b20e5ad2d552" class="internal alias" data-slug="Construction-aefd8cb2a0184071a880b20e5ad2d552">Construction</a>, taking a small piece of soul and supplementing it with essence to create a stable being.</li>
+<li>This being would be a Construct</li>
+</ul>
+</li>
+<li>A being with 75g of soul dust is strong enough on its own, and doesn’t need essence to supplement it. this is a selhae who has created a construct or maybe a multitude of small constructs. its soul is still considered “complete”, since it can support itself without essence supplement
+<ul>
+<li>if this being kept making constructs and taking more of its soul to do so, it would put itself at risk of becoming an “incomplete” soul itself.</li>
+<li>this would be bad because a selhae cannot regenerate soul, but also cannot turn themselves into constructs by rounding themselves out with essence</li>
+<li>if the selhae were to become incomplete in this way, they would begin losing their dust (essentially dying) due to not being able to hold themselves together anymore. no strength left</li>
+<li>this has not often happened, as it is easily preventable via “stop making fucking constructs or you’ll literally die” fjkdsfjsdkfdjskf</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr/>
+<h1 id="archetypes">Archetypes<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#archetypes" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p>Each soul resonates with an “archetype”, determining their natural “gifts” or “abilities”. These gifts are magic in nature, providing the user abilities one would not have without the same archetype. These come from resonating with specific types and amounts of <a href="../Dust-e5dd6dcde4974c6ca3920c91cad7c2cb" class="internal alias" data-slug="Dust-e5dd6dcde4974c6ca3920c91cad7c2cb">Dust</a> in ones soul. The more Dust you resonate with, the more powerful these abilities become.</p>
+<p><img src="../GRAPHICS/archetypes.png" alt="archetypes.png"/></p>
+<p>There is a sort of hierarchy (not social, but metaphorical) of the archetypes, since some are more “powerful” than others. It can be visualized as a circle, the further inward you get (closer to the core of your soul) the more powerful your magic is, both within your ring and within the whole circle.</p>
+<h3 id="shell-archetypes--outer-soul-archetypes">Shell Archetypes / Outer Soul Archetypes<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#shell-archetypes--outer-soul-archetypes" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>The outermost layer, like a shell, interacts with the tangible world, offering protection, structure, and practicality. There are many types of Shell Archetypes, and it is the most common archetype as well.</p>
+<h3 id="veil-archetypes--middle-soul-archetypes">Veil Archetypes / Middle Soul Archetypes<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#veil-archetypes--middle-soul-archetypes" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>The middle layer acts as a veil or bridge between the surface and the core, with abilities focused on connection, discovery, and interaction. Veil Archetypes are slightly less common than Shell Archetypes, but are not unheard of in regular individuals.</p>
+<h3 id="core-archetypes--inner-soul-archetypes">Core Archetypes / Inner Soul Archetypes<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#core-archetypes--inner-soul-archetypes" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>The deepest, most essential layer of the soul, representing intrinsic truth, insight, and power. Core Archetypes can be very powerful, and there have only been a handful of Essence Archetypes discovered. It is rare to have these archetypes, as it means one has a very strong resonance with the core of their soul.</p>
+<p>A list of known archetypes is as follows:</p>
+<h3 id="outer-soul-archetypes-shell">Outer Soul Archetypes (Shell)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#outer-soul-archetypes-shell" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ol>
+<li><strong>Architect’s Soul</strong>
+<ul>
+<li><strong>Theme</strong>: Building, Creation of inanimate things</li>
+<li><strong>Abilities</strong>: Creating tools, buildings, bridges, etc.</li>
+</ul>
+</li>
+<li><strong>Shaper’s Soul</strong>
+<ul>
+<li><strong>Theme</strong>: Transformation and refinement.</li>
+<li><strong>Abilities</strong>: Altering forms, improving objects, or refining raw materials into perfected states.</li>
+</ul>
+</li>
+<li><strong>Scribe’s Soul</strong>
+<ul>
+<li><strong>Theme</strong>: Knowledge and memory.</li>
+<li><strong>Abilities</strong>: Recording events, preserving information, or recalling precise details.</li>
+</ul>
+</li>
+<li><strong>Guardian’s Soul</strong>
+<ul>
+<li><strong>Theme</strong>: Protection and defense.</li>
+<li><strong>Abilities</strong>: Creating shields, reinforcing structures, or intercepting harmful forces.</li>
+<li>Notable Characters: <a href="../Naediia-dc678366936e41f384da240a61708663" class="internal alias" data-slug="Naediia-dc678366936e41f384da240a61708663">Naediia</a></li>
+</ul>
+</li>
+<li><strong>Harvester’s Soul</strong>
+<ul>
+<li><strong>Theme</strong>: Collection and absorption.</li>
+<li><strong>Abilities</strong>: Drawing energy from surroundings, gathering resources, or storing power.</li>
+</ul>
+</li>
+<li><strong>Crafter’s Soul</strong>
+<ul>
+<li><strong>Theme</strong>: Practicality and ingenuity.</li>
+<li><strong>Abilities</strong>: Repairing broken objects, crafting functional tools, or improving pre-existing designs.</li>
+</ul>
+</li>
+<li><strong>Forager’s Soul</strong>
+<ul>
+<li><strong>Theme</strong>: Survival and resourcefulness.</li>
+<li><strong>Abilities</strong>: Locating natural resources, identifying useful materials, or harvesting safely.</li>
+</ul>
+</li>
+<li><strong>Tinker’s Soul</strong>
+<ul>
+<li><strong>Theme</strong>: Mechanization and precision.</li>
+<li><strong>Abilities</strong>: Constructing intricate mechanisms, fine-tuning devices, or creating small automated constructs.</li>
+</ul>
+</li>
+<li><strong>Planter’s Soul</strong>
+<ul>
+<li><strong>Theme</strong>: Cultivation and growth.</li>
+<li><strong>Abilities</strong>: Encouraging plants to grow, restoring damaged ecosystems, or creating gardens.</li>
+</ul>
+</li>
+<li><strong>Tidecaller’s Soul</strong>
+<ul>
+<li><strong>Theme</strong>: Flow and motion.</li>
+<li><strong>Abilities</strong>: Manipulating liquids, creating currents, or ensuring smooth transitions.</li>
+<li>Notable Characters: <a href="../Canelé-612d94fd73f942e5be783bbe6b2327f8" class="internal" data-slug="Canelé-612d94fd73f942e5be783bbe6b2327f8">Canel<strong>é</strong></a></li>
+</ul>
+</li>
+</ol>
+<h3 id="middle-soul-archetypes-veil">Middle Soul Archetypes (Veil)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#middle-soul-archetypes-veil" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ol>
+<li><strong>Healer’s Soul</strong>
+<ul>
+<li><strong>Theme</strong>: Restoration and preservation.</li>
+<li><strong>Abilities</strong>: Healing physical wounds, mending objects, or restoring emotional balance.</li>
+</ul>
+</li>
+<li><strong>Seeker’s Soul</strong>
+<ul>
+<li><strong>Theme</strong>: Discovery and exploration.</li>
+<li><strong>Abilities</strong>: Sensing hidden truths, tracking, navigating, teleportation.</li>
+<li><strong>Notable Characters</strong>: <a href="../Esela-7a0dac9b9d0f422489c6e9609eef84a6" class="internal alias" data-slug="Esela-7a0dac9b9d0f422489c6e9609eef84a6">Esela</a>, <a href="../Reika-c3f81d2257d84c019e43faa2f13a035c" class="internal alias" data-slug="Reika-c3f81d2257d84c019e43faa2f13a035c">Reika</a></li>
+</ul>
+</li>
+<li><strong>Warden’s Soul</strong>
+<ul>
+<li><strong>Theme</strong>: Restraint and containment.</li>
+<li><strong>Abilities</strong>: Binding forces, imprisoning energy, or restricting movement.</li>
+<li><strong>Notable Characters</strong> : <a href="../BuroMerisdae-15ac5cb610f580c68399dc731bfb73a3" class="internal alias" data-slug="BuroMerisdae-15ac5cb610f580c68399dc731bfb73a3">BuroMerisdae</a></li>
+</ul>
+</li>
+<li><strong>Shadow’s Soul</strong>
+<ul>
+<li><strong>Theme</strong>: Subtlety and concealment.</li>
+<li><strong>Abilities</strong>: Hiding, cloaking objects, or moving unseen.</li>
+<li>Notable Characters: <a href="../FolMerisdae-15ac5cb610f58017bff4e17bc3e19042" class="internal alias" data-slug="FolMerisdae-15ac5cb610f58017bff4e17bc3e19042">FolMerisdae</a></li>
+</ul>
+</li>
+<li><strong>Muse’s Soul</strong>
+<ul>
+<li><strong>Theme</strong>: Inspiration and creativity.</li>
+<li><strong>Abilities</strong>: Sparking innovation, influencing emotions, or enhancing artistic expression.</li>
+<li>Notable Characters: <a href="../HiitoMerisdae-15ac5cb610f5808c8a2ed7f52d75dd55" class="internal alias" data-slug="HiitoMerisdae-15ac5cb610f5808c8a2ed7f52d75dd55">HiitoMerisdae</a></li>
+</ul>
+</li>
+</ol>
+<h3 id="inner-soul-archetypes-core">Inner Soul Archetypes (Core)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#inner-soul-archetypes-core" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Seer’s Soul</strong>
+<ul>
+<li><strong>Theme</strong>: Insight and foresight.</li>
+<li><strong>Abilities</strong>: Seeing into the past, glimpsing potential futures, or sensing the flow of fate.</li>
+<li><strong>Notable Characters:</strong> <a href="../Kaeyomii-5142f8eb7e52434bb492e122dceb3f62" class="internal alias" data-slug="Kaeyomii-5142f8eb7e52434bb492e122dceb3f62">Kaeyomii</a>, <a href="../KaeMerisdae-15ac5cb610f580f08af0f538639b8e4e" class="internal alias" data-slug="KaeMerisdae-15ac5cb610f580f08af0f538639b8e4e">KaeMerisdae</a></li>
+</ul>
+</li>
+<li><strong>Catalyst’s Soul</strong>
+<ul>
+<li><strong>Theme</strong>: Amplification and acceleration.</li>
+<li><strong>Abilities</strong>: Enhancing existing forces, speeding up reactions, or magnifying the power of others.</li>
+<li>Notable Characters: <a href="../KuraesMerisdae-15ac5cb610f580fe93dfd8851dd0aeb5" class="internal alias" data-slug="KuraesMerisdae-15ac5cb610f580fe93dfd8851dd0aeb5">KuraesMerisdae</a></li>
+</ul>
+</li>
+<li><strong>Resonator’s Soul</strong>
+<ul>
+<li><strong>Theme</strong>: Resonance and equilibrium.</li>
+<li><strong>Abilities</strong>: Harmonizing the unseen forces of the world, wielding sound and vibrations to create balance or upheaval.</li>
+<li>Notable Characters: <a href="../Kulith-6b51a534f7f148af8253f5706f402a1b" class="internal alias" data-slug="Kulith-6b51a534f7f148af8253f5706f402a1b">Kulith</a></li>
+</ul>
+</li>
+</ul>
+<hr/>
+<h1 id="selhae-souls">Selhae Souls<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#selhae-souls" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p><a href="../Selhae-822e316012e74ddba8bb5c6faf31fe66" class="internal alias" data-slug="Selhae-822e316012e74ddba8bb5c6faf31fe66">Selhae</a> souls work <em>inwards</em>, towards the core of the self.</p>
+<p>Selhae souls do not regenerate dust, and thus have a finite amount of dust before the user’s power wanes. When a Selhae’s soul gets too low on dust, they become unable to use their powers - this is to prevent them from using the last of their dust, as this will result in the Selhae’s death.</p>
+<p>Archetypes don’t have too much of an impact on Selhae society - it’s encouraged to follow a profession that matches what you wish to do rather than your soul archetype, as these do not always align. One may have an architect’s soul, but prefer the arts to building. They can choose to find a way to use their powers in their profession if they’d like, but it is not necessary. for example, an artist with an architect’s soul could use their abilities to create a gallery for their artwork. or, they can create fine paintbrushes to use in their paintings.</p>
+<aside>
+<img src="https://www.notion.so/icons/sword_blue.svg" alt="https://www.notion.so/icons/sword_blue.svg" width="40px"/>
+<p>It is not unheard of, however, for Selhae with Core Archetypes to be regarded highly. In the case of <a href="../Kulith-6b51a534f7f148af8253f5706f402a1b" class="internal alias" data-slug="Kulith-6b51a534f7f148af8253f5706f402a1b">Kulith</a>, for example, her highly in-tune Resonator’s soul is what captured the attention of <a href="../Solei-a43736a3946f491ab5b40ad8e7fab381" class="internal alias" data-slug="Solei-a43736a3946f491ab5b40ad8e7fab381">Solei</a> - leading to her kidnapping and use as a weapon.</p>
+</aside>
+<h2 id="constructs">Constructs<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#constructs" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Within the soul is the magic of <a href="../Construction-aefd8cb2a0184071a880b20e5ad2d552" class="internal alias" data-slug="Construction-aefd8cb2a0184071a880b20e5ad2d552">Construction</a>. This magic is unique to Selhae, as you require both a complete soul (meaning <a href="../Construct-38fe566bb96341be8aa944ee36e73b6d" class="internal alias" data-slug="Construct-38fe566bb96341be8aa944ee36e73b6d">Construct</a>s cannot create other Constructs), and you must be able to access the power within your soul (meaning <a href="../Fae-0d82fa7326324372a247af4a753935ff" class="internal alias" data-slug="Fae-0d82fa7326324372a247af4a753935ff">Fae</a> cannot create constructs as their souls work outwards, rather than inwards).</p>
+<blockquote>
+<p><strong>Construction</strong> is defined as:</p>
+<p>The act of creating a living being, by imbuing an inanimate object (<a href="../Essence-175c5cb610f580449e11d1751073f30c" class="internal alias" data-slug="Essence-175c5cb610f580449e11d1751073f30c">Essence</a>) with a soulpiece from the creator’s <a href="../Soul-f5650c5d3be2487194e629cc898ca601" class="internal alias" data-slug="Soul-f5650c5d3be2487194e629cc898ca601">Soul</a>. The soulpiece and magic are then pulled out of the object, resulting in a living being that can take on almost any form the creator wishes, including humanoid, animal, and mythical creature forms.</p>
+<p><img src="../image-2.png" alt="image.png"/></p>
+</blockquote>
+<p>While Constructs are regarded by Selhae to have souls, their soul is not “complete” as they are in Selhae. Most constructs don’t have a complete soul but instead a soulpiece, which would follow the same archetype as their creator.</p>
+<aside>
+<img src="https://www.notion.so/icons/moon_purple.svg" alt="https://www.notion.so/icons/moon_purple.svg" width="40px"/>
+<p><a href="../Merisdae-96ee77d2a5d24d1aa718c98ca012d365" class="internal alias" data-slug="Merisdae-96ee77d2a5d24d1aa718c98ca012d365">Merisdae</a> is a sort of exception to this, due to her having more soul than most constructs. As Merisdae was constructed by the <a href="../Inna-99642857c4464973a4612f6533cb754d" class="internal alias" data-slug="Inna-99642857c4464973a4612f6533cb754d">Inna</a>, she causes an exception. She has a full soul with 5 archetypes, one for each of the moons. This is what causes her splits into multiple constructs. This also allows her to create constructs herself, such as <a href="../Canelé-612d94fd73f942e5be783bbe6b2327f8" class="internal" data-slug="Canelé-612d94fd73f942e5be783bbe6b2327f8">Canel<strong>é</strong></a>.</p>
+</aside>
+<h3 id="soulbonding">Soulbonding<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#soulbonding" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Constructs are more temporary beings, they’re inextricably linked to their creator due to the soul piece being the only soul they have. This link is called a Soulbond.</p>
+<p>Generally, this results in the construct having the same soul archetype as their creator.</p>
+<p>Additionally, since a constructs soul is partly essence from whatever object they were created from (moon, in merisdae’s case for example), it would also gain traits from whatever object it was (merisdae has some sort of gravity powers)</p>
+<hr/>
+<h1 id="fae-souls">Fae Souls<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#fae-souls" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p><a href="../Fae-0d82fa7326324372a247af4a753935ff" class="internal alias" data-slug="Fae-0d82fa7326324372a247af4a753935ff">Fae</a> souls work <em>outwards</em>, towards the elements.</p>
+<p>While fae souls do technically still resonate with an archetype, due to the direction their soul works in, fae do not receive any powers or abilities from its archetype.</p>
+<hr/>
+<h1 id="inna-souls">Inna Souls<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#inna-souls" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<hr/>
+<ul>
+<li>i guess technically it would make the creator’s soul a bit less complete, since a piece is taken out, but i think it also depends on how big the soul piece is compared to the creator’s soul
+<ul>
+<li>can they regenerate this now missing piece of soul?
+<ul>
+<li>depends on the being -
+<ul>
+<li>selhae cannot regenerate their soul, since they (as well as fae) do not have the power of <a href="../Creation-514a94ac18e24c60b6ca42ca5f194015" class="internal alias" data-slug="Creation-514a94ac18e24c60b6ca42ca5f194015">Creation</a> - they cannot turn pure dust into soul dust and thus cannot regenerate</li>
+<li>inna however would theoretically be able to do this, since they do have the power of creation
+<ul>
+<li>this is what i want to limit when i talk about <a href="../pando’s-lore-questions-f92efb943ce5464da87b4835d97ba540" class="internal alias" data-slug="pando’s-lore-questions-f92efb943ce5464da87b4835d97ba540">plus since inna can turn dust into soul dust anyway they can easily regenerate their own soul. tho i gotta work on that bc whats preventing any old inna from just taking a shitton of dormant dust just like sitting in the universe and making their soul hella strong? ive gotta make some sort of limitation to that</a> but i don’t know how i would lmao</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>can they absorb the construct again once its intended purpose is fulfilled?
+<ul>
+<li>yes ( see <a href="https://www.notion.so/the-creator-can-also-de-construct-them-at-will-as-well-187c5cb610f58019bd11d39952931822?pvs=21" class="external">the creator can also de-construct them at will as well<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> )</li>
+<li>the soul piece returns back to the creator</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>maybe its only considered “incomplete” if like 50%+ is taken out for the construct? the creator’s strength would be significantly hindered if that much of their soul was removed, since they wouldn’t have essence to round them back out again ykwim
+<ul>
+<li>this is a little too vaguely written for me to get a solid idea, like i get it, i think, but i’m still unsure if you’re sure lmaO</li>
+</ul>
+</li>
+</ul></article><div class="page-listing"><p>3 items under this folder.</p><div><ul class="section-ul"><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-11-06T03:49:33.000Z">Nov 05, 2025</time></p><div class="desc"><h3><a href="../CONCEPTS/Soul/Archetypes/" class="internal">Archetypes</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-11-06T03:49:33.000Z">Nov 05, 2025</time></p><div class="desc"><h3><a href="../CONCEPTS/Soul/Soul" class="internal">Soul</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-11-06T03:46:36.000Z">Nov 05, 2025</time></p><div class="desc"><h3><a href="../CONCEPTS/Soul/Soul-Makeup" class="internal">Soul Makeup</a></h3></div><ul class="tags"></ul></div></li></ul></div></div></div><hr/><div class="page-footer"></div></div><div class="right sidebar"></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2025</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></div></body><script type="application/javascript">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module">function f(i,e){if(!i)return;function r(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function t(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}i?.addEventListener("click",r),window.addCleanup(()=>i?.removeEventListener("click",r)),document.addEventListener("keydown",t),window.addCleanup(()=>document.removeEventListener("keydown",t))}function y(i){for(;i.firstChild;)i.removeChild(i.firstChild)}var h=class{constructor(e,r){this.container=e;this.content=r;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),r=this.onMouseMove.bind(this),t=this.onMouseUp.bind(this),o=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",r),document.addEventListener("mouseup",t),window.addEventListener("resize",o),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",r),()=>document.removeEventListener("mouseup",t),()=>window.removeEventListener("resize",o))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let r=this.createButton("+",()=>this.zoom(.1)),t=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(t),e.appendChild(o),e.appendChild(r),this.container.appendChild(e)}createButton(e,r){let t=document.createElement("button");return t.textContent=e,t.className="mermaid-control-button",t.addEventListener("click",r),window.addCleanup(()=>t.removeEventListener("click",r)),t}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}zoom(e){let r=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),t=this.content.getBoundingClientRect(),o=t.width/2,n=t.height/2,c=r-this.scale;this.currentPan.x-=o*c,this.currentPan.y-=n*c,this.scale=r,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){this.scale=1;let e=this.content.querySelector("svg");this.currentPan={x:e.getBoundingClientRect().width/2,y:e.getBoundingClientRect().height/2},this.updateTransform()}},C=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],E;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;E||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let r=E.default,t=new WeakMap;for(let n of e)t.set(n,n.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let a=t.get(s);a&&(s.innerHTML=a)}let n=C.reduce((s,a)=>(s[a]=window.getComputedStyle(document.documentElement).getPropertyValue(a),s),{}),c=document.documentElement.getAttribute("saved-theme")==="dark";r.initialize({startOnLoad:!1,securityLevel:"loose",theme:c?"dark":"base",themeVariables:{fontFamily:n["--codeFont"],primaryColor:n["--light"],primaryTextColor:n["--darkgray"],primaryBorderColor:n["--tertiary"],lineColor:n["--darkgray"],secondaryColor:n["--secondary"],tertiaryColor:n["--tertiary"],clusterBkg:n["--light"],edgeLabelBackground:n["--highlight"]}}),await r.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let n=0;n<e.length;n++){let v=function(){let g=l.querySelector("#mermaid-space"),m=l.querySelector(".mermaid-content");if(!m)return;y(m);let w=c.querySelector("svg").cloneNode(!0);m.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new h(g,m)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},c=e[n],s=c.parentElement,a=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(a),L=a.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),f(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../../postscript.js" type="module"></script></html>
