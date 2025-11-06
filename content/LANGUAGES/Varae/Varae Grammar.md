@@ -66,6 +66,14 @@ deii kuraesa   meris fa vae-sii**
 SUBJECT OBJECT    VERB
 **"**She looks at the beautiful moon"
 ```
+```gloss
+\ex deii kuraesa meris fa vaesii
+\gla deii kuraesa meris fa vae-sii
+\glb 3SG beautiful moon at look-PRS
+\glc SUBJECT (adj) OBJECT (adp) VERB
+\ft She looks at the beautiful moon.
+```
+
 
 ```jsx
 **"vaii siibte asu sokaso mosa"

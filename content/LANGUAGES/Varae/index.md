@@ -1,3 +1,7 @@
+---
+{"publish":true,"permalink":"/LANGUAGES/Varae/index.md","aliases":["Varae"],"created":"2025-11-05T16:41:19.744-05:00","modified":"2025-11-06T18:25:24.782-05:00","published":"2025-11-06T18:25:24.782-05:00","cssclasses":""}
+---
+
 # Varae
 
 Evolved from: InnaLang (InnaLang%20216c5cb610f580bf8b16f5a6561b91fb.md)

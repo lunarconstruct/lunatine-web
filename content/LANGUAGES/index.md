@@ -1,0 +1,10 @@
+- [[LANGUAGES/Acorithe/Acorithe Grammar\|Acorithe Grammar]]
+- [[LANGUAGES/Acorithe/acorithe translyrics template\|acorithe translyrics template]]
+- [[LANGUAGES/Acorithe/index\|index]]
+- [[LANGUAGES/index\|index]]
+- [[LANGUAGES/Innalang/InnaLang\|InnaLang]]
+- [[LANGUAGES/Varae/index\|index]]
+- [[LANGUAGES/Varae/Varae Grammar\|Varae Grammar]]
+- [[LANGUAGES/Varae/Varae Script\|Varae Script]]
+- [[LANGUAGES/Varae/varae translyrics template\|varae translyrics template]]
+
