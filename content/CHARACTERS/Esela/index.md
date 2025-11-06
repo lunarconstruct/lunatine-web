@@ -1,5 +1,5 @@
 ---
-{"publish":true,"permalink":"/CHARACTERS/Esela/index.md","aliases":["Esela"],"title":"Esela Levenkagaelii","created":"2025-11-05T16:39:59.510-05:00","modified":"2025-11-06T00:27:56.347-05:00","published":"2025-11-06T00:27:56.347-05:00","cssclasses":"","Full Name":"Esela Levenkagaelii","Name Pronunciation":"eh-SEHL-uh","Character Type":"Main Character","Status":"Alive","Gender":"nonbinary","Pronouns":"she/they","Age":"103 years, appears 28","Actual Age":"103 years","Apparent age":"28 years","Perceived age range":"mid-to-late twenties","Birthdate":"5/26/1198","Birthdate (written)":"Yomiithe, Day 26 of Uruwa, Year 1198","Current Location":[["Kaemeris"]],"Birthplace":[["Kohoii"]],"Children":[["Kaeyomii"]],"Parents":[["Naediia"]],"Partners":[["Kulith"]],"Constructs":[["Merisdae"]],"Eyes":"light, pastel blue","Hair":"short, curly pastel pink bob, with blunt bangs","Height":"5'0'' // 152cm","Languages Spoken":[["Varae"]],"Skin Tone":"fair","Species":"[[SPECIES/Selhae/index]]"}
+{"publish":true,"permalink":"/CHARACTERS/Esela/index.md","aliases":["Esela"],"title":"Esela Levenkagaelii","created":"2025-11-05T16:39:59.510-05:00","modified":"2025-11-06T07:37:19.983-05:00","published":"2025-11-06T07:37:19.983-05:00","cssclasses":"","Full Name":"Esela Levenkagaelii","Name Pronunciation":"eh-SEHL-uh","Character Type":"Main Character","Status":"Alive","Gender":"nonbinary","Pronouns":"she/they","Age":"103 years, appears 28","Actual Age":"103 years","Apparent age":"28 years","Perceived age range":"mid-to-late twenties","Birthdate":"5/26/1198","Birthdate (written)":"Yomiithe, Day 26 of Uruwa, Year 1198","Current Location":[["Kaemeris"]],"Birthplace":[["Kohoii"]],"Children":[["Kaeyomii"]],"Parents":[["Naediia"]],"Partners":[["Kulith"]],"Constructs":[["Merisdae"]],"Eyes":"light, pastel blue","Hair":"short, curly pastel pink bob, with blunt bangs","Height":"5'0'' // 152cm","Languages Spoken":[["Varae"]],"Skin Tone":"fair","Species":"[[SPECIES/Selhae/index]]"}
 ---
 
 ## About
@@ -67,7 +67,7 @@ she feels guilty about leaving kohoii, wants to help people as much as she can t
 
 ## Social
 ### Contacts & Relations
-[[CHARACTERS/Naediia/Naediia]] - mother
+[[CHARACTERS/Naediia/index]] - mother
 [[CHARACTERS/Reika/Reika]] - grandmother
 [[CHARACTERS/Soren/Soren]] - childhood friend
 [[CHARACTERS/Kulith/Kulith]] - partner
