@@ -1,5 +1,5 @@
 ---
-{"publish":true,"permalink":"/index.md","title":"Lunatine Wiki","created":"2025-11-05T17:56:16.117-05:00","modified":"2025-11-06T11:45:42.116-05:00","published":"2025-11-06T11:45:42.116-05:00","cssclasses":""}
+{"publish":true,"permalink":"/index.md","title":"Lunatine Wiki","created":"2025-11-05T17:56:16.117-05:00","modified":"2025-11-06T13:14:44.873-05:00","published":"2025-11-06T13:14:44.873-05:00","cssclasses":""}
 ---
 
 welcome to the lunatine wiki!
