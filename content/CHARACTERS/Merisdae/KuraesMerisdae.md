@@ -1,35 +1,30 @@
 ---
-{"publish":true,"permalink":"/CHARACTERS/Soren/Soren.md","created":"2025-11-05T16:41:03.220-05:00","modified":"2025-11-05T17:34:08.324-05:00","published":"2025-11-05T17:34:08.324-05:00","cssclasses":"","Actual Age":"1301 years"}
+{"publish":true,"permalink":"/CHARACTERS/Merisdae/KuraesMerisdae.md","created":"2025-11-05T16:40:32.053-05:00","modified":"2025-11-05T17:34:06.906-05:00","published":"2025-11-05T17:34:06.906-05:00","cssclasses":"","Actual Age":"1301 years","Ruler/Owner of":"Kuraesmeris (Kuraesmeris%2039c7d3756b5b49399f2860c0862ed433.md)"}
 ---
 
-# Soren
+# KuraesMerisdae
 
-Full Name: Soren Daerikagaelii
-Name Pronunciation: SOH-rehn
-Character Type: Minor Character
-Status: Unknown
-Gender: nonbinary
-Pronouns: they/them
-Age: 80 years, appears 27
-Actual Age: 80 years
-Apparent age: 27 years
-Apparent Age: early to mid twenties
-Birthdate: 7/15/1221
-Birthdate (written): Athe, Day 15 of Suswa, Year 1221
-Current Location: Kohoii (Kohoii%205ec34e8227ec4373998d026fd09ee730.md)
-Birthplace: Kohoii (Kohoii%205ec34e8227ec4373998d026fd09ee730.md)
-Parents: Paeyiilos (Paeyiilos%20232c5cb610f58053b867dfaa978e0bb3.md)
-Eyes: brown
-Hair: blonde
-Height: 5’2”
+Status: Alive
+Gender: genderless
+Pronouns: they/she
+Apparent Age: ageless
+mid-twenties
+Current Location: Kuraesmeris (Kuraesmeris%2039c7d3756b5b49399f2860c0862ed433.md)
+Birthplace: Kuraesmeris (Kuraesmeris%2039c7d3756b5b49399f2860c0862ed433.md)
+Eyes: Dark Purple, with the Lunatine symbol in their pupils in a lighter, magenta-pink color.
+Hair: Long, straight, flowy deep purple hair with blunt bangs and long sidelocks.
+Height: 5'4'' or 164cm
 Languages Spoken: Varae (Varae%20cbf0bf7060c841f8a0858a33fab063a6.md)
-Skin Tone: tan
-Species: Selhae (Selhae%20822e316012e74ddba8bb5c6faf31fe66.md)
-related characters: , @Paeyiilos
+Rank: Guardian
+Ruler/Owner of:: Kuraesmeris (Kuraesmeris%2039c7d3756b5b49399f2860c0862ed433.md)
+Skin Tone: fair
+Species: Construct (Construct%2038fe566bb96341be8aa944ee36e73b6d.md)
+Titles: Construct of Crescentmoon
+main character: Merisdae (Merisdae%2096ee77d2a5d24d1aa718c98ca012d365.md)
 
-[pinterest board or smth goes here]
+[https://www.pinterest.com/lunarconstruct/merisdae/](https://www.pinterest.com/lunarconstruct/merisdae/)
 
-![esela new 2.png](esela_new_2%202.png)
+![new crescentmoon_momo.png](new_crescentmoon_momo%201.png)
 
 ## About
 
@@ -55,6 +50,8 @@ related characters: , @Paeyiilos
 ### **Physical quirks**
 
 ### **Special abilities**
+
+[**Catalyst’s Soul**](Soul%20f5650c5d3be2487194e629cc898ca601.md) 
 
 ### **Apparel & Accessories**
 
@@ -114,10 +111,7 @@ related characters: , @Paeyiilos
 
 ### **Motivation**
 
-- tip
-    
-    `Desires and priorities that drive this character.`
-    
+"all beings are worthy of love, happiness, and forgiveness. if no one else will give that to you, then i will be the one who does."
 
 ### Famous Quotes & Catchphrases
 
@@ -134,10 +128,7 @@ related characters: , @Paeyiilos
 
 ### **Vices & Personality flaws**
 
-- tip
-    
-    `Addictions, secret beliefs etc`
-    
+too forgiving, trusting, selfless, to a fault
 
 ### **Personality Quirks**
 
