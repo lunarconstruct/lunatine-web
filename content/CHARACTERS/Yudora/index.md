@@ -1,4 +1,48 @@
 ---
-{"publish":true,"permalink":"/CHARACTERS/Yudora/index.md","created":"2025-10-31T14:17:19.766-04:00","modified":"2025-10-31T14:17:20.114-04:00","published":"2025-10-31T14:17:20.114-04:00","cssclasses":"","Actual Age":"1301 years"}
+{"publish":true,"permalink":"/CHARACTERS/Yudora/index.md","aliases":["Yudora"],"created":"2025-11-05T16:41:25.895-05:00","modified":"2025-11-06T21:37:31.227-05:00","published":"2025-11-06T21:37:31.227-05:00","cssclasses":"","Full Name":"Yudora","Name Pronunciation":"yoo-DOR-uh","Character Type":"Major Character","Status":"Alive","Gender":"genderless","Pronouns":"she/they","Apparent Age range":"ageless early twenties","Current Location":"Kaemeris","Birthplace":"Kaemeris","Creators":"Kulith, Anwi, Wefa","Eyes":"yellow","Hair":"indigo with yellow/blue/red peekaboo (depending on form)","Languages Spoken":["[[LANGUAGES/Varae/index|Varae]]"],"Skin Tone":"fair","Species":"[[SPECIES/Construct/index|Construct]]","Titles":"Construct of Starlight","Actual Age":"1301 years","icon":"![[CHARACTERS/Yudora/yudora_icon.png]]"}
 ---
 
+## About
+
+## Physical Description
+### General Physical Condition
+### Body Features
+### Facial Features
+### Identifying Characteristics
+### Physical quirks
+### Special abilities
+### Apparel & Accessories
+### Specialized Equipment
+
+## Mental Characteristics
+### Personal history
+### Education
+### Employment
+### Accomplishments & Achievements
+### Failures & Embarrassments
+### Mental Trauma
+### Intellectual Characteristics
+### Morality & Philosophy
+### Sexuality
+### Gender Identity
+### Taboos
+### Known Languages
+
+## Personality Characteristics
+### Motivation
+### Famous Quotes & Catchphrases
+### Savvies & Ineptitudes
+### Likes & Dislikes
+### Virtues & Personality perks
+### Vices & Personality flaws
+### Personality Quirks
+### Hygiene
+
+## Social
+### Contacts & Relations
+### Family Ties
+### Religious Views
+### Social Aptitude
+### Mannerisms
+### Hobbies & Pets
+### Speech

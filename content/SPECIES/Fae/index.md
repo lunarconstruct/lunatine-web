@@ -1,3 +1,7 @@
+---
+{"publish":true,"permalink":"/SPECIES/Fae/index.md","aliases":["Fae"],"created":"2025-11-05T16:40:05.304-05:00","modified":"2025-11-06T21:04:51.110-05:00","published":"2025-11-06T21:04:51.110-05:00","cssclasses":""}
+---
+
 # Fae
 
 Parent Species: Inna (Inna%2099642857c4464973a4612f6533cb754d.md)
