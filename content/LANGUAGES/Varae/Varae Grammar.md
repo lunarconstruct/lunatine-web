@@ -1,15 +1,4 @@
-# varae grammar
-
-[Monke - A grammar based word generator](https://monke.lunah.dev/H4sIAAAAAAAACmWQwUrDQBCG_9kkWIlC3yGHuQWinjy4hT6AB6EexMOWLHZxzUqSGkIp-Cg-io-mO9FW8PKxM7PzzTAqW5nW2PQ-tDXhJFuFwXoCMCMDfGrlHPChyQHQtAXeNVlhiFRGAmUdsNCny9B0oTFNHw1zepWPa2EvrIXPwifhi7ARtsI3MfYbCTrh9B6Fg9BHZrdNZ7_FAB1HxwKQLkNtAPpXSRIeOOGRE97w7G703qy9jQ41F10pJyin_oXO_yR_1PFWIECd_7bvquvLfazmh8xVjG_o7DB9d7FPiqpA5tqttyCKirh6_jBNZMePs6IqSh4dU8rO8RdxQ31WngEAAA~~)
-
-[monke word generator for varae](https://monke.lunah.dev/H4sIAAAAAAAACmWQwUrDQBCG_9kkWIlC3yGHuQWinjy4hT6AB6EexMOWLHZxzUqSGkIp-Cg-io-mO9FW8PKxM7PzzTAqW5nW2PQ-tDXhJFuFwXoCMCMDfGrlHPChyQHQtAXeNVlhiFRGAmUdsNCny9B0oTFNHw1zepWPa2EvrIXPwifhi7ARtsI3MfYbCTrh9B6Fg9BHZrdNZ7_FAB1HxwKQLkNtAPpXSRIeOOGRE97w7G703qy9jQ41F10pJyin_oXO_yR_1PFWIECd_7bvquvLfazmh8xVjG_o7DB9d7FPiqpA5tqttyCKirh6_jBNZMePs6IqSh4dU8rO8RdxQ31WngEAAA~~)
-
-monke word generator for varae
-
----
-
-# **phonology**
-
+# phonology
 ## phonetic inventory
 
 | **consonants** | *labial* | *labiodental* | *dental* | *alveolar* | *alv-pal* | *velar* | *glottal* |
@@ -52,29 +41,25 @@ monke word generator for varae
 # **sentence structure**
 
 ## word order
-
 word order in varae is SOV (subject-object-verb).
-
 adjectives are placed before their respective noun, and that extends to adjectival clauses and phrases. adpositions, however, are placed after the noun.
-
 adverbs are placed after the verb, and that extends to adverbial clauses and phrases as well.
 
-```jsx
-**"deii kuraesa meris fa vaesii"
-deii kuraesa   meris fa vae-sii**
-3SG  ****beautiful moon  at look-PRS
-SUBJECT OBJECT    VERB
-**"**She looks at the beautiful moon"
-```
 ```gloss
+\num 1
 \ex deii kuraesa meris fa vaesii
 \gla deii kuraesa meris fa vae-sii
 \glb 3SG beautiful moon at look-PRS
 \glc SUBJECT (adj) OBJECT (adp) VERB
 \ft She looks at the beautiful moon.
+
+\num 2
+\ex vaii siibte asu sokaso mosa
+\gla vaii siibte asu soka-so mosa
+\glb 1SG ground o fall-PAS down
+\glc SUBJECT (adp) VERB
+
 ```
-
-
 ```jsx
 **"vaii siibte asu sokaso mosa"
 vaii siibte asu soka-so  mosa**
@@ -100,16 +85,16 @@ koii vaiivaii haeyase  suran sem**
 
 `o` is added as a prefix before certain pronouns and adverbs to turn them into relative pronouns and adverbs to be used in dependent clauses.
 
-|  | plain form | relative form |
-| --- | --- | --- |
-| “who” | `tem` | `otem` |
-| “what” | `tae` | `otae` |
-| “where” | `tiil` | `otiil` |
-| “when” | `ta` | `ota` |
-| “why” | `tol` | `otol` |
-| “how” | `tam` | `otam` |
-| “that” | `taem` | `otaem` |
-| “which” | `tes` | `otes` |
+|         | plain form | relative form |
+| ------- | ---------- | ------------- |
+| “who”   | `tem`      | `otem`        |
+| “what”  | `tae`      | `otae`        |
+| “where” | `tiil`     | `otiil`       |
+| “when”  | `ta`       | `ota`         |
+| “why”   | `tol`      | `otol`        |
+| “how”   | `tam`      | `otam`        |
+| “that”  | `taem`     | `otaem`       |
+| “which” | `tes`      | `otes`        |
 
 ```jsx
 **"ota deii meris fa vaeso, deii eheso"
