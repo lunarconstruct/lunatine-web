@@ -1,8 +1,8 @@
 ---
-{"publish":true,"permalink":"/CHARACTERS/index.md","title":"Characters","description":"my lovely lovely ocs :) i love them sm!!!","created":"2025-10-24T23:13:46.061-04:00","modified":"2025-11-07T17:37:40.871-05:00","published":"2025-11-07T17:37:40.871-05:00","cssclasses":"","banner":"CHARACTERS/Merisdae/_COVER_rip=release_momo/pretty_bg.png"}
+{"publish":true,"permalink":"/CHARACTERS/index.md","title":"Characters","description":"my lovely lovely ocs :) i love them sm!!!","created":"2025-10-24T23:13:46.061-04:00","modified":"2025-11-07T17:39:12.128-05:00","published":"2025-11-07T17:39:12.128-05:00","cssclasses":"","banner":"CHARACTERS/Merisdae/_COVER_rip=release_momo/pretty_bg.png"}
 ---
 
-my lovely lovely ocs :) i love them sm!!!
+my lovely lovely ocs :) i love them sm!!!!
 
 | icon                                                 | Name                                                       | Character Info                 | Species                                  | Gender                  | Age                                        | Birthday                                           | Languages Spoken                                                               |
 | ---------------------------------------------------- | ---------------------------------------------------------- | ------------------------------ | ---------------------------------------- | ----------------------- | ------------------------------------------ | -------------------------------------------------- | ------------------------------------------------------------------------------ |
