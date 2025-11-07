@@ -1,5 +1,5 @@
 ---
-{"publish":true,"permalink":"/CHARACTERS/Osuhii/index.md","aliases":["Osuhii"],"title":"Osuhii, Construct of Riverstone","created":"2025-11-05T16:40:44.437-05:00","modified":"2025-11-06T23:39:05.164-05:00","published":"2025-11-06T23:39:05.164-05:00","cssclasses":"","Full Name":"Osuhii","Name Pronunciation":"oh-SOO-hee","Character Type":"Background Character","Status":"Unknown","Gender":"male","Pronouns":"he/him","Apparent Age":"30s","Birthplace":"Kohoii","Creators":"Reika","Languages Spoken":["[[LANGUAGES/Varae/index|Varae]]"],"Species":"[[SPECIES/Construct/index|Construct]]","Titles":"Construct of Riverstone","Actual Age":"1301 years"}
+{"publish":true,"permalink":"/CHARACTERS/Osuhii/index.md","aliases":["Osuhii"],"title":"Osuhii, Construct of Riverstone","created":"2025-11-05T16:40:44.437-05:00","modified":"2025-11-07T17:01:58.348-05:00","published":"2025-11-07T17:01:58.348-05:00","cssclasses":"","Full Name":"Osuhii","Name Pronunciation":"oh-SOO-hee","Character Type":"Background Character","Status":"Unknown","Gender":"male","Pronouns":"he/him","Apparent Age":"30s","Birthplace":"Kohoii","Creators":"Reika","Languages Spoken":["[[LANGUAGES/Varae/index|Varae]]"],"Species":"[[SPECIES/Construct/index|Construct]]","Titles":"Construct of Riverstone","Actual Age":"1301 years"}
 ---
 
 
