@@ -1,5 +1,5 @@
 ---
-{"publish":true,"permalink":"/CHARACTERS/index.md","created":"2025-10-24T23:13:46.061-04:00","modified":"2025-11-06T23:51:54.516-05:00","published":"2025-11-06T23:51:54.516-05:00","cssclasses":"","banner":"CHARACTERS/Merisdae/_COVER_rip=release_momo/pretty_bg.png"}
+{"publish":true,"permalink":"/CHARACTERS/index.md","title":"Characters","created":"2025-10-24T23:13:46.061-04:00","modified":"2025-11-07T12:07:50.776-05:00","published":"2025-11-07T12:07:50.776-05:00","cssclasses":"","banner":"CHARACTERS/Merisdae/_COVER_rip=release_momo/pretty_bg.png"}
 ---
 
 my lovely lovely ocs :) i love them sm!!!
