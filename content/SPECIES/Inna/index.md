@@ -1,11 +1,7 @@
-# Inna
-
-Descended Species: Selhae (Selhae%20822e316012e74ddba8bb5c6faf31fe66.md), Fae (Fae%200d82fa7326324372a247af4a753935ff.md)
-Characters: Wefa (Wefa%200d386a3f0d714b369130ebed9c6f58cd.md), Anwi (Anwi%20af7e2c72103f45cdbee264ff6beb0e57.md), Emeut (Emeut%2015fc5cb610f5804bbc41e9a30a552b29.md), Hafei (Hafei%20174c5cb610f580d88ee8cac629e93be4.md), Kasime (Kasime%20216c5cb610f580348b9bcb2c725c05d2.md), Aenna (Aenna%20236c5cb610f580b59555d4d9c1f04259.md)
-
-# Inna
-
 ---
+{"publish":true,"permalink":"/SPECIES/Inna/index.md","aliases":["Inna"],"title":"Inna","created":"2025-11-05T16:40:14.748-05:00","modified":"2025-11-08T01:52:04.387-05:00","published":"2025-11-08T01:52:04.387-05:00","cssclasses":"","Descended Species":["[[Selhae]]","[[Fae]]"]}
+---
+
 
 *Star Walkers*
 
@@ -13,8 +9,7 @@ Characters: Wefa (Wefa%200d386a3f0d714b369130ebed9c6f58cd.md), Anwi (Anwi%20af7e
 
 ---
 
-<aside>
-<img src="https://www.notion.so/icons/stars_purple.svg" alt="https://www.notion.so/icons/stars_purple.svg" width="40px" /> Ancient cosmic beings who plant the seeds of new worlds in their Garden, and from those worlds spring newborn Inna. Rarely do they visit these worlds in person, but on such occasions they will hide their true form and blend in among the locals, indistinguishable save for their planetary eyes.
+Ancient cosmic beings who plant the seeds of new worlds in their Garden, and from those worlds spring newborn Inna. Rarely do they visit these worlds in person, but on such occasions they will hide their true form and blend in among the locals, indistinguishable save for their planetary eyes.
 
 </aside>
 
