@@ -1,5 +1,5 @@
 ---
-{"publish":true,"permalink":"/SPECIES/index.md","aliases":["Species"],"title":"Species","created":"2025-10-24T23:17:32.525-04:00","modified":"2025-11-09T16:59:45.006-05:00","published":"2025-11-09T16:59:45.006-05:00","cssclasses":""}
+{"publish":true,"permalink":"/SPECIES/index.md","aliases":["Species"],"title":"Species","created":"2025-10-24T23:17:32.525-04:00","modified":"2025-11-09T17:15:53.357-05:00","published":"2025-11-09T17:15:53.357-05:00","cssclasses":""}
 ---
 
 
