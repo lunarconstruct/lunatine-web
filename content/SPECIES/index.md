@@ -1,8 +1,8 @@
 ---
-{"publish":true,"permalink":"/SPECIES/index.md","aliases":["Species"],"title":"Species","created":"2025-10-24T23:17:32.525-04:00","modified":"2025-11-09T16:12:22.543-05:00","published":"2025-11-09T16:12:22.543-05:00","cssclasses":""}
+{"publish":true,"permalink":"/SPECIES/index.md","aliases":["Species"],"title":"Species","created":"2025-10-24T23:17:32.525-04:00","modified":"2025-11-09T16:16:12.246-05:00","published":"2025-11-09T16:16:12.246-05:00","cssclasses":""}
 ---
 
-
+a
 |Species4|Descended Species|Parent Species|Characters of this Species|
 |---|---|---|---|
 |[[SPECIES/Construct/index\|Construct]]||[[SPECIES/Selhae/index\|Selhae]]|[[CHARACTERS/Canelé/index\|Canelé]], [[CHARACTERS/Osuhii/index\|Osuhii]], [[CHARACTERS/Yudora/index\|Yudora]]|
