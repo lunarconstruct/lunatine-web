@@ -1,12 +1,7 @@
-# Kaemeris
+---
+{"publish":true,"permalink":"/LOCATIONS/Kaemeris/index.md","created":"2025-11-05T17:23:25.929-05:00","modified":"2025-11-08T22:33:07.395-05:00","published":"2025-11-08T22:33:07.395-05:00","cssclasses":"","Alternative Names":"Kaeme, Newmoon (english)","Type":"Moon","At this Location":["[[CHARACTERS/Esela/index|Esela]]","[[CHARACTERS/Yudora/index|Yudora]]","[[KaeMerisdae]]"],"Location Under":"Asilles","Ruler/Owner":["[[CHARACTERS/Merisdae/index|Merisdae]]"],"Owning Rank":"Guardian","Born here":["[[CHARACTERS/Yudora/index|Yudora]]"]}
+---
 
-Alternative Names: Kaeme, Newmoon (english)
-Type: Moon
-At this Location:: Esela (Esela%207a0dac9b9d0f422489c6e9609eef84a6.md), Yudora (Yudora%20e048ec27657b44fcac23ffb26bece1ab.md), KaeMerisdae (KaeMerisdae%2015ac5cb610f580f08af0f538639b8e4e.md)
-Location Under:: Asilles (Asilles%2079f784ab6fd945de9a6813c70677d52e.md)
-Ruler/Owner: Merisdae (Merisdae%2096ee77d2a5d24d1aa718c98ca012d365.md), KaeMerisdae (KaeMerisdae%2015ac5cb610f580f08af0f538639b8e4e.md), Untitled (https://www.notion.so/216c5cb610f580999f05d0379e36ade1?pvs=21)
-Owning Rank: Guardian
-Born here:: Yudora (Yudora%20e048ec27657b44fcac23ffb26bece1ab.md)
 
 ## About
 

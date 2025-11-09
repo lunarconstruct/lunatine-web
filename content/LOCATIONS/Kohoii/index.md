@@ -1,21 +1,7 @@
-# Kohoii
-
-Type: Village
-At this Location:: Reika (Reika%20c3f81d2257d84c019e43faa2f13a035c.md), Naediia (Naediia%20dc678366936e41f384da240a61708663.md), Soren (Soren%20210c5cb610f58063bfb8e9e4db45c7f5.md), Paeyiilos (Paeyiilos%20232c5cb610f58053b867dfaa978e0bb3.md), Miire (Miire%20232c5cb610f580769940f81f708307a6.md), Mare (Mare%20232c5cb610f580e4ae12c46dffb70eb7.md)
-Location Under:: Asilles (Asilles%2079f784ab6fd945de9a6813c70677d52e.md)
-Founding Date: January 1, 1
-Date Became a Ruin (If Any): January 1, 1240
-Ruler/Owner: Reika (Reika%20c3f81d2257d84c019e43faa2f13a035c.md), Paeyiilos (Paeyiilos%20232c5cb610f58053b867dfaa978e0bb3.md), Miire (Miire%20232c5cb610f580769940f81f708307a6.md)
-Owning Rank: Elder
-Owning Organization: Kohoii Council of Elders (Kohoii%20Council%20of%20Elders%20233c5cb610f580aba975cb967debdf95.md)
-Population: 60
-Inhabitants Demonym: Kohoiise
-Born here:: Esela (Esela%207a0dac9b9d0f422489c6e9609eef84a6.md), Naediia (Naediia%20dc678366936e41f384da240a61708663.md), Reika (Reika%20c3f81d2257d84c019e43faa2f13a035c.md), Paeyiilos (Paeyiilos%20232c5cb610f58053b867dfaa978e0bb3.md), Soren (Soren%20210c5cb610f58063bfb8e9e4db45c7f5.md), Miire (Miire%20232c5cb610f580769940f81f708307a6.md), Mare (Mare%20232c5cb610f580e4ae12c46dffb70eb7.md), Osuhii (Osuhii%20216c5cb610f58035be79f4b328d83e0a.md)
-Sublocations:: Maeniil (Maeniil%202639c0bb7d004eca8bde4f17ca7a6cc2.md), Kohoii River (Kohoii%20River%20232c5cb610f580879a2cd9e12dfb5efd.md)
-
-## About
-
 ---
+{"publish":true,"permalink":"/LOCATIONS/Kohoii/index.md","aliases":["Kohoii"],"title":"Kohoii","created":"2025-11-05T17:23:26.039-05:00","modified":"2025-11-08T22:24:50.526-05:00","published":"2025-11-08T22:24:50.526-05:00","cssclasses":"","Type":"Village","Location Under:":"[[LOCATIONS/Asilles/index|Asilles]]","Founding Date":"January 1, 1","Date Became a Ruin (If Any)":"January 1, 1240","Ruler/Owner":["[[CHARACTERS/Reika/index|Reika]]","[[CHARACTERS/Paeyiilos/index|Paeyiilos]]","[[CHARACTERS/Mare/index|Mare]]"],"Owning Rank":"Elder","Owning Organization":"[[ORGANIZATIONS/Kohoii Council of Elders/index|Kohoii Council of Elders]]","Population":60,"Inhabitants Demonym":"Kohoiise","Sublocations:":["[[LOCATIONS/Maeniil/index|Maeniil]]","[[LOCATIONS/Kohoii River/index|Kohoii River]]"]}
+---
+
 
 A small village along the [Kohoii River](Kohoii%20River%20232c5cb610f580879a2cd9e12dfb5efd.md) in the southeast. It is surrounded by woods, and is nearby the border of the expansionist kingdom of [Solei](Solei%20a43736a3946f491ab5b40ad8e7fab381.md). The village has been in Solei’s sights for a very long time, leading to tense relations between the two.
 
