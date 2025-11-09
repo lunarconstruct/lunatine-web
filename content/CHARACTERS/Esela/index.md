@@ -1,5 +1,5 @@
 ---
-{"publish":true,"permalink":"/CHARACTERS/Esela/index.md","aliases":["Esela"],"title":"Esela Levenkagaelii","created":"2025-11-05T16:39:59.510-05:00","modified":"2025-11-08T22:36:39.506-05:00","published":"2025-11-08T22:36:39.506-05:00","tags":["Selhae"],"cssclasses":"","Full Name":"Esela Levenkagaelii","Name Pronunciation":"eh-SEHL-uh","Character Type":"Main Character","Status":"Alive","Gender":"nonbinary","Pronouns":"she/they","Age":"103 years, appears 28","Actual Age":"103 years","Apparent age":"28 years","Perceived age range":"mid-to-late twenties","Birthdate":"5/26/1198","Birthdate (written)":"Yomiithe, Day 26 of Uruwa, Year 1198","Current Location":"[[LOCATIONS/Kaemeris/index]]","Birthplace":"[[LOCATIONS/Kohoii/index|Kohoii]]","Children":"[[CHARACTERS/Kaeyomii/index|Kaeyomii]]","Parents":"[[CHARACTERS/Naediia/index\|Naediia]]","Partners":"[[Kulith]]","Constructs":"[[Merisdae]]","Eyes":"light, pastel blue","Hair":"short, curly pastel pink bob, with blunt bangs","Height":"5'0'' // 152cm","Languages Spoken":["[[LANGUAGES/Varae/index|Varae]]"],"Skin Tone":"fair","Species":"[[SPECIES/Selhae/index]]","icon":"![[CHARACTERS/Esela/art/prism_transparent.png|75]]"}
+{"publish":true,"permalink":"/CHARACTERS/Esela/index.md","aliases":["Esela"],"title":"Esela Levenkagaelii","created":"2025-11-05T16:39:59.510-05:00","modified":"2025-11-08T22:37:19.756-05:00","published":"2025-11-08T22:37:19.756-05:00","tags":["Selhae"],"cssclasses":"","Full Name":"Esela Levenkagaelii","Name Pronunciation":"eh-SEHL-uh","Character Type":"Main Character","Status":"Alive","Gender":"nonbinary","Pronouns":"she/they","Age":"103 years, appears 28","Actual Age":"103 years","Apparent age":"28 years","Perceived age range":"mid-to-late twenties","Birthdate":"5/26/1198","Birthdate (written)":"Yomiithe, Day 26 of Uruwa, Year 1198","Current Location":"[[LOCATIONS/Kaemeris/index]]","Birthplace":"[[LOCATIONS/Kohoii/index|Kohoii]]","Children":"[[CHARACTERS/Kaeyomii/index|Kaeyomii]]","Parents":"[[CHARACTERS/Naediia/index]]","Partners":"[[Kulith]]","Constructs":"[[Merisdae]]","Eyes":"light, pastel blue","Hair":"short, curly pastel pink bob, with blunt bangs","Height":"5'0'' // 152cm","Languages Spoken":["[[LANGUAGES/Varae/index|Varae]]"],"Skin Tone":"fair","Species":"[[SPECIES/Selhae/index]]","icon":"![[CHARACTERS/Esela/art/prism_transparent.png|75]]"}
 ---
 
 ## About
@@ -66,7 +66,7 @@ she feels guilty about leaving kohoii, wants to help people as much as she can t
 
 ## Social
 ### Contacts & Relations
-[[CHARACTERS/Naediia/index|Naediia]] - mother
+[[CHARACTERS/Naediia/index\|Naediia]] - mother
 [[CHARACTERS/Reika/Reika]] - grandmother
 [[CHARACTERS/Soren/Soren]] - childhood friend
 [[CHARACTERS/Kulith/index]] - partner
