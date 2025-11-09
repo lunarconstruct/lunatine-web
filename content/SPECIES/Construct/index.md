@@ -1,9 +1,9 @@
 ---
-{"publish":true,"permalink":"/SPECIES/Construct/index.md","aliases":"Construct","title":"Construct","created":"2025-10-24T23:17:32.707-04:00","modified":"2025-11-09T17:17:18.505-05:00","published":"2025-11-09T17:17:18.505-05:00","cssclasses":"","Parent Species":"[[SPECIES/Selhae/index\|Selhae]]"}
+{"publish":true,"permalink":"/SPECIES/Construct/index.md","aliases":"Construct","title":"Construct","created":"2025-10-24T23:17:32.707-04:00","modified":"2025-11-09T17:23:00.681-05:00","published":"2025-11-09T17:23:00.681-05:00","cssclasses":"","Parent Species":"[[SPECIES/Selhae/index | Selhae]]"}
 ---
 
 ## About
-Constructs are magical beings created by the [[SPECIES/Selhae/index|Selhae]] and the [[SPECIES/Inna/index\|Inna]]. They come in many forms and can be made for various reasons, such as companionship or assistance.
+Constructs are magical beings created by the [[SPECIES/Selhae/index\|Selhae]] and the [[SPECIES/Inna/index\|Inna]]. They come in many forms and can be made for various reasons, such as companionship or assistance.
 They are created by imbuing an inanimate object with a piece of the creator's soul and a great deal of magic. The soulpiece and magic are then pulled out of the object, resulting in a living being that can take on almost any form the creator wishes, including humanoid, animal, and mythical creature forms.
 
 These Constructs are incredibly versatile and can fulfill various roles, depending on the reason they were created. Traditionally, Constructs were created as assistants or companions to help with work or to travel with their creators. However, many Selhae now create Constructs solely for companionship, sometimes taking on the role of a child or a pet. Constructs can also be designed to serve specific functions, such as guarding or providing medical assistance.
