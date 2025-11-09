@@ -1,7 +1,3 @@
----
-{"publish":true,"permalink":"/CHARACTERS/character template.md","created":"2025-11-05T16:39:46.868-05:00","modified":"2025-11-08T01:14:20.104-05:00","published":"2025-11-08T01:14:20.104-05:00","cssclasses":"","Actual Age":"1301 years"}
----
-
 ## About
 
 ## Physical Description
