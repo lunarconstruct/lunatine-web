@@ -1,5 +1,5 @@
 ---
-{"publish":true,"permalink":"/SPECIES/Selhae/index.md","aliases":["Selhae"],"title":"Selhae","created":"2025-11-05T16:40:57.302-05:00","modified":"2025-11-09T15:30:44.202-05:00","published":"2025-11-09T15:30:44.202-05:00","cssclasses":"","Average Lifespan":650,"Parent Species":"[[Inna]]","Descended Species":"[[Construct]]"}
+{"publish":true,"permalink":"/SPECIES/Selhae/index.md","aliases":["Selhae"],"title":"Selhae","created":"2025-11-05T16:40:57.302-05:00","modified":"2025-11-09T15:46:48.598-05:00","published":"2025-11-09T15:46:48.598-05:00","cssclasses":"","Average Lifespan":650,"Parent Species":"[[SPECIES/Inna/index\|Inna]]","Descended Species":"[[SPECIES/Construct/index|Construct]]"}
 ---
 
 ## About
@@ -41,7 +41,7 @@ Selhae are able to reproduce until very late in life, due to their aging slowing
 ### Major Historical Figures
 ### Interspecies Relations
 ### Myths and Legends
-As the [[SPECIES/Inna/index\|Inna]] took a very real part in the creation of [[LOCATIONS/Asilles/index\|Asilles]], the creation mythos tends to be pretty close to reality. 
+As the [[SPECIES/Inna/index|Inna]] took a very real part in the creation of [[LOCATIONS/Asilles/index\|Asilles]], the creation mythos tends to be pretty close to reality. 
 
 Descendants of the original Selhae created by Anwi passed down [[CONCEPTS/The Story of the Inna/index\|The Story of the Inna]]. These original Selhae created the clans as they’re known today, and the head/elder of the clans are usually direct descendants of these original Selhae clan heads.
 

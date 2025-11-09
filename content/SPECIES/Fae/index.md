@@ -1,5 +1,5 @@
 ---
-{"publish":true,"permalink":"/SPECIES/Fae/index.md","aliases":["Fae"],"title":"Fae","created":"2025-11-05T16:40:05.304-05:00","modified":"2025-11-09T15:27:33.638-05:00","published":"2025-11-09T15:27:33.638-05:00","cssclasses":"","Parent Species":"[[Inna]]"}
+{"publish":true,"permalink":"/SPECIES/Fae/index.md","aliases":["Fae"],"title":"Fae","created":"2025-11-05T16:40:05.304-05:00","modified":"2025-11-09T15:50:37.204-05:00","published":"2025-11-09T15:50:37.204-05:00","cssclasses":"","Parent Species":"[[SPECIES/Inna/index\|Inna]]"}
 ---
 
 ## About
@@ -45,7 +45,7 @@ A species created by [[CHARACTERS/Wefa/index\|Wefa]] to live upon the planet [[L
 ### Myths and Legends
 Descendants of the original [[SPECIES/Fae/index\|Fae]] created by [[CHARACTERS/Wefa/index\|Wefa]] passed down [[CONCEPTS/The Story of the Inna/index\|The Story of the Inna]]. 
 
-The original fae were not so social as to create clans like their [[SPECIES/Selhae/index\|Selhae]] counterparts, so the [[SPECIES/Inna/index\|Inna]]’s story is simply passed from parent to child.
+The original fae were not so social as to create clans like their [[SPECIES/Selhae/index\|Selhae]] counterparts, so the [[SPECIES/Inna/index|Inna]]’s story is simply passed from parent to child.
 
 The Fae believe that they were given [[CONCEPTS/Elemental Magic/index\|Elemental Magic]] as a way to connect with the world created by the Inna. They believe that their magical abilities allow them to communicate with the elements and understand the world on a deeper level.
 

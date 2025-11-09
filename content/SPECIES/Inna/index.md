@@ -1,17 +1,12 @@
 ---
-{"publish":true,"permalink":"/SPECIES/Inna/index.md","aliases":["Inna"],"title":"Inna","created":"2025-11-05T16:40:14.748-05:00","modified":"2025-11-08T01:52:04.387-05:00","published":"2025-11-08T01:52:04.387-05:00","cssclasses":"","Descended Species":["[[Selhae]]","[[Fae]]"]}
+{"publish":true,"permalink":"/SPECIES/Inna/index.md","aliases":["Inna"],"title":"Inna","created":"2025-11-05T16:40:14.748-05:00","modified":"2025-11-09T15:47:48.408-05:00","published":"2025-11-09T15:47:48.408-05:00","cssclasses":"","Descended Species":["[[SPECIES/Selhae/index|Selhae]]","[[SPECIES/Fae/index|Fae]]"]}
 ---
 
 
 *Star Walkers*
 
 ## About
-
----
-
 Ancient cosmic beings who plant the seeds of new worlds in their Garden, and from those worlds spring newborn Inna. Rarely do they visit these worlds in person, but on such occasions they will hide their true form and blend in among the locals, indistinguishable save for their planetary eyes.
-
-</aside>
 
 The oldest Inna has been around since the beginning of the universe, made purely of [Dust](Dust%20e5dd6dcde4974c6ca3920c91cad7c2cb.md). They awoke to an empty void, [The Expanse](The%20Expanse%20aae43c29a9ac4e94b8043b45e9f63a0b.md) - and used their unique gift of [Creation](Creation%20514a94ac18e24c60b6ca42ca5f194015.md) to give meaning to the universe. They created the [World Seed](World%20Seed%2079ce63c075c84da084bc3ad1f11cab5e.md)s, ultra-compressed pockets of dust used to grow worlds, to plant in the [World Garden](World%20Garden%205a6cfe0468e64efe8e9b097f621b0ca2.md). These World seeds become planets, and at the end of their lifecycle, the seed finally flowers - and a new Inna is born from the dying world.
 
