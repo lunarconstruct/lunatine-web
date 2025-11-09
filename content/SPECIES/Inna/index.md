@@ -1,5 +1,5 @@
 ---
-{"publish":true,"permalink":"/SPECIES/Inna/index.md","aliases":["Inna"],"title":"Inna","created":"2025-11-05T16:40:14.748-05:00","modified":"2025-11-09T15:47:48.408-05:00","published":"2025-11-09T15:47:48.408-05:00","cssclasses":"","Descended Species":["[[SPECIES/Selhae/index|Selhae]]","[[SPECIES/Fae/index|Fae]]"]}
+{"publish":true,"permalink":"/SPECIES/Inna/index.md","aliases":["Inna"],"title":"Inna","created":"2025-11-05T16:40:14.748-05:00","modified":"2025-11-09T16:21:18.311-05:00","published":"2025-11-09T16:21:18.311-05:00","cssclasses":"","Descended Species":[[["SPECIES/Selhae/index|Selhae"]],[["SPECIES/Fae/index|Fae"]]]}
 ---
 
 
