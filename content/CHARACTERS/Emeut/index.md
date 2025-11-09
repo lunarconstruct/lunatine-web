@@ -1,5 +1,5 @@
 ---
-{"publish":true,"permalink":"/CHARACTERS/Emeut/index.md","aliases":"Emeut","title":"Emeut","created":"2025-10-31T14:17:19.864-04:00","modified":"2025-11-09T15:22:33.114-05:00","published":"2025-11-09T15:22:33.114-05:00","cssclasses":"","Full Name":"Emeut","Name Pronunciation":"eh-MAY-uht","Character Type":"Major Character","Status":"Alive","Gender":"genderless","Pronouns":"any (he/him)","Current Location":[["LOCATIONS/Atis/index|Atis"]],"Birthplace":[["LOCATIONS/World Garden/index|World Garden"]],"Languages Spoken":[["InnaLang"]],"Organizations":[["ORGANIZATIONS/Seedkeeper Council/index|Seedkeeper Council"]],"Species":"[[SPECIES/Inna/index|Inna]]"}
+{"publish":true,"permalink":"/CHARACTERS/Emeut/index.md","aliases":"Emeut","title":"Emeut","created":"2025-10-31T14:17:19.864-04:00","modified":"2025-11-09T17:39:13.963-05:00","published":"2025-11-09T17:39:13.963-05:00","cssclasses":"","Full Name":"Emeut","Name Pronunciation":"eh-MAY-uht","Character Type":"Major Character","Status":"Alive","Gender":"genderless","Pronouns":"any (he/him)","Current Location":[["LOCATIONS/Atis/index|Atis"]],"Birthplace":[["LOCATIONS/World Garden/index|World Garden"]],"Languages Spoken":[["InnaLang"]],"Organizations":[["ORGANIZATIONS/Seedkeeper Council/index|Seedkeeper Council"]],"Species":"[[SPECIES/Inna/index |Inna]]"}
 ---
 
 ## About

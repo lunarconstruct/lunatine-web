@@ -1,5 +1,5 @@
 ---
-{"publish":true,"permalink":"/CHARACTERS/Esela/index.md","aliases":["Esela"],"title":"Esela Levenkagaelii","created":"2025-11-05T16:39:59.510-05:00","modified":"2025-11-08T23:20:44.623-05:00","published":"2025-11-08T23:20:44.623-05:00","tags":["Selhae"],"cssclasses":"","Full Name":"Esela Levenkagaelii","Name Pronunciation":"eh-SEHL-uh","Character Type":"Main Character","Status":"Alive","Gender":"nonbinary","Pronouns":"she/they","Age":"103 years, appears 28","Actual Age":"103 years","Apparent age":"28 years","Perceived age range":"mid-to-late twenties","Birthdate":"5/26/1198","Birthdate (written)":"Yomiithe, Day 26 of Uruwa, Year 1198","Current Location":"[[LOCATIONS/Kaemeris/index]]","Birthplace":"[[LOCATIONS/Kohoii/index|Kohoii]]","Children":"[[CHARACTERS/Kaeyomii/index|Kaeyomii]]","Parents":"[[CHARACTERS/Naediia/index]]","Partners":"[[Kulith]]","Constructs":"[[Merisdae]]","Eyes":"light, pastel blue","Hair":"short, curly pastel pink bob, with blunt bangs","Height":"5'0'' // 152cm","Languages Spoken":["[[LANGUAGES/Varae/index|Varae]]"],"Skin Tone":"fair","Species":"[[SPECIES/Selhae/index]]","icon":"![[CHARACTERS/Esela/art/prism_transparent.png|75]]"}
+{"publish":true,"permalink":"/CHARACTERS/Esela/index.md","aliases":["Esela"],"title":"Esela Levenkagaelii","created":"2025-11-05T16:39:59.510-05:00","modified":"2025-11-09T17:37:04.106-05:00","published":"2025-11-09T17:37:04.106-05:00","tags":["Selhae"],"cssclasses":"","Full Name":"Esela Levenkagaelii","Name Pronunciation":"eh-SEHL-uh","Character Type":"Main Character","Status":"Alive","Gender":"nonbinary","Pronouns":"she/they","Age":"103 years, appears 28","Actual Age":"103 years","Apparent age":"28 years","Perceived age range":"mid-to-late twenties","Birthdate":"5/26/1198","Birthdate (written)":"Yomiithe, Day 26 of Uruwa, Year 1198","Current Location":"[[LOCATIONS/Kaemeris/index | Kaemeris]]","Birthplace":"[[LOCATIONS/Kohoii/index|Kohoii]]","Children":"[[CHARACTERS/Kaeyomii/index|Kaeyomii]]","Parents":"[[CHARACTERS/Naediia/index | Naediia]]","Partners":"[[Kulith]]","Constructs":"[[Merisdae]]","Eyes":"light, pastel blue","Hair":"short, curly pastel pink bob, with blunt bangs","Height":"5'0'' // 152cm","Languages Spoken":["[[LANGUAGES/Varae/index|Varae]]"],"Skin Tone":"fair","Species":"[[SPECIES/Selhae/index |Selhae]]","icon":"![[CHARACTERS/Esela/art/prism_transparent.png|75]]"}
 ---
 
 ## About
@@ -26,7 +26,7 @@ Initially, she can only teleport herself short distances. However, with the ampl
 
 ## Mental Characteristics
 ### Personal history
-[[CHARACTERS/Esela/Esela old lore]]
+[[Esela old lore]]
 - grew up in [Kohoii](Kohoii%205ec34e8227ec4373998d026fd09ee730.md) her entire life
 - was next in line to be the head of the Levenkagaelii
 - her mother, [Naediia](Naediia%20dc678366936e41f384da240a61708663.md), died in a conflict between Kohoii and [Solei](Solei%20a43736a3946f491ab5b40ad8e7fab381.md)
