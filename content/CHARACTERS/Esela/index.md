@@ -1,8 +1,8 @@
 ---
-{"publish":true,"permalink":"/CHARACTERS/Esela/index.md","aliases":["Esela"],"title":"Esela Levenkagaelii","created":"2025-11-05T16:39:59.510-05:00","modified":"2025-11-08T21:59:00.833-05:00","published":"2025-11-08T21:59:00.833-05:00","cssclasses":"","Full Name":"Esela Levenkagaelii","Name Pronunciation":"eh-SEHL-uh","Character Type":"Main Character","Status":"Alive","Gender":"nonbinary","Pronouns":"she/they","Age":"103 years, appears 28","Actual Age":"103 years","Apparent age":"28 years","Perceived age range":"mid-to-late twenties","Birthdate":"5/26/1198","Birthdate (written)":"Yomiithe, Day 26 of Uruwa, Year 1198","Current Location":"[[LOCATIONS/Kaemeris/index]]","Birthplace":"[[LOCATIONS/Kohoii/index]]","Children":"[[Kaeyomii]]","Parents":"[[Naediia]]","Partners":"[[Kulith]]","Constructs":"[[Merisdae]]","Eyes":"light, pastel blue","Hair":"short, curly pastel pink bob, with blunt bangs","Height":"5'0'' // 152cm","Languages Spoken":["[[LANGUAGES/Varae/index|Varae]]"],"Skin Tone":"fair","Species":"[[SPECIES/Selhae/index]]","icon":"![[CHARACTERS/Esela/art/prism_transparent.png|75]]"}
+{"publish":true,"permalink":"/CHARACTERS/Esela/index.md","aliases":["Esela"],"title":"Esela Levenkagaelii","created":"2025-11-05T16:39:59.510-05:00","modified":"2025-11-08T22:00:31.939-05:00","published":"2025-11-08T22:00:31.939-05:00","cssclasses":"","Full Name":"Esela Levenkagaelii","Name Pronunciation":"eh-SEHL-uh","Character Type":"Main Character","Status":"Alive","Gender":"nonbinary","Pronouns":"she/they","Age":"103 years, appears 28","Actual Age":"103 years","Apparent age":"28 years","Perceived age range":"mid-to-late twenties","Birthdate":"5/26/1198","Birthdate (written)":"Yomiithe, Day 26 of Uruwa, Year 1198","Current Location":"[[LOCATIONS/Kaemeris/index]]","Birthplace":"[[LOCATIONS/Kohoii/index]]","Children":"[[Kaeyomii]]","Parents":"[[Naediia]]","Partners":"[[Kulith]]","Constructs":"[[Merisdae]]","Eyes":"light, pastel blue","Hair":"short, curly pastel pink bob, with blunt bangs","Height":"5'0'' // 152cm","Languages Spoken":["[[LANGUAGES/Varae/index|Varae]]"],"Skin Tone":"fair","Species":"[[SPECIES/Selhae/index]]","icon":"![[CHARACTERS/Esela/art/prism_transparent.png|75]]"}
 ---
 
-Esela Levenkagaelii
+<h1> Esela Levenkagaelii </h1>
 
 Selhae
 
@@ -19,7 +19,6 @@ A young adult, who ran away from her home in Kohoii to be with her partner Kulit
 ### General Physical Condition
 - clumsy girlfail :’3c
 - curvy/chubby
-![image.png](image%201.png)
 ### Body Features
 ### Facial Features
 - soft, downturned eyes
