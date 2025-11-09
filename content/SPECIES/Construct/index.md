@@ -1,5 +1,5 @@
 ---
-{"publish":true,"permalink":"/SPECIES/Construct/index.md","aliases":"Construct","title":"Construct","created":"2025-10-24T23:17:32.707-04:00","modified":"2025-11-09T16:13:52.232-05:00","published":"2025-11-09T16:13:52.232-05:00","cssclasses":"","Parent Species":"[[SPECIES/Selhae/index\|Selhae]]"}
+{"publish":true,"permalink":"/SPECIES/Construct/index.md","aliases":"Construct","title":"Construct","created":"2025-10-24T23:17:32.707-04:00","modified":"2025-11-09T16:17:13.186-05:00","published":"2025-11-09T16:17:13.186-05:00","cssclasses":"","Parent Species":"[[SPECIES/Selhae/index\|Selhae]]"}
 ---
 
 ## About
