@@ -1,33 +1,9 @@
 ---
-{"publish":true,"permalink":"/CHARACTERS/Esela/index.md","aliases":["Esela"],"title":"Esela Levenkagaelii","created":"2025-11-05T16:39:59.510-05:00","modified":"2025-11-08T23:18:40.902-05:00","published":"2025-11-08T23:18:40.902-05:00","tags":["Selhae"],"cssclasses":"","Full Name":"Esela Levenkagaelii","Name Pronunciation":"eh-SEHL-uh","Character Type":"Main Character","Status":"Alive","Gender":"nonbinary","Pronouns":"she/they","Age":"103 years, appears 28","Actual Age":"103 years","Apparent age":"28 years","Perceived age range":"mid-to-late twenties","Birthdate":"5/26/1198","Birthdate (written)":"Yomiithe, Day 26 of Uruwa, Year 1198","Current Location":"[[LOCATIONS/Kaemeris/index]]","Birthplace":"[[LOCATIONS/Kohoii/index|Kohoii]]","Children":"[[CHARACTERS/Kaeyomii/index|Kaeyomii]]","Parents":"[[CHARACTERS/Naediia/index]]","Partners":"[[Kulith]]","Constructs":"[[Merisdae]]","Eyes":"light, pastel blue","Hair":"short, curly pastel pink bob, with blunt bangs","Height":"5'0'' // 152cm","Languages Spoken":["[[LANGUAGES/Varae/index|Varae]]"],"Skin Tone":"fair","Species":"[[SPECIES/Selhae/index]]","icon":"![[CHARACTERS/Esela/art/prism_transparent.png|75]]"}
+{"publish":true,"permalink":"/CHARACTERS/Esela/index.md","aliases":["Esela"],"title":"Esela Levenkagaelii","created":"2025-11-05T16:39:59.510-05:00","modified":"2025-11-08T23:20:44.623-05:00","published":"2025-11-08T23:20:44.623-05:00","tags":["Selhae"],"cssclasses":"","Full Name":"Esela Levenkagaelii","Name Pronunciation":"eh-SEHL-uh","Character Type":"Main Character","Status":"Alive","Gender":"nonbinary","Pronouns":"she/they","Age":"103 years, appears 28","Actual Age":"103 years","Apparent age":"28 years","Perceived age range":"mid-to-late twenties","Birthdate":"5/26/1198","Birthdate (written)":"Yomiithe, Day 26 of Uruwa, Year 1198","Current Location":"[[LOCATIONS/Kaemeris/index]]","Birthplace":"[[LOCATIONS/Kohoii/index|Kohoii]]","Children":"[[CHARACTERS/Kaeyomii/index|Kaeyomii]]","Parents":"[[CHARACTERS/Naediia/index]]","Partners":"[[Kulith]]","Constructs":"[[Merisdae]]","Eyes":"light, pastel blue","Hair":"short, curly pastel pink bob, with blunt bangs","Height":"5'0'' // 152cm","Languages Spoken":["[[LANGUAGES/Varae/index|Varae]]"],"Skin Tone":"fair","Species":"[[SPECIES/Selhae/index]]","icon":"![[CHARACTERS/Esela/art/prism_transparent.png|75]]"}
 ---
 
 ## About
 A young adult, who ran away from her home in Kohoii to be with her partner Kulith. She initiated the migration of the people of Asilles up to Crescentmoon.
-
-| ## Physical Description
-### General Physical Condition
-- clumsy girlfail :’3c
-- curvy/chubby
-### Body Features
-### Facial Features
-- soft, downturned eyes
-- round nose
-### Identifying Characteristics
-### Physical quirks
-### Special abilities
-Esela’s [[CONCEPTS/Soul/Archetypes/Veil Archetypes#Seeker's Soul\|Seeker's Soul]] allows her to teleport.
-Esela has to be able to visualize clearly the destination in order to be able to teleport. She has to have been there before, not just seen in pictures or described to her. Breaking concentration on the location can result in a unsteady arrival, or sometimes being teleported to the wrong place entirely.
-Initially, she can only teleport herself short distances. However, with the amplification of [Merisdae](Merisdae%2096ee77d2a5d24d1aa718c98ca012d365.md), she is capable of transporting groups of people over long distances. The further the distance, the more dust is required, meaning it takes a lot of Esela’s energy.
-### Apparel & Accessories
-- flowy chiffon-y overdress over solid underdress
-- ballet flats with ribbons up the legs
-- flower crown
-- blueish crystal necklace | ![[esela new 2.png\|500]] |
-| ------------- | ------------------------- |
-|               |                           |
-
-
 ## Physical Description
 ### General Physical Condition
 - clumsy girlfail :’3c
