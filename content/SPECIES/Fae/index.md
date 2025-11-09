@@ -1,5 +1,5 @@
 ---
-{"publish":true,"permalink":"/SPECIES/Fae/index.md","aliases":["Fae"],"title":"Fae","created":"2025-11-05T16:40:05.304-05:00","modified":"2025-11-09T16:20:31.252-05:00","published":"2025-11-09T16:20:31.252-05:00","cssclasses":"","Parent Species":[["SPECIES/Inna/index|Inna"]]}
+{"publish":true,"permalink":"/SPECIES/Fae/index.md","aliases":["Fae"],"title":"Fae","created":"2025-11-05T16:40:05.304-05:00","modified":"2025-11-09T17:26:14.654-05:00","published":"2025-11-09T17:26:14.654-05:00","cssclasses":"","Parent Species":"[[SPECIES/Inna/index | Inna]]"}
 ---
 
 ## About
