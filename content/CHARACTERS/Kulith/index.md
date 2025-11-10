@@ -1,17 +1,9 @@
 ---
-{"publish":true,"permalink":"/CHARACTERS/Kulith/index.md","aliases":["Kulith"],"title":"Kulith Deiranii","created":"2025-11-05T16:40:28.825-05:00","modified":"2025-11-09T17:40:14.513-05:00","published":"2025-11-09T17:40:14.513-05:00","cssclasses":"","Full Name":"Kulith Deiranii","Name Pronunciation":"KOO-lith","Character Type":"Main Character","Status":"Alive","Gender":"transfemme","Pronouns":"she/they","Age":"106 years, appears 28","Actual Age":"106 years","Apparent age":"28 years","Perceived age range":"late twenties","Birthdate":"6/4/1195","Birthdate (written)":"Samthe, Day 4 of Uiiowa, Year 1195","Current Location":"Asilles (Asilles%2079f784ab6fd945de9a6813c70677d52e.md)","Birthplace":"Solei (Solei%20a43736a3946f491ab5b40ad8e7fab381.md)","Children":"Kaeyomii (Kaeyomii%205142f8eb7e52434bb492e122dceb3f62.md)","Partners":"[[CHARACTERS/Esela/index | Esela]]","Constructs":"[[CHARACTERS/Yudora/index | Yudora]]","Eyes":"ice blue","Hair":"ice blue","Height":"5’6”","Languages Spoken":["[[Varae]]"],"Skin Tone":"pale blue","Species":"[[SPECIES/Selhae/index |Selhae]]","icon":"![[CHARACTERS/Kulith/art/kulithnew icon.png|75]]"}
+{"publish":true,"permalink":"/CHARACTERS/Kulith/index.md","aliases":["Kulith"],"title":"Kulith Deiranii","created":"2025-11-05T16:40:28.825-05:00","modified":"2025-11-09T20:29:48.720-05:00","published":"2025-11-09T20:29:48.720-05:00","cssclasses":"","Full Name":"Kulith Deiranii","Name Pronunciation":"KOO-lith","Character Type":"Main Character","Status":"Alive","Gender":"transfemme","Pronouns":"she/they","Age":"106 years, appears 28","Actual Age":"106 years","Apparent age":"28 years","Perceived age range":"late twenties","Birthdate":"6/4/1195","Birthdate (written)":"Samthe, Day 4 of Uiiowa, Year 1195","Current Location":"[[LOCATIONS/Asilles/index |Asilles]]","Birthplace":"[[LOCATIONS/Solei/index |Solei]]","Children":"[[CHARACTERS/Kaeyomii/index |Kaeyomii]]","Partners":"[[CHARACTERS/Esela/index |Esela]]","Constructs":"[[CHARACTERS/Yudora/index |Yudora]]","Eyes":"ice blue","Hair":"ice blue","Height":"5’6”","Languages Spoken":"[[LANGUAGES/Varae/index |Varae]]","Skin Tone":"pale blue","Species":"[[SPECIES/Selhae/index |Selhae]]","icon":"![[CHARACTERS/Kulith/art/kulithnew icon.png|75]]"}
 ---
-
-
-[https://petracoding.github.io/pinterest/board.html?link=lunarconstruct/kulith/&hideHeader=1&hideFooter=1&transparent=1](https://petracoding.github.io/pinterest/board.html?link=lunarconstruct/kulith/&hideHeader=1&hideFooter=1&transparent=1)
-
-![kulithnew.png](kulithnew%201.png)
 
 ## About
-
----
-
-A young adult [Selhae](Selhae%20822e316012e74ddba8bb5c6faf31fe66.md) born in the village of [Solei](Solei%20a43736a3946f491ab5b40ad8e7fab381.md). Born with an abnormally high concentration of [Dust](Dust%20e5dd6dcde4974c6ca3920c91cad7c2cb.md), their magic is powerful, yet unpredictable and hard to control. The heightened concentration of dust in Kulith’s [Soul](Soul%20f5650c5d3be2487194e629cc898ca601.md) also influenced their appearance, giving them a blue tint to their pale skin, and ice blue hair.
+A young adult [[SPECIES/Selhae/index\|Selhae]] born in the village of [Solei](Solei%20a43736a3946f491ab5b40ad8e7fab381.md). Born with an abnormally high concentration of [Dust](Dust%20e5dd6dcde4974c6ca3920c91cad7c2cb.md), their magic is powerful, yet unpredictable and hard to control. The heightened concentration of dust in Kulith’s [Soul](Soul%20f5650c5d3be2487194e629cc898ca601.md) also influenced their appearance, giving them a blue tint to their pale skin, and ice blue hair.
 
 ## Physical Description
 

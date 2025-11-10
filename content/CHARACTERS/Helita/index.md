@@ -1,5 +1,5 @@
 ---
-{"publish":true,"permalink":"/CHARACTERS/Helita/index.md","aliases":["Helita"],"title":"Helita Mitando, King of Solei","created":"2025-11-05T16:40:10.126-05:00","modified":"2025-11-09T17:35:50.117-05:00","published":"2025-11-09T17:35:50.117-05:00","cssclasses":"","Full Name":"Helita Mitando","Name Pronunciation":"HEH-lih-ta","Character Type":"Minor Character","Status":"Alive","Gender":"male","Pronouns":"he/him","Age":"526 years, appears 45","Actual Age":"526 years","Apparent Age":"45 years","Perceived age range":"late 40s","Birthdate":"8/2/775","Birthdate (written)":"Dothe, Day 2 of Biiwa, Year 775","Current Location":"[[LOCATIONS/Solei/index]]","Birthplace":"[[LOCATIONS/Solei/index]]","Languages Spoken":["[[LANGUAGES/Varae/index|Varae]]","[[LANGUAGES/Acorithe/index|Acorithe]]"],"Organizations":"[[ORGANIZATIONS/Solei Royal Court/index]]","Rank":"King","Ruler/Owner of":"[[LOCATIONS/Solei/index]]","Skin Tone":"fair","Species":"[[SPECIES/Selhae/index |Selhae]]","Titles":"King of Solei","Ruler/Owner of:":["[[LOCATIONS/Solei]]"],"icon":"![[CHARACTERS/Helita/icon.png|75]]"}
+{"publish":true,"permalink":"/CHARACTERS/Helita/index.md","created":"2025-11-05T16:40:10.126-05:00","modified":"2025-11-09T20:23:21.200-05:00","published":"2025-11-09T20:23:21.200-05:00","cssclasses":""}
 ---
 
 ## About
