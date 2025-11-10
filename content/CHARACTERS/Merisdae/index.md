@@ -1,5 +1,5 @@
 ---
-{"publish":true,"permalink":"/CHARACTERS/Merisdae/index.md","aliases":["Merisdae"],"title":"Merisdae","created":"2025-11-05T16:40:36.544-05:00","modified":"2025-11-09T23:08:37.166-05:00","published":"2025-11-09T23:08:37.166-05:00","cssclasses":"","Full Name":"Merisdae","Name Pronunciation":"MEHR-ihz-day","Character Type":"Main Character","Status":"Alive","Gender":"genderless","Pronouns":"they/she","Perceived age range":"mid-twenties","Current Location":"[[LOCATIONS/Kuraesmeris/index |Kuraesmeris]]","Birthplace":"[[LOCATIONS/Asilles/index |Asilles]]","Constructs":"[[CHARACTERS/Canelé/index |Canelé]]","Creators":["[[CHARACTERS/Esela/index |Esela]]","[[CHARACTERS/Anwi/index |Anwi]]","[[CHARACTERS/Wefa/index |Wefa]]"],"Eyes":"Pinkish-Magenta, with the Lunatine symbol in the pupils","Hair":"Long, flowy deep purple hair with blunt bangs and long sidelocks.","Height":"5'4'' or 164cm","Languages Spoken":"[[LANGUAGES/Varae/index |Varae]]","Rank":"Guardian","Ruler/Owner of":["[[LOCATIONS/Kuraesmeris/index |Kuraesmeris]]","[[LOCATIONS/Kaemeris/index |Kaemeris]]","[[LOCATIONS/Buromeris/index |Buromeris]]","[[LOCATIONS/Hiitomeris/index |Hiitomeris]]","[[LOCATIONS/Folmeris/index |Folmeris]]"],"Skin Tone":"fair","Species":"[[SPECIES/Construct/index |Construct]]","Titles":"Construct of Moon","icon":"![[CHARACTERS/Merisdae/_ICON_momo/allmoons.gif|75]]","Actual Age":"1301 years"}
+{"publish":true,"permalink":"/CHARACTERS/Merisdae/index.md","aliases":["Merisdae"],"title":"Merisdae","created":"2025-11-05T16:40:36.544-05:00","modified":"2025-11-09T23:57:02.702-05:00","published":"2025-11-09T23:57:02.702-05:00","cssclasses":"","Full Name":"Merisdae","Name Pronunciation":"MEHR-ihz-day","Character Type":"Main Character","Status":"Alive","Gender":"genderless","Pronouns":"they/she","Perceived age range":"mid-twenties","Current Location":"[[LOCATIONS/Kuraesmeris/index |Kuraesmeris]]","Birthplace":"[[LOCATIONS/Asilles/index |Asilles]]","Constructs":"[[CHARACTERS/Canelé/index |Canelé]]","Creators":["[[CHARACTERS/Esela/index |Esela]]","[[CHARACTERS/Anwi/index |Anwi]]","[[CHARACTERS/Wefa/index |Wefa]]"],"Eyes":"Pinkish-Magenta, with the Lunatine symbol in the pupils","Hair":"Long, flowy deep purple hair with blunt bangs and long sidelocks.","Height":"5'4'' or 164cm","Languages Spoken":"[[LANGUAGES/Varae/index |Varae]]","Rank":"Guardian","Ruler/Owner of":["[[LOCATIONS/Kuraesmeris/index |Kuraesmeris]]","[[LOCATIONS/Kaemeris/index |Kaemeris]]","[[LOCATIONS/Buromeris/index |Buromeris]]","[[LOCATIONS/Hiitomeris/index |Hiitomeris]]","[[LOCATIONS/Folmeris/index |Folmeris]]"],"Skin Tone":"fair","Species":"[[SPECIES/Construct/index |Construct]]","Titles":"Construct of Moon","icon":"![[CHARACTERS/Merisdae/art/maikory merisdae icon.png|75]]","Actual Age":"1301 years"}
 ---
 
 A construct created from the Moonband, a celestial headband embedded with pieces of the five Asilles moons.
@@ -8,12 +8,12 @@ A construct created from the Moonband, a celestial headband embedded with pieces
 Merisdae is a construct created by [[CHARACTERS/Esela/index\|Esela]] in order to preside over the people who had migrated to [[LOCATIONS/Kuraesmeris/index\|Kuraesmeris]] during the [[EVENTS/Kuraesmeris Migration/index\|Kuraesmeris Migration]]. 
 
 ### Moon Forms
-![merisforms.png](CHARACTERS/Merisdae/merisforms.png)
+![merisforms.png](CHARACTERS/Merisdae/art/merisforms.png)
 
 Merisdae also has the ability to split herself into 5 forms. Each of these forms are named after the [[LOCATIONS/Asilles/index\|Asilles]] moons. Each of these forms were created to watch over their respective moons. 
 
 ### Supermoon
-![[CHARACTERS/Merisdae/maikory merisdae.png]]
+![[CHARACTERS/Merisdae/art/maikory merisdae.png]]
 
 Merisdae's "truest" form. Merisdae was originally a construct of [[CHARACTERS/Anwi/index\|Anwi]] and [[CHARACTERS/Wefa/index\|Wefa]], the [[SPECIES/Inna/index\|Inna]], that created Asilles, but something happened to where she was de-constructed and left in her object form, the moonband. When [[CHARACTERS/Esela/index\|Esela]] found the moonband and constructed Merisdae again, she appeared different due to not having the same soul.
 
