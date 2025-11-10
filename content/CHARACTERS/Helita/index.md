@@ -1,5 +1,5 @@
 ---
-{"publish":true,"permalink":"/CHARACTERS/Helita/index.md","created":"2025-11-05T16:40:10.126-05:00","modified":"2025-11-09T20:23:21.200-05:00","published":"2025-11-09T20:23:21.200-05:00","cssclasses":""}
+{"publish":true,"permalink":"/CHARACTERS/Helita/index.md","created":"2025-11-05T16:40:10.126-05:00","modified":"2025-11-09T23:33:37.397-05:00","published":"2025-11-09T23:33:37.397-05:00","cssclasses":""}
 ---
 
 ## About
