@@ -1,21 +1,21 @@
 ---
-{"publish":true,"permalink":"/CHARACTERS/Merisdae/index.md","aliases":["Merisdae"],"title":"Merisdae","created":"2025-11-05T16:40:36.544-05:00","modified":"2025-11-09T21:56:40.060-05:00","published":"2025-11-09T21:56:40.060-05:00","cssclasses":"","Full Name":"Merisdae","Name Pronunciation":"MEHR-ihz-day","Character Type":"Main Character","Status":"Alive","Gender":"genderless","Pronouns":"they/she","Perceived age range":"mid-twenties","Current Location":"[[LOCATIONS/Kuraesmeris/index |Kuraesmeris]]","Birthplace":"[[LOCATIONS/Asilles/index |Asilles]]","Constructs":"[[CHARACTERS/Canelé/index |Canelé]]","Creators":["[[CHARACTERS/Esela/index |Esela]]","[[CHARACTERS/Anwi/index |Anwi]]","[[CHARACTERS/Wefa/index |Wefa]]"],"Eyes":"Pinkish-Magenta, with the Lunatine symbol in the pupils","Hair":"Long, flowy deep purple hair with blunt bangs and long sidelocks.","Height":"5'4'' or 164cm","Languages Spoken":"[[LANGUAGES/Varae/index |Varae]]","Rank":"Guardian","Ruler/Owner of":["[[LOCATIONS/Kuraesmeris/index |Kuraesmeris]]","[[LOCATIONS/Kaemeris/index |Kaemeris]]","[[LOCATIONS/Buromeris/index |Buromeris]]","[[LOCATIONS/Hiitomeris/index |Hiitomeris]]","[[LOCATIONS/Folmeris/index |Folmeris]]"],"Skin Tone":"fair","Species":"[[SPECIES/Construct/index |Construct]]","Titles":"Construct of Moon","icon":"![[CHARACTERS/Merisdae/_ICON_momo/allmoons.gif|75]]","Actual Age":"1301 years"}
+{"publish":true,"permalink":"/CHARACTERS/Merisdae/index.md","aliases":["Merisdae"],"title":"Merisdae","created":"2025-11-05T16:40:36.544-05:00","modified":"2025-11-09T23:08:37.166-05:00","published":"2025-11-09T23:08:37.166-05:00","cssclasses":"","Full Name":"Merisdae","Name Pronunciation":"MEHR-ihz-day","Character Type":"Main Character","Status":"Alive","Gender":"genderless","Pronouns":"they/she","Perceived age range":"mid-twenties","Current Location":"[[LOCATIONS/Kuraesmeris/index |Kuraesmeris]]","Birthplace":"[[LOCATIONS/Asilles/index |Asilles]]","Constructs":"[[CHARACTERS/Canelé/index |Canelé]]","Creators":["[[CHARACTERS/Esela/index |Esela]]","[[CHARACTERS/Anwi/index |Anwi]]","[[CHARACTERS/Wefa/index |Wefa]]"],"Eyes":"Pinkish-Magenta, with the Lunatine symbol in the pupils","Hair":"Long, flowy deep purple hair with blunt bangs and long sidelocks.","Height":"5'4'' or 164cm","Languages Spoken":"[[LANGUAGES/Varae/index |Varae]]","Rank":"Guardian","Ruler/Owner of":["[[LOCATIONS/Kuraesmeris/index |Kuraesmeris]]","[[LOCATIONS/Kaemeris/index |Kaemeris]]","[[LOCATIONS/Buromeris/index |Buromeris]]","[[LOCATIONS/Hiitomeris/index |Hiitomeris]]","[[LOCATIONS/Folmeris/index |Folmeris]]"],"Skin Tone":"fair","Species":"[[SPECIES/Construct/index |Construct]]","Titles":"Construct of Moon","icon":"![[CHARACTERS/Merisdae/_ICON_momo/allmoons.gif|75]]","Actual Age":"1301 years"}
 ---
 
 A construct created from the Moonband, a celestial headband embedded with pieces of the five Asilles moons.
 
 ## About
-Merisdae is a construct created by [[CHARACTERS/Esela/index\|Esela Levenkagaelii]] in order to preside over the people who had migrated to [[LOCATIONS/Kuraesmeris/index\|Kuraesmeris]] during the [[EVENTS/Kuraesmeris Migration/index\|Kuraesmeris Migration]]. 
+Merisdae is a construct created by [[CHARACTERS/Esela/index\|Esela]] in order to preside over the people who had migrated to [[LOCATIONS/Kuraesmeris/index\|Kuraesmeris]] during the [[EVENTS/Kuraesmeris Migration/index\|Kuraesmeris Migration]]. 
 
 ### Moon Forms
 ![merisforms.png](CHARACTERS/Merisdae/merisforms.png)
 
-Merisdae also has the ability to split herself into 5 forms. Each of these forms are named after the [[LOCATIONS/Asilles/index\|Asilles]] moons. In the image, from top to bottom, left to right, they are [HiitoMerisdae](HiitoMerisdae%2015ac5cb610f5808c8a2ed7f52d75dd55.md)  ([bluemoon](https://www.notion.so/bluemoon-18725f4a19934efa8c925ef89f10a19b?pvs=21)), [KuraesMerisdae](KuraesMerisdae%2015ac5cb610f580fe93dfd8851dd0aeb5.md) ([crescentmoon](https://www.notion.so/crescentmoon-1d19a3f9425d4fa09d586dc3ea91c1cc?pvs=21)), [BuroMerisdae](BuroMerisdae%2015ac5cb610f580c68399dc731bfb73a3.md) ([bloodmoon](https://www.notion.so/bloodmoon-2b55e91d432c4a9f94dfe3119b5c0eae?pvs=21)), [KaeMerisdae](KaeMerisdae%2015ac5cb610f580f08af0f538639b8e4e.md) ([newmoon](https://www.notion.so/newmoon-b27c029af2a143d0ade5cd07b1d93dac?pvs=21)), and [FolMerisdae](FolMerisdae%2015ac5cb610f58017bff4e17bc3e19042.md) ([fullmoon](https://www.notion.so/fullmoon-88d2824eb7fd40cc84d74a09f5666c5e?pvs=21)). Each of these forms were created to watch over their respective moons. 
+Merisdae also has the ability to split herself into 5 forms. Each of these forms are named after the [[LOCATIONS/Asilles/index\|Asilles]] moons. Each of these forms were created to watch over their respective moons. 
 
 ### Supermoon
 ![[CHARACTERS/Merisdae/maikory merisdae.png]]
 
-Merisdae's "truest" form. Merisdae was originally a construct of [Anwi](Anwi%20af7e2c72103f45cdbee264ff6beb0e57.md) and [Wefa](Wefa%200d386a3f0d714b369130ebed9c6f58cd.md), the [Inna](Inna%2099642857c4464973a4612f6533cb754d.md), that created Asilles, but something happened to where she was de-constructed and left in her object form, the moonband. When [Esela](Esela%207a0dac9b9d0f422489c6e9609eef84a6.md) found the moonband and constructed Merisdae again, she appeared different due to not having the same soul.
+Merisdae's "truest" form. Merisdae was originally a construct of [[CHARACTERS/Anwi/index\|Anwi]] and [[CHARACTERS/Wefa/index\|Wefa]], the [[SPECIES/Inna/index\|Inna]], that created Asilles, but something happened to where she was de-constructed and left in her object form, the moonband. When [[CHARACTERS/Esela/index\|Esela]] found the moonband and constructed Merisdae again, she appeared different due to not having the same soul.
 
 ## Physical Description
 ### Body Features
@@ -41,16 +41,15 @@ Merisdae wears a long, purple dress with a slit up the left side. The bottom of 
 ![](GRAPHICS/Untitled.png)
 
 ### Specialized Equipment
-
 On her head, Merisdae can be seen wearing the [[ARTIFACTS/Moonband/index\|Moonband]], a golden headband with five moon stones embedded into it. This item is what Merisdae was constructed from. Merisdae is able to summon forth 5 small moons from the moonband. When she does his, the moonband is not seen atop her head.
 
 ![[ARTIFACTS/Moonband/moonband.png]]
 
 ## Mental Characteristics
 ### Personal history
-Merisdae was created by the [Inna](Inna%2099642857c4464973a4612f6533cb754d.md), [Anwi](Anwi%20af7e2c72103f45cdbee264ff6beb0e57.md) and [Wefa](Wefa%200d386a3f0d714b369130ebed9c6f58cd.md) to be a guardian of [Asilles](Asilles%2079f784ab6fd945de9a6813c70677d52e.md) and to choose a [Selhae](Selhae%20822e316012e74ddba8bb5c6faf31fe66.md) to guide the people up to the moons in the [Kuraesmeris Migration](Kuraesmeris%20Migration%20132911817b6a4e839ac229c3f65e7bc9.md). She chose [Esela](Esela%207a0dac9b9d0f422489c6e9609eef84a6.md) to be this guide, linking the two’s souls together.
+Merisdae was created by the [[SPECIES/Inna/index\|Inna]], [[CHARACTERS/Anwi/index\|Anwi]] and [[CHARACTERS/Wefa/index\|Wefa]]to be a guardian of [[LOCATIONS/Asilles/index\|Asilles]] and to choose a [[SPECIES/Selhae/index\|Selhae]] to guide the people up to the moons in the [[EVENTS/Kuraesmeris Migration/index\|Kuraesmeris Migration]]. She chose [[CHARACTERS/Esela/index\|Esela]] to be this guide, linking the two’s souls together.
 
-She saved [Kaeyomii](Kaeyomii%205142f8eb7e52434bb492e122dceb3f62.md)’s soul from the [Debris Impact](Debris%20Impact%20ed20ff388be6470196280bfd47d06e5d.md) by taking Kaeyomii’s soul into her own, which influenced the appearance of her [KaeMerisdae](KaeMerisdae%2015ac5cb610f580f08af0f538639b8e4e.md) form. However, saving Kaeyomii led to the deconstruction of Merisdae back down to the [Moonband](Moonband%2091567d1e97bb4b53be7fc62690dab52f.md).
+She saved [[CHARACTERS/Kaeyomii/index\|Kaeyomii]]’s soul from the [[EVENTS/Debris Impact/index\|Debris Impact]] by taking Kaeyomii’s soul into her own, which influenced the appearance of her [[CHARACTERS/Merisdae/KaeMerisdae]] form. However, saving Kaeyomii led to the deconstruction of Merisdae back down to the moonband.
 
 Due to the link between her and Esela, Esela was able to find the moonband and reconstruct Merisdae. She does not have any recollection of her previous incarnation, but she does remember the goal given to her by the Inna - save the people of Asilles.
 
@@ -77,8 +76,6 @@ feels like she has to be a different person in front of everyone to be what they
 ## Social
 ### Contacts & Relations
 ### Family Ties
-[https://www.familyecho.com/?p=LDH8C&c=zgncjomcdj&f=185790474776057403](https://www.familyecho.com/?p=LDH8C&c=zgncjomcdj&f=185790474776057403)
-
 ### Religious Views
 ### Social Aptitude
 ### Mannerisms
