@@ -1,154 +1,48 @@
 ---
-{"publish":true,"permalink":"/CHARACTERS/Urali/index.md","created":"2025-11-05T16:41:16.375-05:00","modified":"2025-11-06T21:14:30.005-05:00","published":"2025-11-06T21:14:30.005-05:00","cssclasses":""}
+{"publish":true,"permalink":"/CHARACTERS/Urali/index.md","aliases":"Urali","title":"Urali Nerine","created":"2025-11-05T16:41:16.375-05:00","modified":"2025-11-09T23:22:43.601-05:00","published":"2025-11-09T23:22:43.601-05:00","cssclasses":"","Full Name":"Urali Nerine","Name Pronunciation":"oo-RAH-lee","Character Type":"Minor Character","Status":"Alive","Gender":"male","Pronouns":"he/him","Actual Age":"29 years","Apparent Age":"late twenties","Birthdate":"10/12/1272","Birthdate (written)":"Dothe, Day 12 of Ranwa, Year 1272","Current Location":"[[Fae Kingdom of Acorithe]]","Birthplace":"[[Fae Kingdom of Acorithe]]","Partners":"[[CHARACTERS/Colarius/index |Colarius]]","Languages Spoken":"[[LANGUAGES/Acorithe/index |Acorithe]]","Organizations":"[[ORGANIZATIONS/Acorithe Royal Court/index |Acorithe Royal Court]]","Species":"[[SPECIES/Fae/index |Fae]]","Titles":"Protector of the Prince"}
 ---
-
-
-[https://www.pinterest.com/lunarconstruct/urali/](https://www.pinterest.com/lunarconstruct/urali/)
-
-![esela new 2.png](esela_new_2%203.png)
 
 ## About
 
----
-
-appointed to be a bodyguard/protector to [Colarius](Colarius%208749d61b772b40d8adeb552f1ad6af5e.md). then. you know.
-
 ## Physical Description
-
----
-
 ### General Physical Condition
-
-- tip
-    
-    `Use this as a way to quickly describe your character in less than 3 sentences. Fitness, Agility, Body shape, Aids, Abnormalities, Illnesses, Afflictions.`
-    
-
-### **Body Features**
-
-### **Facial Features**
-
-### **Identifying Characteristics**
-
-### **Physical quirks**
-
-### **Special abilities**
-
-### **Apparel & Accessories**
-
-### **Specialized Equipment**
+### Body Features
+### Facial Features
+### Identifying Characteristics
+### Physical quirks
+### Special abilities
+### Apparel & Accessories
+### Specialized Equipment
 
 ## Mental Characteristics
-
----
-
-### **Personal history**
-
-### **Education**
-
-### **Employment**
-
-- tip
-    
-    `What's the work history of your character, which stages their career went through to be where they are today?`
-    
-
-### **Accomplishments & Achievements**
-
-- tip
-    
-    `The accomplishments and our failures shape who we are. Use these sections to describe this character's life shaping events and their resolutions`
-    
-
-### **Failures & Embarrassments**
-
-### **Mental Trauma**
-
-### **Intellectual Characteristics**
-
-### **Morality & Philosophy**
-
+### Personal history
+### Education
+### Employment
+### Accomplishments & Achievements
+### Failures & Embarrassments
+### Mental Trauma
+### Intellectual Characteristics
+### Morality & Philosophy
 ### Sexuality
-
 ### Gender Identity
-
-- tip
-    
-    `How your character wishes to be socially perceived or presents themself and what pronouns they go by.`
-    
-
-### **Taboos**
-
+### Taboos
 ### Known Languages
 
-- tip
-    
-    `Known languages, fluency and linguistic understanding.`
-    
-
 ## Personality Characteristics
-
----
-
-### **Motivation**
-
-- tip
-    
-    `Desires and priorities that drive this character.`
-    
-
+### Motivation
 ### Famous Quotes & Catchphrases
-
-### **Savvies & Ineptitudes**
-
-### **Likes & Dislikes**
-
-### **Virtues & Personality perks**
-
-- tip
-    
-    `Strengths, positive character aspects etc.`
-    
-
-### **Vices & Personality flaws**
-
-- tip
-    
-    `Addictions, secret beliefs etc`
-    
-
-### **Personality Quirks**
-
-### **Hygiene**
+### Savvies & Ineptitudes
+### Likes & Dislikes
+### Virtues & Personality perks
+### Vices & Personality flaws
+### Personality Quirks
+### Hygiene
 
 ## Social
-
----
-
-### **Contacts & Relations**
-
-### **Family Ties**
-
-### **Religious Views**
-
-### **Social Aptitude**
-
-- tip
-    
-    `Charisma, Confidence, Ego, Extroversion, Etiquette and Mannerisms`
-    
-
-### **Mannerisms**
-
-- tip
-    
-    `Which are the habitual gestures or ways of speaking or behaving of the character?.`
-    
-
-### **Hobbies & Pets**
-
-### **Speech**
-
-- tip
-    
-    `Tone of voice, Pitch, Accent, Dialect, Impediments, Catch phrases, Common Phrases, Compliments, Insults, Greetings, Farewell, Swearing, Metaphors`
+### Contacts & Relations
+### Family Ties
+### Religious Views
+### Social Aptitude
+### Mannerisms
+### Hobbies & Pets
+### Speech
