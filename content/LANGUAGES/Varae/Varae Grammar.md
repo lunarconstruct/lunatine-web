@@ -33,7 +33,7 @@
 3. coda can be any sound but <**y**> or <**w**>.
 4. <**s**> next to a voiced consonant often becomes /**z**/.
 5. no <**i**> next to another vowel. if an <**i**> falls next to a vowel, a <**y**> will emerge between them.
-6. repeated consonants/vowels, like <**oo**> ****or <**dd**> ****or <**aeii**> always drop the extra sound when part of the same word.
+6. repeated consonants/vowels, like <**oo**> or <**dd**> or <**aeii**> always drop the extra sound when part of the same word.
 7. when a word with a coda consonant combines with a word lacking an onset consonant, the coda of the first always moves into the onset of the second.
 
 ---
@@ -61,8 +61,8 @@ adverbs are placed after the verb, and that extends to adverbial clauses and phr
 
 ```
 ```jsx
-**"vaii siibte asu sokaso mosa"
-vaii siibte asu soka-so  mosa**
+"vaii siibte asu sokaso mosa"
+vaii siibte asu soka-so  mosa
 1SG  ground to  fall-PAS down
 SUBJECT OBJECT     VERB
 "I fell down to the ground"
