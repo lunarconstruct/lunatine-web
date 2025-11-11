@@ -27,4 +27,3 @@ export type QuartzComponent = ComponentType<QuartzComponentProps> & {
 export type QuartzComponentConstructor<Options extends object | undefined = undefined> = (
   opts: Options,
 ) => QuartzComponent
-

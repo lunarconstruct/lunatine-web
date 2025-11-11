@@ -6,10 +6,9 @@ import * as Plugin from "./quartz/plugins"
  *
  * See https://quartz.jzhao.xyz/configuration for more information.
  */
-
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Lunatine Wiki",
+    pageTitle: "Quartz 4",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -17,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "lunatine.lunarconstruct.net",
+    baseUrl: "quartz.jzhao.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
@@ -79,13 +78,7 @@ const config: QuartzConfig = {
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
       Plugin.ContentPage(),
-      Plugin.FolderPage({
-        sortFn: (f1, f2) => {
-          const f1Title = f1.frontmatter?.title.toLowerCase() ?? ""
-          const f2Title = f2.frontmatter?.title.toLowerCase() ?? ""
-          return f1Title.localeCompare(f2Title)
-        },
-      }),
+      Plugin.FolderPage(),
       Plugin.TagPage(),
       Plugin.ContentIndex({
         enableSiteMap: true,
@@ -94,13 +87,11 @@ const config: QuartzConfig = {
       Plugin.Assets(),
       Plugin.Static(),
       Plugin.Favicon(),
-      // Plugin.NotFoundPage(),
-      Plugin.CustomNotFoundPage(),  // Comment out CustomOgImages to speed up build time
-      // Plugin.CustomOgImages(),
+      Plugin.NotFoundPage(),
+      // Comment out CustomOgImages to speed up build time
+      Plugin.CustomOgImages(),
     ],
   },
 }
-
-
 
 export default config
