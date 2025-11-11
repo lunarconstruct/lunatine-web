@@ -240,6 +240,10 @@ a {
       grid-area: grid-sidebar-right;
       margin-right: 0;
       flex-direction: column;
+      /* Make the right sidebar non-sticky site-wide (override .sidebar's
+         `position: sticky` so the right column scrolls with content). */
+      position: initial;
+      height: unset;
       @media all and ($mobile) {
         margin-left: inherit;
         margin-right: inherit;

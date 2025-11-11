@@ -65,6 +65,6 @@ export const defaultListPageLayout: PageLayout = {
     Component.Explorer(),
   ],
   right: [
-    Component.CharacterDetails(),
+    Component.CharacterDetails({ relatedFilePath: "bio" }),
   ],
 }

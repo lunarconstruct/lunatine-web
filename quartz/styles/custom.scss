@@ -13,3 +13,12 @@
     padding: 0 auto;
   }
 }
+
+// Center images only inside the right sidebar's popover content (e.g. the
+// CharacterDetails component wraps content in an article with class
+// `popover-hint`). This avoids globally centering every image.
+.page > #quartz-body .sidebar.right .popover-hint img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
