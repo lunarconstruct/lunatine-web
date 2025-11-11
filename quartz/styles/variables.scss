@@ -17,7 +17,7 @@ $tablet: "(min-width: #{map.get($breakpoints, mobile)}) and (max-width: #{map.ge
 $desktop: "(min-width: #{map.get($breakpoints, desktop)})";
 
 $pageWidth: #{map.get($breakpoints, mobile)};
-$sidePanelWidth: 700px; //default was at 320. 380px;
+$sidePanelWidth: 500px; //default was at 320. 380px;
 $topSpacing: 6rem;
 $boldWeight: 700;
 $semiBoldWeight: 600;
@@ -48,7 +48,7 @@ $tabletGrid: (
 );
 $desktopGrid: (
   templateRows: "auto auto auto",
-  templateColumns: "#{$sidePanelWidth} auto #{$sidePanelWidth}",
+  templateColumns: "380px auto #{$sidePanelWidth}",
   rowGap: "5px",
   columnGap: "5px",
   templateAreas:
