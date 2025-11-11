@@ -1,2 +1,2 @@
-![[CHARACTERS/Esela/art/fullbody.png|500]]
+![[CHARACTERS/Esela/art/fullbody.png|300]]
 # Esela Levenkagaelii
