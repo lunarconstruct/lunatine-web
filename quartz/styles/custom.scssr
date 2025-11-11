@@ -1,0 +1,12 @@
+@use "./base.scss";
+
+@use "themes";
+
+// put your custom CSS here!
+
+body {
+  div.page {
+    max-width: 80%;
+    width: 80%;
+  }
+}
