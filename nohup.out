@@ -1,0 +1,8 @@
+[webhook] 2025/11/06 00:58:33 version 2.8.0 starting
+[webhook] 2025/11/06 00:58:33 setting up os signal watcher
+[webhook] 2025/11/06 00:58:33 attempting to load hooks from /etc/webhook.yaml
+[webhook] 2025/11/06 00:58:33 os signal watcher ready
+[webhook] 2025/11/06 00:58:33 found 1 hook(s) in file
+[webhook] 2025/11/06 00:58:33 	loaded: qpush
+[webhook] 2025/11/06 00:58:33 serving hooks on http://0.0.0.0:9000/hooks/{id}
+[webhook] 2025/11/06 00:58:38 caught interrupt signal; exiting
