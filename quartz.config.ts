@@ -6,6 +6,7 @@ import * as Plugin from "./quartz/plugins"
  *
  * See https://quartz.jzhao.xyz/configuration for more information.
  */
+
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Lunatine Wiki",
@@ -78,7 +79,13 @@ const config: QuartzConfig = {
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
       Plugin.ContentPage(),
-      Plugin.FolderPage(),
+      Plugin.FolderPage({
+        sortFn: (f1, f2) => {
+          const f1Title = f1.frontmatter?.title.toLowerCase() ?? ""
+          const f2Title = f2.frontmatter?.title.toLowerCase() ?? ""
+          return f1Title.localeCompare(f2Title)
+        },
+      }),
       Plugin.TagPage(),
       Plugin.ContentIndex({
         enableSiteMap: true,
@@ -87,11 +94,13 @@ const config: QuartzConfig = {
       Plugin.Assets(),
       Plugin.Static(),
       Plugin.Favicon(),
-      Plugin.NotFoundPage(),
-      // Comment out CustomOgImages to speed up build time
-      Plugin.CustomOgImages(),
+      // Plugin.NotFoundPage(),
+      Plugin.CustomNotFoundPage(),  // Comment out CustomOgImages to speed up build time
+      // Plugin.CustomOgImages(),
     ],
   },
 }
+
+
 
 export default config
