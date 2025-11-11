@@ -52,20 +52,14 @@ adverbs are placed after the verb, and that extends to adverbial clauses and phr
 \glb 3SG beautiful moon at look-PRS
 \glc SUBJECT (adj) OBJECT (adp) VERB
 \ft She looks at the beautiful moon.
-
+```
+```gloss
 \num 2
 \ex vaii siibte asu sokaso mosa
 \gla vaii siibte asu soka-so mosa
-\glb 1SG ground o fall-PAS down
+\glb 1SG ground to fall-PAS down
 \glc SUBJECT (adp) VERB
-
-```
-```jsx
-"vaii siibte asu sokaso mosa"
-vaii siibte asu soka-so  mosa
-1SG  ground to  fall-PAS down
-SUBJECT OBJECT     VERB
-"I fell down to the ground"
+\ft I fell down to the ground.
 ```
 
 ## questions
@@ -73,8 +67,8 @@ SUBJECT OBJECT     VERB
 question sentences are marked with the `sem` particle placed at the end of the sentence.
 
 ```jsx
-**"koii vaiivaii haeyase suran sem"
-koii vaiivaii haeyase  suran sem**
+"koii vaiivaii haeyase suran sem"
+koii vaiivaii haeyase  suran sem
 2SG  1PL      join-FUT later Q
 "Will you join us later?"
 ```
@@ -97,15 +91,15 @@ koii vaiivaii haeyase  suran sem**
 | “which” | `tes`      | `otes`        |
 
 ```jsx
-**"ota deii meris fa vaeso, deii eheso"
-o-ta      deii meris fa vae-so,    deii ehe-so.**
+"ota deii meris fa vaeso, deii eheso"
+o-ta      deii meris fa vae-so,    deii ehe-so.
 REL-when  3SG  moon  at look-PST,  3SG  smile-PST.
 "When she looked at the moon, she smiled."
 ```
 
 ```jsx
 **"iise otem nihoso vaii asu aeso vaeya"
-iise   o-tem    niho-so    vaii asu ae-so  vaeya.**
+iise   o-tem    niho-so    vaii asu ae-so  vaeya.
 person REL-who  speak-PST  1SG  to  be-PST kind.
 "The person who spoke to me was kind."
 ```
@@ -131,17 +125,17 @@ all pronouns are gender neutral. plural pronouns are made by reduplication.
 this language only has one true case, that being the genitive case. the suffix **`fel`** is added to the end of the noun possessing the object.
 
 ```jsx
-**"selafel nuye"
-sela-fel    nuye**
+"selafel nuye"
+sela-fel    nuye
 flower-GEN  petal
-**"**The flower's petals"
+"The flower's petals"
 ```
 
 ```jsx
-**"niisafel saeka"
-niisa-fel saeka**
+"niisafel saeka"
+niisa-fel saeka
 fire-GEN  color
-**"**The color of the fire"
+"The color of the fire"
 ```
 
 a pseudo-case that varae also utilizes is in regards to the [Inna](Inna%2099642857c4464973a4612f6533cb754d.md) - the god-like species that created the universe. when using pronouns in regards to them, the prefix `iina` is added. it acts as a sort of honorific, but is only utilized for the inna. generally, a person using this on themselves or another person would be thought of extremely negatively. 
