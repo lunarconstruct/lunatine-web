@@ -3,9 +3,10 @@
 
 // put your custom CSS here!
 
-body {
-  div.page {
-    max-width: 100%;
+@media and ($desktop) {
+  body div#quartz-root.page div#quartz-body {
     width: 100%;
+    max-width: 100%;
+    padding: 0 auto;
   }
 }
