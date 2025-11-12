@@ -1,5 +1,5 @@
 ---
-{"publish":true,"permalink":"/CHARACTERS/Colarius/bio.md","created":"2025-11-11T21:24:54.125-05:00","modified":"2025-11-11T21:25:14.257-05:00","published":"2025-11-11T21:25:14.257-05:00","cssclasses":"","character":"[[CHARACTERS/Colarius/index|Colarius]]"}
+{"publish":true,"permalink":"/CHARACTERS/Colarius/bio.md","created":"2025-11-11T21:24:54.125-05:00","modified":"2025-11-11T22:53:14.816-05:00","published":"2025-11-11T22:53:14.816-05:00","cssclasses":"","character":"[[CHARACTERS/Colarius/index|Colarius]]"}
 ---
 
 ![[CHARACTERS/Colarius/art/colarius new.png|400]]
