@@ -1,5 +1,5 @@
 ---
-{"publish":true,"permalink":"/ORGANIZATIONS/Kohoii Council of Elders/index.md","aliases":"Kohoii Council of Elders","title":"Kohoii Council of Elders","created":"2025-11-05T16:40:22.966-05:00","modified":"2025-11-12T14:46:41.421-05:00","published":"2025-11-12T14:46:41.421-05:00","cssclasses":"","Members":["[[CHARACTERS/Reika/index|Reika]]","[[CHARACTERS/Paeyiilos/index|Paeyiilos]]","[[CHARACTERS/Miire/index|Miire]]","[[CHARACTERS/Mare/index|Mare]]"],"Owns":"[[LOCATIONS/Kohoii/index|Kohoii]]"}
+{"publish":true,"permalink":"/ORGANIZATIONS/Kohoii Council of Elders/index.md","aliases":"Kohoii Council of Elders","title":"Kohoii Council of Elders","created":"2025-11-05T16:40:22.966-05:00","modified":"2025-11-12T16:21:01.500-05:00","published":"2025-11-12T16:21:01.500-05:00","cssclasses":"","Members":["[[CHARACTERS/Reika/index |Reika]]","[[CHARACTERS/Paeyiilos/index |Paeyiilos]]","[[CHARACTERS/Miire/index |Miire]]","[[CHARACTERS/Mare/index |Mare]]"],"Owns":"[[LOCATIONS/Kohoii/index |Kohoii]]"}
 ---
 
 #### Council Elders

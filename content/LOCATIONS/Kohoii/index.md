@@ -1,5 +1,5 @@
 ---
-{"publish":true,"permalink":"/LOCATIONS/Kohoii/index.md","aliases":["Kohoii"],"title":"Kohoii","created":"2025-11-05T17:23:26.039-05:00","modified":"2025-11-12T14:56:49.638-05:00","published":"2025-11-12T14:56:49.638-05:00","cssclasses":"","Type":"Village","Location Under:":"[[LOCATIONS/Asilles/index|Asilles]]","Founding Date":"January 1, 1","Date Became a Ruin (If Any)":"January 1, 1240","Ruler/Owner":["[[CHARACTERS/Reika/index|Reika]]","[[CHARACTERS/Paeyiilos/index|Paeyiilos]]","[[CHARACTERS/Mare/index|Mare]]"],"Owning Rank":"Elder","Owning Organization":"[[ORGANIZATIONS/Kohoii Council of Elders/index\|Kohoii Council of Elders]]","Population":60,"Inhabitants Demonym":"Kohoiise","Sublocations:":["[[LOCATIONS/Maeniil/index|Maeniil]]","[[LOCATIONS/Kohoii River/index|Kohoii River]]"]}
+{"publish":true,"permalink":"/LOCATIONS/Kohoii/index.md","aliases":["Kohoii"],"title":"Kohoii","created":"2025-11-05T17:23:26.039-05:00","modified":"2025-11-12T16:20:35.956-05:00","published":"2025-11-12T16:20:35.956-05:00","cssclasses":"","Type":"Village","Location Under:":"[[LOCATIONS/Asilles/index |Asilles]]","Founding Date":"January 1, 1","Date Became a Ruin (If Any)":"January 1, 1240","Ruler/Owner":["[[CHARACTERS/Reika/index |Reika]]","[[CHARACTERS/Paeyiilos/index |Paeyiilos]]","[[CHARACTERS/Mare/index |Mare]]"],"Owning Rank":"Elder","Owning Organization":"[[ORGANIZATIONS/Kohoii Council of Elders/index |Kohoii Council of Elders]]","Population":60,"Inhabitants Demonym":"Kohoiise","Sublocations:":["[[LOCATIONS/Maeniil/index |Maeniil]]","[[LOCATIONS/Kohoii River/index |Kohoii River]]"]}
 ---
 
 
@@ -13,7 +13,7 @@ Kohoii is a small village of approximately 50-70 [[SPECIES/Selhae/index\|Selhae]
 Kohoii was one of the original Selhae settlements made by the first generation of Selhae. It was founded by three Selhae, who went on to form the three *gaelii* - **Levenkagaelii**, **Daerikagaelii**, and **Gahinukagaelii**.
 
 ### Government
-Kohoii is a very traditional Selhae settlement, meaning it is comprised of 3 overarching “*gaelii*” (families) - with the elder of each gaelii representing them in the [[ORGANIZATIONS/Kohoii Council of Elders/index|Kohoii Council of Elders]]. These Elders are currently:
+Kohoii is a very traditional Selhae settlement, meaning it is comprised of 3 overarching “*gaelii*” (families) - with the elder of each gaelii representing them in the [[ORGANIZATIONS/Kohoii Council of Elders/index\|Kohoii Council of Elders]]. These Elders are currently:
 
 #### Council Elders
 - **[Reika](Reika%20c3f81d2257d84c019e43faa2f13a035c.md) of the Levenkagaelii**
