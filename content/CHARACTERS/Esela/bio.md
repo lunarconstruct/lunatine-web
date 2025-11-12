@@ -1,5 +1,5 @@
 ---
-{"publish":true,"permalink":"/CHARACTERS/Esela/bio.md","created":"2025-11-11T17:05:02.354-05:00","modified":"2025-11-11T20:52:14.618-05:00","published":"2025-11-11T20:52:14.618-05:00","cssclasses":"","character":"[[CHARACTERS/Esela/index|Esela]]"}
+{"publish":true,"permalink":"/CHARACTERS/Esela/bio.md","created":"2025-11-11T17:05:02.354-05:00","modified":"2025-11-11T21:12:32.936-05:00","published":"2025-11-11T21:12:32.936-05:00","cssclasses":"","character":"[[CHARACTERS/Esela/index|Esela]]"}
 ---
 
 ![[CHARACTERS/Esela/art/fullbody.png|300]]

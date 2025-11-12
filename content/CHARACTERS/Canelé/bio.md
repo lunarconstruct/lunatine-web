@@ -1,7 +1,8 @@
 ---
-{"publish":true,"permalink":"/CHARACTERS/Canelé/bio.md","created":"2025-11-11T20:56:28.310-05:00","modified":"2025-11-11T20:56:47.194-05:00","published":"2025-11-11T20:56:47.194-05:00","cssclasses":"","character":"[[CHARACTERS/Canelé/index|Canelé]]"}
+{"publish":true,"permalink":"/CHARACTERS/Canelé/bio.md","created":"2025-11-11T20:56:28.310-05:00","modified":"2025-11-11T21:09:23.740-05:00","published":"2025-11-11T21:09:23.740-05:00","cssclasses":"","character":"[[CHARACTERS/Canelé/index|Canelé]]"}
 ---
 
+![[CHARACTERS/Canelé/canelé art/caneleeeee.png|300]]
 ## Canelé
 ( CAN-uh-lay )
 
@@ -10,17 +11,17 @@
 |     Species: | [[SPECIES/Construct/index \|Construct]]          |
 |      Gender: | female           |
 |    Pronouns: | she/her         |
-|         Age: | `= this.character.age`              |
-|    Birthday: | `= this.character.birthdate`        |
+|         Age: | ageless, appears late twenties              |
+|    Birthday: | ?        |
 |        Eyes: | blue (right) / purple (left)             |
 |        Hair: | purple/magenta with blue streaks             |
 |   Skin Tone: | —        |
-|      Height: | `= this.character.height`           |
+|      Height: | ?           |
 |      Speaks: | [[LANGUAGES/Varae/index\|Varae]] |
 
 | Relationship | Information                   |
 | -----------: | :---------------------------- |
-|     Parents: | `= this.character.parents`    |
-|    Partners: | `= this.character.partners`   |
-|    Children: | `= this.character.Children`   |
-|  Constructs: | `= this.character.Constructs` |
+|     Parents: | —    |
+|    Partners: | —   |
+|    Children: | —   |
+|  Constructs: | — |

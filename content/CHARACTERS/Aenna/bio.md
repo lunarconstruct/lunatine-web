@@ -1,7 +1,8 @@
 ---
-{"publish":true,"permalink":"/CHARACTERS/Aenna/bio.md","created":"2025-11-11T20:53:24.512-05:00","modified":"2025-11-11T20:54:59.438-05:00","published":"2025-11-11T20:54:59.438-05:00","cssclasses":"","character":"[[CHARACTERS/Aenna/index|Aenna]]"}
+{"publish":true,"permalink":"/CHARACTERS/Aenna/bio.md","created":"2025-11-11T20:53:24.512-05:00","modified":"2025-11-11T21:13:27.062-05:00","published":"2025-11-11T21:13:27.062-05:00","cssclasses":"","character":"[[CHARACTERS/Aenna/index|Aenna]]"}
 ---
 
+-no image available-
 ## Aenna
 ( AYN-yuh )
 
