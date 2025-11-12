@@ -1,9 +1,9 @@
 ---
-{"publish":true,"permalink":"/SPECIES/Selhae/index.md","aliases":["Selhae"],"title":"Selhae","created":"2025-11-05T16:40:57.302-05:00","modified":"2025-11-09T17:26:36.429-05:00","published":"2025-11-09T17:26:36.429-05:00","cssclasses":"","Average Lifespan":650,"Parent Species":"[[SPECIES/Inna/index | Inna]]","Descended Species":"[[SPECIES/Construct/index | Construct]]"}
+{"publish":true,"permalink":"/SPECIES/Selhae/index.md","aliases":["Selhae"],"title":"Selhae","created":"2025-11-05T16:40:57.302-05:00","modified":"2025-11-12T00:28:47.479-05:00","published":"2025-11-12T00:28:47.479-05:00","cssclasses":"","Average Lifespan":650,"Parent Species":"[[SPECIES/Inna/index | Inna]]","Descended Species":"[[SPECIES/Construct/index | Construct]]"}
 ---
 
 ## About
-A species created by [[CHARACTERS/Anwi/index\|Anwi]] to live upon the planet [[Asilles]].
+A species created by [[CHARACTERS/Anwi/index\|Anwi]] to live upon the planet [[LOCATIONS/Asilles/index\|Asilles]].
 
 ## Generic
 ### Anatomy & Morphology
