@@ -1,3 +1,7 @@
+---
+{"publish":true,"permalink":"/CONCEPTS/Asilles Calendar/index.md","aliases":"Asilles Calendar","title":"Asilles Calendar","created":"2025-10-24T23:17:05.969-04:00","modified":"2025-11-11T23:12:19.219-05:00","published":"2025-11-11T23:12:19.219-05:00","cssclasses":""}
+---
+
 Asilles uses a standardized 13 month calendar, each month with 30 days. This adds up to a total of 390 days in a year. Each month has three weeks of 10 days each. 
 
 The first nine weekdays are named after the elements, and the last weekday is named after the Inna. The weekdays are as follows:

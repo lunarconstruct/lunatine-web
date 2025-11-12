@@ -1,3 +1,7 @@
+---
+{"publish":true,"permalink":"/CONCEPTS/Construction/index.md","aliases":"Construction","title":"Construction","created":"2025-10-24T23:17:06.217-04:00","modified":"2025-11-11T23:12:52.268-05:00","published":"2025-11-11T23:12:52.268-05:00","cssclasses":""}
+---
+
 The act of creating a living being, by imbuing an inanimate object (Essence) with a soulpiece from the creator’s Soul. The soulpiece and magic are then pulled out of the object, resulting in a living being that can take on almost any form the creator wishes, including humanoid, animal, and mythical creature forms.
 
 ![[GRAPHICS/construction chart.png]]
