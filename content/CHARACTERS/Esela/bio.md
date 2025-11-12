@@ -1,12 +1,11 @@
 ---
-{"publish":true,"permalink":"/CHARACTERS/Esela/bio.md","created":"2025-11-11T17:05:02.354-05:00","modified":"2025-11-11T19:09:33.986-05:00","published":"2025-11-11T19:09:33.986-05:00","cssclasses":"","character":"[[CHARACTERS/Esela/index|Esela]]"}
+{"publish":true,"permalink":"/CHARACTERS/Esela/bio.md","created":"2025-11-11T17:05:02.354-05:00","modified":"2025-11-11T19:10:20.049-05:00","published":"2025-11-11T19:10:20.049-05:00","cssclasses":"","character":"[[CHARACTERS/Esela/index|Esela]]"}
 ---
 
 
 ![[CHARACTERS/Esela/art/fullbody.png|300]]
 ## Esela Levenkagaelii
 ( eh-SEHL-uh )
-`= default(this.character.titles,"")`
 
 | Biographical | Information                         |
 | -----------: | :---------------------------------- |
