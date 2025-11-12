@@ -1,3 +1,7 @@
+---
+{"publish":true,"permalink":"/CONCEPTS/Domains/index.md","aliases":"Domains","title":"Domains","created":"2025-10-24T23:17:06.587-04:00","modified":"2025-11-11T23:24:31.689-05:00","published":"2025-11-11T23:24:31.689-05:00","cssclasses":""}
+---
+
 all domains are defined as **kingdoms** or **independent settlements.** 
 
 1. **kingdoms** are domains comprised of multiple villages, towns, or cities. they are usually monarchal, with one leader such as a queen, prince, etc. 

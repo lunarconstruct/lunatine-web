@@ -1,3 +1,7 @@
+---
+{"publish":true,"permalink":"/CONCEPTS/World Seed/index.md","aliases":"World Seed","title":"World Seed","created":"2025-10-24T23:17:09.091-04:00","modified":"2025-11-11T23:28:45.419-05:00","published":"2025-11-11T23:28:45.419-05:00","cssclasses":""}
+---
+
 A world seed is the first life stage of an Inna. It is created by another Inna using Dust and the power of Creation to create a Soul, as well as Essence to give it a physical form. These two components are then combined together using the power of Construction, leaving a world seed behind.
 
 At it’s beginning, the seed is simply a small piece of the original Inna’s soul,  and doesn’t yet have enough soul to become an Inna with a complete soul. So, the Inna who created it (usually referred to as the “caretaker”) will tend to the planet as it grows. The caretakers will take dust from the universe and put it into/towards the seed indirectly by creating life and letting the planet flourish. 
