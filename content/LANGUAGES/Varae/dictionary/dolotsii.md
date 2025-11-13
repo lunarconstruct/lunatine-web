@@ -1,3 +1,7 @@
+---
+{"publish":true,"permalink":"/LANGUAGES/Varae/dictionary/dolotsii.md","created":"2025-11-13T11:36:49.811-05:00","modified":"2025-11-13T12:54:03.426-05:00","published":"2025-11-13T12:54:03.426-05:00","cssclasses":"","definition":null,"part of speech":null,"related words":null,"note":null,"title":null}
+---
+
 # dolotsii
 
 DEFINITION / ENGLISH: to hold
