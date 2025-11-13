@@ -1,3 +1,7 @@
+---
+{"publish":true,"permalink":"/LANGUAGES/Varae/dictionary/daemana.md","created":"2025-11-13T11:36:48.297-05:00","modified":"2025-11-13T12:53:55.043-05:00","published":"2025-11-13T12:53:55.043-05:00","cssclasses":"","definition":null,"part of speech":null,"related words":null,"note":null,"title":null}
+---
+
 # daemana
 
 DEFINITION / ENGLISH: bright
