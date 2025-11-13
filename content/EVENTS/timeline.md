@@ -1,5 +1,3 @@
-# timeline
-
 # inna arc / The Story of the Inna / the LORE
 
 1. in the beginning, there was nothing, and then there was The Expanse.

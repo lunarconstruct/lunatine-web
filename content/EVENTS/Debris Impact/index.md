@@ -1,9 +1,7 @@
-# Debris Impact
+---
+{"publish":true,"permalink":"/EVENTS/Debris Impact/index.md","created":"2025-11-13T11:36:30.645-05:00","modified":"2025-11-12T19:59:13.802-05:00","published":"2025-11-12T19:59:13.802-05:00","cssclasses":"","Date 1":"16 (16%20237c5cb610f580039bc6c1cfce7ef893.md)","Year":1240}
+---
 
-Created: June 23, 2023 4:58 PM
-Date 1: 16 (16%20237c5cb610f580039bc6c1cfce7ef893.md)
-Year: 1240
-annual?: No
 
 asilles diameter: 11,097km
 
