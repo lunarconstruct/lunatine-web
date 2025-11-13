@@ -1,3 +1,7 @@
+---
+{"publish":true,"permalink":"/LANGUAGES/Varae/dictionary/hae.md","created":"2025-11-13T11:36:51.515-05:00","modified":"2025-11-13T12:54:14.969-05:00","published":"2025-11-13T12:54:14.969-05:00","cssclasses":"","definition":null,"part of speech":null,"related words":null,"note":null,"title":null}
+---
+
 # hae
 
 DEFINITION / ENGLISH: -er / one who …
